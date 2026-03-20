@@ -1,0 +1,1 @@
+Primeiras análises: Estatistica Descritiva: Média/Coeficiente de Variação para cada Data de coleta, considerando o genótipo e a condição (irrigado e não irrigado) 

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Graficos dos outputs</title>
+  <style>
+    :root {
+      --bg: #f3efe6;
+      --card: #fffdf8;
+      --ink: #111827;
+      --muted: #4b5563;
+      --line: #d6d3d1;
+    }
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #f3efe6 0%, #ede7db 100%);
+      color: var(--ink);
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+    main {
+      max-width: 1600px;
+      margin: 0 auto;
+      padding: 32px 28px 48px;
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: 32px;
+    }
+    p {
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+      gap: 24px;
+      margin-top: 28px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px;
+      box-shadow: 0 14px 32px rgba(17, 24, 39, 0.08);
+    }
+    .card h2 {
+      margin: 0 0 8px;
+      font-size: 20px;
+    }
+    .card a {
+      color: #1d4ed8;
+      text-decoration: none;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-top: 12px;
+      border-radius: 14px;
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Graficos gerados a partir dos outputs</h1>
+    <p>As figuras abaixo foram renderizadas em SVG a partir dos CSVs de media, coeficiente de variacao e amostras por grupo.</p>
+    <div class="grid">
+      <section class="card"><h2>Media processada por data</h2><p><a href="media_processada_por_data.svg">media_processada_por_data.svg</a></p><img src="media_processada_por_data.svg" alt="Media processada por data"/></section>
+<section class="card"><h2>Media processada por genotipo</h2><p><a href="media_processada_por_genotipo.svg">media_processada_por_genotipo.svg</a></p><img src="media_processada_por_genotipo.svg" alt="Media processada por genotipo"/></section>
+<section class="card"><h2>Coeficiente de variacao processado por data</h2><p><a href="coef_var_processado_por_data.svg">coef_var_processado_por_data.svg</a></p><img src="coef_var_processado_por_data.svg" alt="Coeficiente de variacao processado por data"/></section>
+<section class="card"><h2>Coeficiente de variacao processado por genotipo</h2><p><a href="coef_var_processado_por_genotipo.svg">coef_var_processado_por_genotipo.svg</a></p><img src="coef_var_processado_por_genotipo.svg" alt="Coeficiente de variacao processado por genotipo"/></section>
+<section class="card"><h2>Amostras processadas por grupo</h2><p><a href="amostras_processadas_por_grupo.svg">amostras_processadas_por_grupo.svg</a></p><img src="amostras_processadas_por_grupo.svg" alt="Amostras processadas por grupo"/></section>
+    </div>
+  </main>
+</body>
+</html>
