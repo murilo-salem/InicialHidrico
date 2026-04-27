@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Reflectancia bruta por genotipo</title>
+  <style>
+    :root {
+      --bg: #eef2f7;
+      --card: #ffffff;
+      --ink: #0f172a;
+      --muted: #475569;
+      --line: #dbe2ea;
+    }
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+      color: var(--ink);
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+    main {
+      max-width: 1680px;
+      margin: 0 auto;
+      padding: 28px 24px 44px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 32px;
+    }
+    p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      gap: 22px;
+      margin-top: 26px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 18px;
+      box-shadow: 0 16px 32px rgba(15, 23, 42, 0.08);
+    }
+    .card h2 {
+      margin: 0 0 8px;
+      font-size: 18px;
+      text-transform: capitalize;
+    }
+    .card a {
+      color: #1d4ed8;
+      text-decoration: none;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-top: 12px;
+      border-radius: 12px;
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Reflectancia bruta por genotipo</h1>
+    <p>Figuras separadas por condicao de irrigacao, com media e coeficiente de variacao por dia e por dia x turno.</p>
+    <div class="grid">
+      <section class="card"><h2>media reflectancia bruta irrigado por dia</h2><p><a href="figuras/media_reflectancia_bruta_irrigado_por_dia.png">media_reflectancia_bruta_irrigado_por_dia.png</a></p><img src="figuras/media_reflectancia_bruta_irrigado_por_dia.png" alt="media_reflectancia_bruta_irrigado_por_dia"/></section>
+<section class="card"><h2>media reflectancia bruta nao irrigado por dia</h2><p><a href="figuras/media_reflectancia_bruta_nao_irrigado_por_dia.png">media_reflectancia_bruta_nao_irrigado_por_dia.png</a></p><img src="figuras/media_reflectancia_bruta_nao_irrigado_por_dia.png" alt="media_reflectancia_bruta_nao_irrigado_por_dia"/></section>
+<section class="card"><h2>cv reflectancia bruta irrigado por dia</h2><p><a href="figuras/cv_reflectancia_bruta_irrigado_por_dia.png">cv_reflectancia_bruta_irrigado_por_dia.png</a></p><img src="figuras/cv_reflectancia_bruta_irrigado_por_dia.png" alt="cv_reflectancia_bruta_irrigado_por_dia"/></section>
+<section class="card"><h2>cv reflectancia bruta nao irrigado por dia</h2><p><a href="figuras/cv_reflectancia_bruta_nao_irrigado_por_dia.png">cv_reflectancia_bruta_nao_irrigado_por_dia.png</a></p><img src="figuras/cv_reflectancia_bruta_nao_irrigado_por_dia.png" alt="cv_reflectancia_bruta_nao_irrigado_por_dia"/></section>
+<section class="card"><h2>media reflectancia bruta irrigado por dia turno</h2><p><a href="figuras/media_reflectancia_bruta_irrigado_por_dia_turno.png">media_reflectancia_bruta_irrigado_por_dia_turno.png</a></p><img src="figuras/media_reflectancia_bruta_irrigado_por_dia_turno.png" alt="media_reflectancia_bruta_irrigado_por_dia_turno"/></section>
+<section class="card"><h2>media reflectancia bruta nao irrigado por dia turno</h2><p><a href="figuras/media_reflectancia_bruta_nao_irrigado_por_dia_turno.png">media_reflectancia_bruta_nao_irrigado_por_dia_turno.png</a></p><img src="figuras/media_reflectancia_bruta_nao_irrigado_por_dia_turno.png" alt="media_reflectancia_bruta_nao_irrigado_por_dia_turno"/></section>
+<section class="card"><h2>cv reflectancia bruta irrigado por dia turno</h2><p><a href="figuras/cv_reflectancia_bruta_irrigado_por_dia_turno.png">cv_reflectancia_bruta_irrigado_por_dia_turno.png</a></p><img src="figuras/cv_reflectancia_bruta_irrigado_por_dia_turno.png" alt="cv_reflectancia_bruta_irrigado_por_dia_turno"/></section>
+<section class="card"><h2>cv reflectancia bruta nao irrigado por dia turno</h2><p><a href="figuras/cv_reflectancia_bruta_nao_irrigado_por_dia_turno.png">cv_reflectancia_bruta_nao_irrigado_por_dia_turno.png</a></p><img src="figuras/cv_reflectancia_bruta_nao_irrigado_por_dia_turno.png" alt="cv_reflectancia_bruta_nao_irrigado_por_dia_turno"/></section>
+    </div>
+  </main>
+</body>
+</html>
