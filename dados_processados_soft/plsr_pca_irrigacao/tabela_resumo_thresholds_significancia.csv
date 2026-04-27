@@ -1,0 +1,6 @@
+threshold,total_bands,irrigado,nao_irrigado,dominant_direction
+0.01,1928,822,1106,nao_irrigado
+0.05,1986,861,1125,nao_irrigado
+0.001,1873,785,1088,nao_irrigado
+0.0001,1826,762,1064,nao_irrigado
+1e-05,1784,736,1048,nao_irrigado

@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>PLSR por Turno e Genotipo</title>
+  <style>
+    :root {
+      --bg-1: #ece7da;
+      --bg-2: #dfe7e1;
+      --paper: #fffdf8;
+      --paper-2: #f7f2e8;
+      --ink: #14202b;
+      --muted: #5a6572;
+      --line: #d6d2c5;
+      --accent: #0f766e;
+      --accent-2: #c2410c;
+      --link: #1d4ed8;
+      --shadow: 0 18px 42px rgba(20, 32, 43, 0.12);
+      --radius: 22px;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Segoe UI", Arial, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(15, 118, 110, 0.12), transparent 28%),
+        radial-gradient(circle at top right, rgba(194, 65, 12, 0.10), transparent 26%),
+        linear-gradient(180deg, var(--bg-1) 0%, var(--bg-2) 100%);
+    }
+    main {
+      max-width: 1680px;
+      margin: 0 auto;
+      padding: 34px 28px 52px;
+    }
+    .hero {
+      background: linear-gradient(135deg, rgba(255, 253, 248, 0.95), rgba(247, 242, 232, 0.92));
+      border: 1px solid rgba(214, 210, 197, 0.9);
+      border-radius: 28px;
+      padding: 28px 30px;
+      box-shadow: var(--shadow);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: 34px;
+      letter-spacing: -0.03em;
+    }
+    p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+    .pill {
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(15, 118, 110, 0.10);
+      border: 1px solid rgba(15, 118, 110, 0.16);
+      color: var(--ink);
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .hero-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
+    }
+    .hero-links a, .links a {
+      color: var(--link);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .overview-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      gap: 22px;
+      margin-top: 26px;
+    }
+    .overview-card, .subset-card {
+      background: rgba(255, 253, 248, 0.96);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .overview-card {
+      padding: 18px;
+    }
+    .overview-card h2, .section-head h2 {
+      margin: 0 0 8px;
+      font-size: 24px;
+      letter-spacing: -0.02em;
+    }
+    .overview-card figure, .subset-card figure {
+      margin: 14px 0 0;
+    }
+    figcaption {
+      margin-bottom: 8px;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 600;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 16px;
+      background: white;
+      border: 1px solid rgba(214, 210, 197, 0.9);
+    }
+    .group-section {
+      margin-top: 30px;
+    }
+    .section-head {
+      margin-bottom: 14px;
+    }
+    .subset-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+      gap: 24px;
+    }
+    .subset-card {
+      padding: 18px;
+    }
+    .subset-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    .subset-header h3 {
+      margin: 0;
+      font-size: 22px;
+      letter-spacing: -0.02em;
+    }
+    .badge {
+      white-space: nowrap;
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: rgba(194, 65, 12, 0.10);
+      border: 1px solid rgba(194, 65, 12, 0.18);
+      color: var(--ink);
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .meta {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .stats span {
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: var(--paper-2);
+      border: 1px solid var(--line);
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 14px;
+    }
+    .figure-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+    @media (max-width: 760px) {
+      main {
+        padding: 22px 16px 34px;
+      }
+      .hero {
+        padding: 22px 18px;
+      }
+      h1 {
+        font-size: 28px;
+      }
+      .subset-grid {
+        grid-template-columns: 1fr;
+      }
+      .overview-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <h1>PLSR por Turno e Genotipo</h1>
+      <p>Pagina de navegacao dos graficos de bandas otimas para diferenciar estresse hidrico. Os subconjuntos foram ajustados com PLSR usando apenas as datas que possuem manha e tarde na base.</p>
+      <div class="hero-meta">
+        <span class="pill">Datas: 2017-02-23, 2017-02-24, 2017-03-02</span>
+        <span class="pill">Subconjuntos: 11</span>
+        <span class="pill">Base: SNV + Savitzky-Golay + 1a derivada</span>
+      </div>
+      <div class="hero-links">
+        <a href="resumo_plsr_subconjuntos.md">resumo_plsr_subconjuntos.md</a>
+        <a href="metricas_subconjuntos_plsr.csv">metricas_subconjuntos_plsr.csv</a>
+        <a href="top_bandas_otimas_subconjuntos_plsr.csv">top_bandas_otimas_subconjuntos_plsr.csv</a>
+      </div>
+    </section>
+
+    <section class="overview-grid">
+      <article class="overview-card">
+        <h2>Top 1 por Subconjunto</h2>
+        <p>Comparacao da melhor banda de cada subconjunto ao longo do espectro.</p>
+        <figure>
+          <figcaption><a href="banda_otima_top1_por_subconjunto.svg">banda_otima_top1_por_subconjunto.svg</a></figcaption>
+          <a href="banda_otima_top1_por_subconjunto.svg"><img src="banda_otima_top1_por_subconjunto.svg" alt="Banda otima top 1 por subconjunto"/></a>
+        </figure>
+      </article>
+      <article class="overview-card">
+        <h2>Top 5 por Subconjunto</h2>
+        <p>Visao consolidada das cinco bandas mais fortes em cada ajuste PLSR.</p>
+        <figure>
+          <figcaption><a href="top5_bandas_otimas_por_subconjunto.svg">top5_bandas_otimas_por_subconjunto.svg</a></figcaption>
+          <a href="top5_bandas_otimas_por_subconjunto.svg"><img src="top5_bandas_otimas_por_subconjunto.svg" alt="Top 5 bandas otimas por subconjunto"/></a>
+        </figure>
+      </article>
+    </section>
+
+    <section class="group-section"><div class="section-head"><h2>Turno</h2></div><div class="subset-grid"><article class="subset-card"><div class="subset-header"><h3>Turno manha</h3><span class="badge">580 amostras</span></div><p class="meta">PLSR para diferenciar irrigado vs nao_irrigado nas datas 2017-02-23, 2017-02-24, 2017-03-02.</p><div class="stats"><span>RMSECV 0.2151</span><span>AUC 0.9942</span><span>Banda #1 392</span></div><div class="links"><a href="turno/manha/resumo_plsr_subconjunto.md">resumo</a><a href="turno/manha/top_20_bandas_otimas.csv">top 20 csv</a><a href="turno/manha/plsr_bandas_importantes.csv">bandas completas</a></div><div class="figure-grid"><figure><figcaption>Top bandas otimas</figcaption><a href="turno/manha/top_20_bandas_otimas.svg"><img src="turno/manha/top_20_bandas_otimas.svg" alt="Top bandas otimas - Turno manha"/></a></figure><figure><figcaption>Coeficientes e VIP</figcaption><a href="turno/manha/plsr_coeficientes_vip.svg"><img src="turno/manha/plsr_coeficientes_vip.svg" alt="Coeficientes e VIP - Turno manha"/></a></figure></div></article><article class="subset-card"><div class="subset-header"><h3>Turno tarde</h3><span class="badge">576 amostras</span></div><p class="meta">PLSR para diferenciar irrigado vs nao_irrigado nas datas 2017-02-23, 2017-02-24, 2017-03-02.</p><div class="stats"><span>RMSECV 0.2628</span><span>AUC 0.9876</span><span>Banda #1 2281</span></div><div class="links"><a href="turno/tarde/resumo_plsr_subconjunto.md">resumo</a><a href="turno/tarde/top_20_bandas_otimas.csv">top 20 csv</a><a href="turno/tarde/plsr_bandas_importantes.csv">bandas completas</a></div><div class="figure-grid"><figure><figcaption>Top bandas otimas</figcaption><a href="turno/tarde/top_20_bandas_otimas.svg"><img src="turno/tarde/top_20_bandas_otimas.svg" alt="Top bandas otimas - Turno tarde"/></a></figure><figure><figcaption>Coeficientes e VIP</figcaption><a href="turno/tarde/plsr_coeficientes_vip.svg"><img src="turno/tarde/plsr_coeficientes_vip.svg" alt="Coeficientes e VIP - Turno tarde"/></a></figure></div></article></div></section><section class="group-section"><div class="section-head"><h2>Genotipo</h2></div><div class="subset-grid"><article class="subset-card"><div class="subset-header"><h3>Genotipo BR16</h3><span class="badge">384 amostras</span></div><p class="meta">PLSR para diferenciar irrigado vs nao_irrigado nas datas 2017-02-23, 2017-02-24, 2017-03-02.</p><div class="stats"><span>RMSECV 0.2043</span><span>AUC 0.9991</span><span>Banda #1 2270</span></div><div class="links"><a href="genotipo/BR16/resumo_plsr_subconjunto.md">resumo</a><a href="genotipo/BR16/top_20_bandas_otimas.csv">top 20 csv</a><a href="genotipo/BR16/plsr_bandas_importantes.csv">bandas completas</a></div><div class="figure-grid"><figure><figcaption>Top bandas otimas</figcaption><a href="genotipo/BR16/top_20_bandas_otimas.svg"><img src="genotipo/BR16/top_20_bandas_otimas.svg" alt="Top bandas otimas - Genotipo BR16"/></a></figure><figure><figcaption>Coeficientes e VIP</figcaption><a href="genotipo/BR16/plsr_coeficientes_vip.svg"><img src="genotipo/BR16/plsr_coeficientes_vip.svg" alt="Coeficientes e VIP - Genotipo BR16"/></a></figure></div></article><article class="subset-card"><div class="subset-header"><h3>Genotipo CD202</h3><span class="badge">388 amostras</span></div><p class="meta">PLSR para diferenciar irrigado vs nao_irrigado nas datas 2017-02-23, 2017-02-24, 2017-03-02.</p><div class="stats"><span>RMSECV 0.2119</span><span>AUC 0.9991</span><span>Banda #1 2280</span></div><div class="links"><a href="genotipo/CD202/resumo_plsr_subconjunto.md">resumo</a><a href="genotipo/CD202/top_20_bandas_otimas.csv">top 20 csv</a><a href="genotipo/CD202/plsr_bandas_importantes.csv">bandas completas</a></div><div class="figure-grid"><figure><figcaption>Top bandas otimas</figcaption><a href="genotipo/CD202/top_20_bandas_otimas.svg"><img src="genotipo/CD202/top_20_bandas_otimas.svg" alt="Top bandas otimas - Genotipo CD202"/></a></figure><figure><figcaption>Coeficientes e VIP</figcaption><a href="genotipo/CD202/plsr_coeficientes_vip.svg"><img src="genotipo/CD202/plsr_coeficientes_vip.svg" alt="Coeficientes e VIP - Genotipo CD202"/></a></figure></div></article><article class="subset-card"><div class="subset-header"><h3>Genotipo EMB48</h3><span class="badge">384 amostras</span></div><p class="meta">PLSR para diferenciar irrigado vs nao_irrigado nas datas 2017-02-23, 2017-02-24, 2017-03-02.</p><div class="stats"><span>RMSECV 0.2383</span><span>AUC 0.9942</span><span>Banda #1 1661</span></div><div class="links"><a href="genotipo/EMB48/resumo_plsr_subconjunto.md">resumo</a><a href="genotipo/EMB48/top_20_bandas_otimas.csv">top 20 csv</a><a href="genotipo/EMB48/plsr_bandas_importantes.csv">bandas completas</a></div><div class="figure-grid"><figure><figcaption>Top bandas otimas</figcaption><a href="genotipo/EMB48/top_20_bandas_otimas.svg"><img src="genotipo/EMB48/top_20_bandas_otimas.svg" alt="Top bandas otimas - Genotipo EMB48"/></a></figure><figure><figcaption>Coeficientes e VIP</figcaption><a href="genotipo/EMB48/plsr_coeficientes_vip.svg"><img src="genotipo/EMB48/plsr_coeficientes_vip.svg" alt="Coeficientes e VIP - Genotipo EMB48"/></a></figure></div></article></div></section><section class="group-section"><div class="section-head"><h2>Turno x Genotipo</h2></div><div class="subset-grid"><article class="subset-card"><div class="subset-header"><h3>manha / BR16</h3><span class="badge">192 amostras</span></div><p class="meta">PLSR para diferenciar irrigado vs nao_irrigado nas datas 2017-02-23, 2017-02-24, 2017-03-02.</p><div class="stats"><span>RMSECV 0.1490</span><span>AUC 1.0000</span><span>Banda #1 1826</span></div><div class="links"><a href="turno_genotipo/manha_BR16/resumo_plsr_subconjunto.md">resumo</a><a href="turno_genotipo/manha_BR16/top_20_bandas_otimas.csv">top 20 csv</a><a href="turno_genotipo/manha_BR16/plsr_bandas_importantes.csv">bandas completas</a></div><div class="figure-grid"><figure><figcaption>Top bandas otimas</figcaption><a href="turno_genotipo/manha_BR16/top_20_bandas_otimas.svg"><img src="turno_genotipo/manha_BR16/top_20_bandas_otimas.svg" alt="Top bandas otimas - manha / BR16"/></a></figure><figure><figcaption>Coeficientes e VIP</figcaption><a href="turno_genotipo/manha_BR16/plsr_coeficientes_vip.svg"><img src="turno_genotipo/manha_BR16/plsr_coeficientes_vip.svg" alt="Coeficientes e VIP - manha / BR16"/></a></figure></div></article><article class="subset-card"><div class="subset-header"><h3>manha / CD202</h3><span class="badge">196 amostras</span></div><p class="meta">PLSR para diferenciar irrigado vs nao_irrigado nas datas 2017-02-23, 2017-02-24, 2017-03-02.</p><div class="stats"><span>RMSECV 0.1802</span><span>AUC 0.9984</span><span>Banda #1 2149</span></div><div class="links"><a href="turno_genotipo/manha_CD202/resumo_plsr_subconjunto.md">resumo</a><a href="turno_genotipo/manha_CD202/top_20_bandas_otimas.csv">top 20 csv</a><a href="turno_genotipo/manha_CD202/plsr_bandas_importantes.csv">bandas completas</a></div><div class="figure-grid"><figure><figcaption>Top bandas otimas</figcaption><a href="turno_genotipo/manha_CD202/top_20_bandas_otimas.svg"><img src="turno_genotipo/manha_CD202/top_20_bandas_otimas.svg" alt="Top bandas otimas - manha / CD202"/></a></figure><figure><figcaption>Coeficientes e VIP</figcaption><a href="turno_genotipo/manha_CD202/plsr_coeficientes_vip.svg"><img src="turno_genotipo/manha_CD202/plsr_coeficientes_vip.svg" alt="Coeficientes e VIP - manha / CD202"/></a></figure></div></article><article class="subset-card"><div class="subset-header"><h3>manha / EMB48</h3><span class="badge">192 amostras</span></div><p class="meta">PLSR para diferenciar irrigado vs nao_irrigado nas datas 2017-02-23, 2017-02-24, 2017-03-02.</p><div class="stats"><span>RMSECV 0.1953</span><span>AUC 0.9982</span><span>Banda #1 383</span></div><div class="links"><a href="turno_genotipo/manha_EMB48/resumo_plsr_subconjunto.md">resumo</a><a href="turno_genotipo/manha_EMB48/top_20_bandas_otimas.csv">top 20 csv</a><a href="turno_genotipo/manha_EMB48/plsr_bandas_importantes.csv">bandas completas</a></div><div class="figure-grid"><figure><figcaption>Top bandas otimas</figcaption><a href="turno_genotipo/manha_EMB48/top_20_bandas_otimas.svg"><img src="turno_genotipo/manha_EMB48/top_20_bandas_otimas.svg" alt="Top bandas otimas - manha / EMB48"/></a></figure><figure><figcaption>Coeficientes e VIP</figcaption><a href="turno_genotipo/manha_EMB48/plsr_coeficientes_vip.svg"><img src="turno_genotipo/manha_EMB48/plsr_coeficientes_vip.svg" alt="Coeficientes e VIP - manha / EMB48"/></a></figure></div></article><article class="subset-card"><div class="subset-header"><h3>tarde / BR16</h3><span class="badge">192 amostras</span></div><p class="meta">PLSR para diferenciar irrigado vs nao_irrigado nas datas 2017-02-23, 2017-02-24, 2017-03-02.</p><div class="stats"><span>RMSECV 0.2062</span><span>AUC 0.9989</span><span>Banda #1 1668</span></div><div class="links"><a href="turno_genotipo/tarde_BR16/resumo_plsr_subconjunto.md">resumo</a><a href="turno_genotipo/tarde_BR16/top_20_bandas_otimas.csv">top 20 csv</a><a href="turno_genotipo/tarde_BR16/plsr_bandas_importantes.csv">bandas completas</a></div><div class="figure-grid"><figure><figcaption>Top bandas otimas</figcaption><a href="turno_genotipo/tarde_BR16/top_20_bandas_otimas.svg"><img src="turno_genotipo/tarde_BR16/top_20_bandas_otimas.svg" alt="Top bandas otimas - tarde / BR16"/></a></figure><figure><figcaption>Coeficientes e VIP</figcaption><a href="turno_genotipo/tarde_BR16/plsr_coeficientes_vip.svg"><img src="turno_genotipo/tarde_BR16/plsr_coeficientes_vip.svg" alt="Coeficientes e VIP - tarde / BR16"/></a></figure></div></article><article class="subset-card"><div class="subset-header"><h3>tarde / CD202</h3><span class="badge">192 amostras</span></div><p class="meta">PLSR para diferenciar irrigado vs nao_irrigado nas datas 2017-02-23, 2017-02-24, 2017-03-02.</p><div class="stats"><span>RMSECV 0.2144</span><span>AUC 0.9999</span><span>Banda #1 2281</span></div><div class="links"><a href="turno_genotipo/tarde_CD202/resumo_plsr_subconjunto.md">resumo</a><a href="turno_genotipo/tarde_CD202/top_20_bandas_otimas.csv">top 20 csv</a><a href="turno_genotipo/tarde_CD202/plsr_bandas_importantes.csv">bandas completas</a></div><div class="figure-grid"><figure><figcaption>Top bandas otimas</figcaption><a href="turno_genotipo/tarde_CD202/top_20_bandas_otimas.svg"><img src="turno_genotipo/tarde_CD202/top_20_bandas_otimas.svg" alt="Top bandas otimas - tarde / CD202"/></a></figure><figure><figcaption>Coeficientes e VIP</figcaption><a href="turno_genotipo/tarde_CD202/plsr_coeficientes_vip.svg"><img src="turno_genotipo/tarde_CD202/plsr_coeficientes_vip.svg" alt="Coeficientes e VIP - tarde / CD202"/></a></figure></div></article><article class="subset-card"><div class="subset-header"><h3>tarde / EMB48</h3><span class="badge">192 amostras</span></div><p class="meta">PLSR para diferenciar irrigado vs nao_irrigado nas datas 2017-02-23, 2017-02-24, 2017-03-02.</p><div class="stats"><span>RMSECV 0.2290</span><span>AUC 0.9933</span><span>Banda #1 975</span></div><div class="links"><a href="turno_genotipo/tarde_EMB48/resumo_plsr_subconjunto.md">resumo</a><a href="turno_genotipo/tarde_EMB48/top_20_bandas_otimas.csv">top 20 csv</a><a href="turno_genotipo/tarde_EMB48/plsr_bandas_importantes.csv">bandas completas</a></div><div class="figure-grid"><figure><figcaption>Top bandas otimas</figcaption><a href="turno_genotipo/tarde_EMB48/top_20_bandas_otimas.svg"><img src="turno_genotipo/tarde_EMB48/top_20_bandas_otimas.svg" alt="Top bandas otimas - tarde / EMB48"/></a></figure><figure><figcaption>Coeficientes e VIP</figcaption><a href="turno_genotipo/tarde_EMB48/plsr_coeficientes_vip.svg"><img src="turno_genotipo/tarde_EMB48/plsr_coeficientes_vip.svg" alt="Coeficientes e VIP - tarde / EMB48"/></a></figure></div></article></div></section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,17 @@
+﻿indice,alvo_nm,banda_resolvida,comprimento_onda_resolvido_nm
+EVI,450,band_450,450
+EVI,670,band_670,670
+EVI,800,band_800,800
+NDVI,670,band_670,670
+NDVI,800,band_800,800
+PRI,531,band_531,531
+PRI,570,band_570,570
+REP,670,band_670,670
+REP,700,band_700,700
+REP,740,band_740,740
+REP,780,band_780,780
+SIPI,445,band_445,445
+SIPI,680,band_680,680
+SIPI,800,band_800,800
+WBI,900,band_900,900
+WBI,970,band_970,970

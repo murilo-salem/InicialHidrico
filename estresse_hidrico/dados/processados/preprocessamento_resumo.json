@@ -1,0 +1,32 @@
+{
+  "input_path": "C:\\Users\\muril\\OneDrive\\Documentos\\AgroSATHidrico\\base_dados_unificada.xlsx",
+  "amostras_tecnicas": 1732,
+  "replicatas_bloco_turno": 216,
+  "replicatas_bloco_dia": 144,
+  "bandas_retidas": 1899,
+  "indices_vegetacao": [
+    "NDVI",
+    "EVI",
+    "WBI",
+    "PRI",
+    "SIPI",
+    "REP"
+  ],
+  "datas_no_workbook": [
+    "2017-02-23",
+    "2017-02-24",
+    "2017-02-25",
+    "2017-02-26",
+    "2017-02-27",
+    "2017-03-02"
+  ],
+  "dias_rotulados": [
+    "dia2",
+    "dia3",
+    "dia4",
+    "dia5",
+    "dia6",
+    "dia9"
+  ],
+  "possui_recuperacao": false
+}

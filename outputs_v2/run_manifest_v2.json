@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-04-07T12:45:47.722090+00:00",
+  "input_path": "base_dados_unificada.xlsx",
+  "metadata_path": "dados_processados_soft\\metadados_normalizados_soft.csv",
+  "output_dir": "outputs_v2",
+  "samples": 1732,
+  "bands": 2151,
+  "groups": 36,
+  "genotypes": [
+    "BR16",
+    "CD202",
+    "EMB48"
+  ],
+  "conditions": [
+    "irrigado",
+    "nao_irrigado"
+  ],
+  "turnos": [
+    "manha",
+    "tarde"
+  ],
+  "classification_targets": [
+    "condition",
+    "turno"
+  ],
+  "pca_variance_pc1": 0.7231275852620948,
+  "pca_variance_pc2": 0.16127743798732594,
+  "plsr_run": true,
+  "hvi_run": true
+}

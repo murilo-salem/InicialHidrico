@@ -1,0 +1,9 @@
+﻿cultivar,condicao,comparacao,metrica,permdisp_F,permdisp_p_value,permdisp_q_value,homogeneidade_ok
+EMB48,IRR,Manha vs Tarde,euclidean,0.0759498169086421,0.76,0.924,Sim
+EMB48,NIRR,Manha vs Tarde,euclidean,1.7587389212701123,0.194,0.796,Sim
+BR16,IRR,Manha vs Tarde,euclidean,1.3843590370807397,0.199,0.796,Sim
+BR16,NIRR,Manha vs Tarde,braycurtis,0.3593038686857462,0.59,0.924,Sim
+CD202,IRR,Manha vs Tarde,euclidean,0.022666063590994986,0.886,0.924,Sim
+CD202,NIRR,Manha vs Tarde,euclidean,0.036762563180692064,0.848,0.924,Sim
+Todos,IRR vs NIRR,Manha,braycurtis,0.017370680854984874,0.897,0.924,Sim
+Todos,IRR vs NIRR,Tarde,braycurtis,0.009848044991296233,0.924,0.924,Sim

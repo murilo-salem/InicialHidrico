@@ -1,0 +1,16 @@
+{
+  "subset": "kruskal_top_20",
+  "best_model": "LDA",
+  "objective": 0.628106107966108,
+  "metrics": {
+    "accuracy_media": 0.6388888888888888,
+    "f1_macro_media": 0.6274105524105524,
+    "kappa_media": 0.5666666666666667
+  },
+  "params": {
+    "model": "LDA",
+    "lda_solver": "eigen",
+    "lda_shrinkage_mode": "float",
+    "lda_shrinkage": 0.008407038530137188
+  }
+}

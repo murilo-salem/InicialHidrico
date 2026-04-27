@@ -1,0 +1,2 @@
+﻿subset,n_bands,n_features_total,n_splits_cv,accuracy_media,accuracy_std,f1_macro_media,f1_macro_std,kappa_media,kappa_std
+kruskal_top_20,20,26,4,0.6041666666666666,0.1641397953818133,0.5863680301180302,0.16253806940236495,0.525,0.19696775445817596

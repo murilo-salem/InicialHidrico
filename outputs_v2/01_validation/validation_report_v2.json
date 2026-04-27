@@ -1,0 +1,33 @@
+{
+  "input_path": "base_dados_unificada.xlsx",
+  "metadata_path": "dados_processados_soft\\metadados_normalizados_soft.csv",
+  "source_kind": "xlsx",
+  "samples": 1732,
+  "bands": 2151,
+  "wavelength_min": 350,
+  "wavelength_max": 2500,
+  "groups": 36,
+  "group_size_min": 32,
+  "group_size_max": 68,
+  "dates": [
+    "2017-02-23",
+    "2017-02-24",
+    "2017-02-25",
+    "2017-02-26",
+    "2017-02-27",
+    "2017-03-02"
+  ],
+  "genotypes": [
+    "BR16",
+    "CD202",
+    "EMB48"
+  ],
+  "conditions": [
+    "irrigado",
+    "nao_irrigado"
+  ],
+  "turnos": [
+    "manha",
+    "tarde"
+  ]
+}

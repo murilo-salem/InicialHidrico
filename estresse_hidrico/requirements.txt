@@ -1,0 +1,12 @@
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.6
+scikit-bio>=0.7
+Boruta>=0.4
+xgboost>=3.0
+matplotlib>=3.9
+seaborn>=0.13
+statsmodels>=0.14
+joblib>=1.4
+openpyxl>=3.1

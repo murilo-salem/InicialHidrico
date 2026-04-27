@@ -1,0 +1,15 @@
+metric,value
+input_path,base_dados_unificada.xlsx
+source_kind,xlsx
+samples,1732
+bands,2151
+wavelength_min,350
+wavelength_max,2500
+missing_spectral_values,0
+unique_dates,6
+unique_genotypes,3
+unique_conditions,2
+unique_turnos,2
+groups,36
+min_group_size,32
+max_group_size,68

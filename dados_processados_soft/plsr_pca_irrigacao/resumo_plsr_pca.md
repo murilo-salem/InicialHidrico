@@ -3,74 +3,74 @@
 - Dataset analisado: `1732` amostras x `2151` bandas
 - Dados usados: dataset processado (`SNV + Savitzky-Golay + 1a derivada`)
 - Classes: irrigado = 868, nao_irrigado = 864
-- Melhor numero de componentes PLSR: 18
-- RMSECV: 0.242784
-- R2CV: 0.764223
-- AUC: 0.992633
-- Accuracy com corte 0.5: 0.963048
+- Melhor numero de componentes PLSR: 15
+- RMSECV: 0.244092
+- R2CV: 0.761675
+- AUC: 0.992006
+- Accuracy com corte 0.5: 0.961316
 - PCA: PC1 = 46.63% da variancia, PC2 = 13.98%
 
 ## Bandas com coeficiente mais positivo
 
 | banda | coeficiente | VIP | interpretacao |
 | ---: | ---: | ---: | --- |
-| 1149 | 0.026620 | 0.896295 | mais associado a irrigado |
-| 1148 | 0.026013 | 0.892897 | mais associado a irrigado |
-| 1150 | 0.022274 | 0.871105 | mais associado a irrigado |
-| 909 | 0.022049 | 1.132701 | mais associado a irrigado |
-| 1147 | 0.021854 | 0.872325 | mais associado a irrigado |
-| 908 | 0.019846 | 1.223722 | mais associado a irrigado |
-| 370 | 0.019671 | 0.947056 | mais associado a irrigado |
-| 879 | 0.019594 | 1.290496 | mais associado a irrigado |
-| 439 | 0.018932 | 1.132366 | mais associado a irrigado |
-| 2330 | 0.018470 | 1.075741 | mais associado a irrigado |
-| 2070 | 0.018195 | 1.096159 | mais associado a irrigado |
-| 2114 | 0.018017 | 1.117538 | mais associado a irrigado |
-| 2113 | 0.018001 | 1.113296 | mais associado a irrigado |
-| 880 | 0.017973 | 1.270626 | mais associado a irrigado |
-| 682 | 0.017650 | 0.763511 | mais associado a irrigado |
+| 908 | 0.020123 | 1.222319 | mais associado a irrigado |
+| 909 | 0.020077 | 1.131717 | mais associado a irrigado |
+| 1149 | 0.017861 | 0.893524 | mais associado a irrigado |
+| 1148 | 0.017393 | 0.890081 | mais associado a irrigado |
+| 879 | 0.017022 | 1.291971 | mais associado a irrigado |
+| 370 | 0.016182 | 0.946052 | mais associado a irrigado |
+| 1150 | 0.015238 | 0.871369 | mais associado a irrigado |
+| 1205 | 0.015170 | 0.870976 | mais associado a irrigado |
+| 959 | 0.015000 | 1.203357 | mais associado a irrigado |
+| 449 | 0.014853 | 1.236854 | mais associado a irrigado |
+| 1147 | 0.014802 | 0.871901 | mais associado a irrigado |
+| 880 | 0.014633 | 1.275505 | mais associado a irrigado |
+| 2330 | 0.014378 | 1.080638 | mais associado a irrigado |
+| 910 | 0.014264 | 0.997712 | mais associado a irrigado |
+| 2331 | 0.013594 | 1.103330 | mais associado a irrigado |
 
 ## Bandas com coeficiente mais negativo
 
 | banda | coeficiente | VIP | interpretacao |
 | ---: | ---: | ---: | --- |
-| 458 | -0.031572 | 1.309055 | mais associado a nao_irrigado |
-| 372 | -0.028851 | 1.010120 | mais associado a nao_irrigado |
-| 896 | -0.028688 | 0.927928 | mais associado a nao_irrigado |
-| 895 | -0.025768 | 0.900996 | mais associado a nao_irrigado |
-| 459 | -0.022867 | 1.266137 | mais associado a nao_irrigado |
-| 457 | -0.021694 | 1.254812 | mais associado a nao_irrigado |
-| 395 | -0.020698 | 1.171993 | mais associado a nao_irrigado |
-| 1731 | -0.019912 | 1.119526 | mais associado a nao_irrigado |
-| 1724 | -0.019890 | 1.005717 | mais associado a nao_irrigado |
-| 1725 | -0.019773 | 1.032125 | mais associado a nao_irrigado |
-| 1720 | -0.019559 | 0.995943 | mais associado a nao_irrigado |
-| 1175 | -0.019524 | 0.977784 | mais associado a nao_irrigado |
-| 2269 | -0.019233 | 1.596899 | mais associado a nao_irrigado |
-| 2268 | -0.019015 | 1.551055 | mais associado a nao_irrigado |
-| 1732 | -0.018873 | 1.111647 | mais associado a nao_irrigado |
+| 458 | -0.023747 | 1.308757 | mais associado a nao_irrigado |
+| 896 | -0.023699 | 0.931552 | mais associado a nao_irrigado |
+| 895 | -0.021471 | 0.902816 | mais associado a nao_irrigado |
+| 395 | -0.018361 | 1.166259 | mais associado a nao_irrigado |
+| 459 | -0.018178 | 1.266077 | mais associado a nao_irrigado |
+| 1725 | -0.017498 | 1.034750 | mais associado a nao_irrigado |
+| 1724 | -0.017282 | 1.007962 | mais associado a nao_irrigado |
+| 457 | -0.016825 | 1.252713 | mais associado a nao_irrigado |
+| 1726 | -0.016674 | 1.057850 | mais associado a nao_irrigado |
+| 2269 | -0.016435 | 1.601719 | mais associado a nao_irrigado |
+| 1731 | -0.016120 | 1.124083 | mais associado a nao_irrigado |
+| 372 | -0.016049 | 0.987820 | mais associado a nao_irrigado |
+| 2268 | -0.015829 | 1.556311 | mais associado a nao_irrigado |
+| 2270 | -0.015485 | 1.636516 | mais associado a nao_irrigado |
+| 1723 | -0.015465 | 0.981546 | mais associado a nao_irrigado |
 
 ## Bandas com maior VIP
 
 | banda | VIP | coeficiente | direcao |
 | ---: | ---: | ---: | --- |
-| 2278 | 1.712996 | -0.013828 | nao_irrigado |
-| 2277 | 1.705768 | -0.011301 | nao_irrigado |
-| 2276 | 1.703686 | -0.010680 | nao_irrigado |
-| 2279 | 1.699262 | -0.014232 | nao_irrigado |
-| 2275 | 1.696551 | -0.010965 | nao_irrigado |
-| 2274 | 1.693350 | -0.014251 | nao_irrigado |
-| 2273 | 1.690144 | -0.017830 | nao_irrigado |
-| 2272 | 1.668404 | -0.015401 | nao_irrigado |
-| 2271 | 1.647923 | -0.013933 | nao_irrigado |
-| 2280 | 1.641925 | -0.012133 | nao_irrigado |
-| 2292 | 1.635070 | 0.004329 | irrigado |
-| 2291 | 1.633519 | 0.000192 | irrigado |
-| 2270 | 1.632151 | -0.017419 | nao_irrigado |
-| 1664 | 1.626174 | 0.012902 | irrigado |
-| 1665 | 1.620540 | 0.011360 | irrigado |
-| 2293 | 1.619947 | 0.005828 | irrigado |
-| 1666 | 1.616743 | 0.005055 | irrigado |
-| 1661 | 1.606872 | 0.010518 | irrigado |
-| 2290 | 1.604527 | -0.003812 | nao_irrigado |
-| 1663 | 1.600829 | 0.010025 | irrigado |
+| 2278 | 1.718336 | -0.012116 | nao_irrigado |
+| 2277 | 1.710585 | -0.010518 | nao_irrigado |
+| 2276 | 1.708457 | -0.010116 | nao_irrigado |
+| 2279 | 1.704506 | -0.012687 | nao_irrigado |
+| 2275 | 1.701345 | -0.010458 | nao_irrigado |
+| 2274 | 1.699011 | -0.012533 | nao_irrigado |
+| 2273 | 1.696424 | -0.014819 | nao_irrigado |
+| 2272 | 1.673606 | -0.013840 | nao_irrigado |
+| 2271 | 1.651501 | -0.013325 | nao_irrigado |
+| 2280 | 1.646228 | -0.011882 | nao_irrigado |
+| 2292 | 1.640833 | 0.003684 | irrigado |
+| 2291 | 1.639366 | 0.001550 | irrigado |
+| 2270 | 1.636516 | -0.015485 | nao_irrigado |
+| 1664 | 1.631233 | 0.010687 | irrigado |
+| 2293 | 1.625761 | 0.004753 | irrigado |
+| 1665 | 1.624429 | 0.009115 | irrigado |
+| 1666 | 1.623229 | 0.005577 | irrigado |
+| 1661 | 1.613315 | 0.011318 | irrigado |
+| 2290 | 1.609842 | -0.000811 | nao_irrigado |
+| 1663 | 1.607916 | 0.009745 | irrigado |

@@ -25,12 +25,14 @@ from sklearn.preprocessing import StandardScaler
 
 CLASS_LABELS = {0: "nao_irrigado", 1: "irrigado"}
 CLASS_COLORS = {"nao_irrigado": "#c2410c", "irrigado": "#0f766e"}
+GENOTYPE_COLORS = {"BR16": "#1d4ed8", "CD202": "#c2410c", "EMB48": "#0f766e"}
 
 
 @dataclass
 class Dataset:
     sample_names: list[str]
     dates: list[str]
+    shifts: list[str]
     genotypes: list[str]
     conditions: list[str]
     wavelengths: np.ndarray
@@ -89,6 +91,7 @@ def load_dataset(processed_csv_path: Path, metadata_csv_path: Path) -> Dataset:
 
         sample_names: list[str] = []
         dates: list[str] = []
+        shifts: list[str] = []
         genotypes: list[str] = []
         conditions: list[str] = []
 
@@ -107,6 +110,7 @@ def load_dataset(processed_csv_path: Path, metadata_csv_path: Path) -> Dataset:
 
             sample_names.append(row[0])
             dates.append(metadata["data_coleta_iso"])
+            shifts.append(metadata["turno"])
             genotypes.append(metadata["genotipo_normalizado"])
             conditions.append(metadata["condicao_normalizada"])
             x[row_index, :] = np.asarray(row[6:], dtype=np.float64)
@@ -120,11 +124,26 @@ def load_dataset(processed_csv_path: Path, metadata_csv_path: Path) -> Dataset:
     return Dataset(
         sample_names=sample_names,
         dates=dates,
+        shifts=shifts,
         genotypes=genotypes,
         conditions=conditions,
         wavelengths=wavelengths,
         x=x,
         y=y,
+    )
+
+
+def subset_dataset(dataset: Dataset, mask: np.ndarray) -> Dataset:
+    bool_mask = np.asarray(mask, dtype=bool)
+    return Dataset(
+        sample_names=[value for value, keep in zip(dataset.sample_names, bool_mask, strict=False) if keep],
+        dates=[value for value, keep in zip(dataset.dates, bool_mask, strict=False) if keep],
+        shifts=[value for value, keep in zip(dataset.shifts, bool_mask, strict=False) if keep],
+        genotypes=[value for value, keep in zip(dataset.genotypes, bool_mask, strict=False) if keep],
+        conditions=[value for value, keep in zip(dataset.conditions, bool_mask, strict=False) if keep],
+        wavelengths=dataset.wavelengths.copy(),
+        x=dataset.x[bool_mask].copy(),
+        y=dataset.y[bool_mask].copy(),
     )
 
 
@@ -324,6 +343,71 @@ def plot_pca_scores(
     ax.set_xlabel(f"PC1 ({explained_variance[0] * 100:.2f}% var.)")
     ax.set_ylabel(f"PC2 ({explained_variance[1] * 100:.2f}% var.)")
     ax.set_title("PCA das classes irrigado vs nao_irrigado")
+    ax.grid(alpha=0.18)
+    ax.legend(loc="best")
+    fig.savefig(output_path, dpi=180)
+    plt.close(fig)
+
+
+def plot_pca_scores_by_genotype(
+    scores: np.ndarray,
+    genotypes: list[str],
+    explained_variance: np.ndarray,
+    output_path: Path,
+) -> None:
+    fig, ax = plt.subplots(figsize=(9, 7), constrained_layout=True)
+    for genotype in ["BR16", "CD202", "EMB48"]:
+        mask = np.asarray([value == genotype for value in genotypes])
+        geno_scores = scores[mask]
+        ax.scatter(
+            geno_scores[:, 0],
+            geno_scores[:, 1],
+            s=24,
+            alpha=0.6,
+            color=GENOTYPE_COLORS[genotype],
+            edgecolor="none",
+            label=genotype,
+        )
+        confidence_ellipse(geno_scores[:, :2], ax, GENOTYPE_COLORS[genotype], f"{genotype} dispersao")
+        centroid = geno_scores[:, :2].mean(axis=0)
+        ax.scatter(
+            centroid[0],
+            centroid[1],
+            s=120,
+            marker="X",
+            color=GENOTYPE_COLORS[genotype],
+            edgecolor="#111827",
+            linewidth=0.6,
+        )
+
+    ax.axhline(0.0, color="#111827", linewidth=0.8, alpha=0.45)
+    ax.axvline(0.0, color="#111827", linewidth=0.8, alpha=0.45)
+    ax.set_xlabel(f"PC1 ({explained_variance[0] * 100:.2f}% var.)")
+    ax.set_ylabel(f"PC2 ({explained_variance[1] * 100:.2f}% var.)")
+    ax.set_title("PCA por genotipo")
+    ax.grid(alpha=0.18)
+    ax.legend(loc="best")
+    fig.savefig(output_path, dpi=180)
+    plt.close(fig)
+
+
+def plot_spectral_signatures_by_genotype(
+    wavelengths: np.ndarray,
+    x: np.ndarray,
+    genotypes: list[str],
+    output_path: Path,
+) -> None:
+    fig, ax = plt.subplots(figsize=(12, 6), constrained_layout=True)
+    for genotype in ["BR16", "CD202", "EMB48"]:
+        mask = np.asarray([value == genotype for value in genotypes])
+        mean_spec = x[mask].mean(axis=0)
+        std_spec = x[mask].std(axis=0)
+        ax.plot(wavelengths, mean_spec, color=GENOTYPE_COLORS[genotype], linewidth=1.6, label=genotype)
+        ax.fill_between(wavelengths, mean_spec - std_spec, mean_spec + std_spec, color=GENOTYPE_COLORS[genotype], alpha=0.15)
+
+    ax.set_xlabel("Comprimento de onda (nm)")
+    ax.set_ylabel("Reflectancia")
+    ax.set_title("Assinaturas espectrais medias por genotipo")
     ax.grid(alpha=0.18)
     ax.legend(loc="best")
     fig.savefig(output_path, dpi=180)
@@ -552,6 +636,18 @@ def main() -> None:
         dataset.conditions,
         pca.explained_variance_ratio_,
         output_dir / "pca_scores_classes.svg",
+    )
+    plot_pca_scores_by_genotype(
+        scores,
+        dataset.genotypes,
+        pca.explained_variance_ratio_,
+        output_dir / "pca_scores_genotipo.svg",
+    )
+    plot_spectral_signatures_by_genotype(
+        dataset.wavelengths,
+        dataset.x,
+        dataset.genotypes,
+        output_dir / "assinatura_espectral_genotipo.svg",
     )
     plot_pca_loadings(
         dataset.wavelengths,

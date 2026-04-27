@@ -1,0 +1,8 @@
+2026-04-07 09:45:47,721 [INFO] Starting pipeline v2
+2026-04-07 09:45:47,722 [INFO] Loading normalized metadata from dados_processados_soft\metadados_normalizados_soft.csv
+2026-04-07 09:46:04,327 [INFO] Running structural validation
+2026-04-07 09:46:06,696 [INFO] Running classification target: condition
+2026-04-07 09:52:12,232 [INFO] Running classification target: turno
+2026-04-07 09:59:34,465 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-04-07 09:59:34,466 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-04-07 10:00:09,140 [INFO] Pipeline v2 completed

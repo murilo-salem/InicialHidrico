@@ -1,0 +1,11 @@
+﻿metrica,valor
+amostras_brutas,1732
+bandas_brutas,2151
+datas_absolutas,6
+dias_rotulados,6
+turnos_originais,2
+valores_ausentes,0
+valores_fora_intervalo_0_1,0
+duplicatas_chave_data_turno_arquivo,0
+duplicatas_chave_biologica_tecnica,0
+dias_sem_recuperacao_no_workbook,1
