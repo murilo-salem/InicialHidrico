@@ -1,0 +1,3 @@
+﻿analysis_id,analysis_label,dia,cultivar,modelo,classe,classe_codigo,precision,recall,f1,support
+dia4_EMB48,dia4 - EMB48,dia4,EMB48,XGBoost,Nao irrigado,0,0.0,0.0,0.0,4
+dia4_EMB48,dia4 - EMB48,dia4,EMB48,XGBoost,Irrigado,1,0.5,1.0,0.6666666666666666,4

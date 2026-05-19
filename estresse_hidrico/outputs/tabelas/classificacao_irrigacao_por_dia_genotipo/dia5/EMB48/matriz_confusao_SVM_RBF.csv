@@ -1,0 +1,3 @@
+﻿analysis_id,analysis_label,dia,cultivar,modelo,real,Nao irrigado,Irrigado
+dia5_EMB48,dia5 - EMB48,dia5,EMB48,SVM (RBF),Nao irrigado,4,0
+dia5_EMB48,dia5 - EMB48,dia5,EMB48,SVM (RBF),Irrigado,0,4

@@ -1,0 +1,3 @@
+﻿analysis_id,analysis_label,dia,cultivar,modelo,real,Nao irrigado,Irrigado
+dia2_BR16,dia2 - BR16,dia2,BR16,k-NN (k=5),Nao irrigado,1,3
+dia2_BR16,dia2 - BR16,dia2,BR16,k-NN (k=5),Irrigado,1,3

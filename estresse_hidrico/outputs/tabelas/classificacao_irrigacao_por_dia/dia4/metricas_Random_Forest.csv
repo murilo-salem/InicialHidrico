@@ -1,0 +1,2 @@
+﻿analysis_id,analysis_label,dia,modelo,n_bandas,bandas,n_amostras,n_grupos,n_splits_cv,accuracy_media,accuracy_std,balanced_accuracy_media,balanced_accuracy_std,f1_irrigado_media,f1_irrigado_std,f1_macro_media,f1_macro_std,roc_auc_media,roc_auc_std,kappa_media,kappa_std
+dia4,dia4,dia4,Random Forest,6,band_1200|band_1451|band_1951|band_970|band_670|NDRE,24,24,5,0.8400000000000001,0.1673320053068151,0.85,0.14907119849998599,0.7933333333333333,0.21653842358548955,0.8290476190476189,0.17619369366431603,1.0,0.0,0.6893106893106893,0.30907337602923357

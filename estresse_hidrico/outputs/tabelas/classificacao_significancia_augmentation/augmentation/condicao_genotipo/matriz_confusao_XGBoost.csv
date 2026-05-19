@@ -1,0 +1,7 @@
+﻿target,model,real,IRR|BR16,IRR|CD202,IRR|EMB48,NIRR|BR16,NIRR|CD202,NIRR|EMB48
+condicao_genotipo,XGBoost,IRR|BR16,13,7,3,1,0,0
+condicao_genotipo,XGBoost,IRR|CD202,5,7,10,0,1,1
+condicao_genotipo,XGBoost,IRR|EMB48,4,5,14,0,0,1
+condicao_genotipo,XGBoost,NIRR|BR16,1,0,0,15,5,3
+condicao_genotipo,XGBoost,NIRR|CD202,0,0,1,6,13,4
+condicao_genotipo,XGBoost,NIRR|EMB48,0,1,1,2,5,15

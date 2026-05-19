@@ -1,0 +1,25 @@
+﻿cultivar,condicao,data_coleta_iso,dia,replicata,bloco,grupo_cv,analysis_id,analysis_label,modelo,y_true,y_pred,prob_irrigado,acertou
+BR16,IRR,2017-02-23,dia2,1,B1,BR16_IRR_B1,dia2,dia2,k-NN (k=5),1,0,0.4,False
+BR16,IRR,2017-02-23,dia2,2,B2,BR16_IRR_B2,dia2,dia2,k-NN (k=5),1,0,0.4,False
+BR16,IRR,2017-02-23,dia2,3,B3,BR16_IRR_B3,dia2,dia2,k-NN (k=5),1,0,0.4,False
+BR16,IRR,2017-02-23,dia2,4,B4,BR16_IRR_B4,dia2,dia2,k-NN (k=5),1,1,0.6,True
+BR16,NIRR,2017-02-23,dia2,1,B1,BR16_NIRR_B1,dia2,dia2,k-NN (k=5),0,1,0.8,False
+BR16,NIRR,2017-02-23,dia2,2,B2,BR16_NIRR_B2,dia2,dia2,k-NN (k=5),0,1,0.6,False
+BR16,NIRR,2017-02-23,dia2,3,B3,BR16_NIRR_B3,dia2,dia2,k-NN (k=5),0,0,0.2,True
+BR16,NIRR,2017-02-23,dia2,4,B4,BR16_NIRR_B4,dia2,dia2,k-NN (k=5),0,0,0.2,True
+CD202,IRR,2017-02-23,dia2,1,B1,CD202_IRR_B1,dia2,dia2,k-NN (k=5),1,1,0.8,True
+CD202,IRR,2017-02-23,dia2,2,B2,CD202_IRR_B2,dia2,dia2,k-NN (k=5),1,1,0.8,True
+CD202,IRR,2017-02-23,dia2,3,B3,CD202_IRR_B3,dia2,dia2,k-NN (k=5),1,1,0.6,True
+CD202,IRR,2017-02-23,dia2,4,B4,CD202_IRR_B4,dia2,dia2,k-NN (k=5),1,1,0.6,True
+CD202,NIRR,2017-02-23,dia2,1,B1,CD202_NIRR_B1,dia2,dia2,k-NN (k=5),0,1,0.6,False
+CD202,NIRR,2017-02-23,dia2,2,B2,CD202_NIRR_B2,dia2,dia2,k-NN (k=5),0,1,0.6,False
+CD202,NIRR,2017-02-23,dia2,3,B3,CD202_NIRR_B3,dia2,dia2,k-NN (k=5),0,0,0.2,True
+CD202,NIRR,2017-02-23,dia2,4,B4,CD202_NIRR_B4,dia2,dia2,k-NN (k=5),0,0,0.2,True
+EMB48,IRR,2017-02-23,dia2,1,B1,EMB48_IRR_B1,dia2,dia2,k-NN (k=5),1,1,0.6,True
+EMB48,IRR,2017-02-23,dia2,2,B2,EMB48_IRR_B2,dia2,dia2,k-NN (k=5),1,1,0.8,True
+EMB48,IRR,2017-02-23,dia2,3,B3,EMB48_IRR_B3,dia2,dia2,k-NN (k=5),1,1,0.8,True
+EMB48,IRR,2017-02-23,dia2,4,B4,EMB48_IRR_B4,dia2,dia2,k-NN (k=5),1,1,0.6,True
+EMB48,NIRR,2017-02-23,dia2,1,B1,EMB48_NIRR_B1,dia2,dia2,k-NN (k=5),0,0,0.2,True
+EMB48,NIRR,2017-02-23,dia2,2,B2,EMB48_NIRR_B2,dia2,dia2,k-NN (k=5),0,1,0.6,False
+EMB48,NIRR,2017-02-23,dia2,3,B3,EMB48_NIRR_B3,dia2,dia2,k-NN (k=5),0,0,0.2,True
+EMB48,NIRR,2017-02-23,dia2,4,B4,EMB48_NIRR_B4,dia2,dia2,k-NN (k=5),0,0,0.0,True

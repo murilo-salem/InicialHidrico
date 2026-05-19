@@ -1,0 +1,3 @@
+﻿analysis_id,analysis_label,dia,cultivar,modelo,classe,classe_codigo,precision,recall,f1,support
+dia3_CD202,dia3 - CD202,dia3,CD202,LDA,Nao irrigado,0,0.8,1.0,0.8888888888888888,4
+dia3_CD202,dia3 - CD202,dia3,CD202,LDA,Irrigado,1,1.0,0.75,0.8571428571428571,4

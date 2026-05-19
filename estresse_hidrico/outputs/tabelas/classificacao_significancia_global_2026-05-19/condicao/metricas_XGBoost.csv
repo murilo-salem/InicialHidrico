@@ -1,0 +1,2 @@
+﻿target,model,classes,n_classes,n_samples,n_groups,cv_splits,n_bandas,bandas,accuracy_media,accuracy_std,balanced_accuracy_media,balanced_accuracy_std,f1_macro_media,f1_macro_std,kappa_media,kappa_std,roc_auc_media,roc_auc_std,analysis_source
+condicao,XGBoost,NIRR; IRR,2,144,8,4,5,band_400|band_579|band_1580|band_530|band_739,0.9444444444444444,0.03207501495497923,0.9444444444444444,0.03207501495497923,0.9444015444015443,0.032099783306295766,0.888888888888889,0.06415002990995838,0.9915123456790123,0.002955021937519527,cond

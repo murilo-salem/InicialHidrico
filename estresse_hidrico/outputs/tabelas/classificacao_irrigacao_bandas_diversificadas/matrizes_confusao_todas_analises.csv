@@ -1,0 +1,9 @@
+﻿analysis_id,analysis_label,scope,cultivar,real,Nao irrigado,Irrigado
+global,Classificacao binaria IRR vs NIRR,global,,Nao irrigado,71,1
+global,Classificacao binaria IRR vs NIRR,global,,Irrigado,12,60
+genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,BR16,Nao irrigado,24,0
+genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,BR16,Irrigado,3,21
+genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,CD202,Nao irrigado,24,0
+genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,CD202,Irrigado,4,20
+genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,EMB48,Nao irrigado,23,1
+genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,EMB48,Irrigado,2,22

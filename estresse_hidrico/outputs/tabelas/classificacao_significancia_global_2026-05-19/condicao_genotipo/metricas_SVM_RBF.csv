@@ -1,0 +1,2 @@
+﻿target,model,classes,n_classes,n_samples,n_groups,cv_splits,n_bandas,bandas,accuracy_media,accuracy_std,balanced_accuracy_media,balanced_accuracy_std,f1_macro_media,f1_macro_std,kappa_media,kappa_std,roc_auc_media,roc_auc_std,analysis_source
+condicao_genotipo,SVM (RBF),IRR|BR16; IRR|CD202; IRR|EMB48; NIRR|BR16; NIRR|CD202; NIRR|EMB48,6,144,24,4,5,band_400|band_530|band_550|band_401|band_720,0.5486111111111112,0.12081470695092489,0.548611111111111,0.12081470695092489,0.5053904905007847,0.12636796425653699,0.45833333333333337,0.14497764834110985,,,gen_cond

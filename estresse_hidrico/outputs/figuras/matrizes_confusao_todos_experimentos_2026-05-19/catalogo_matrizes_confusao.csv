@@ -1,0 +1,284 @@
+﻿figure_id,figure_title,panel_title,n_true_classes,n_pred_classes,row_labels,col_labels,source_path
+01_multiclasse_global_e_subsets,Matrizes de confusao - classificacao multiclasse global e subsets,04_classificacao,6,6,A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\confusion_matrix.csv
+01_multiclasse_global_e_subsets,Matrizes de confusao - classificacao multiclasse global e subsets,07_subset_bandas,6,6,A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_subset_bandas\confusion_matrix_kruskal_top_20.csv
+01_multiclasse_global_e_subsets,Matrizes de confusao - classificacao multiclasse global e subsets,08_optuna_subset,6,6,A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\optuna_classificacao_subset\optuna_confusion_matrix_kruskal_top_20.csv
+02_subset_por_dia_lda_optuna,Matrizes de confusao - subset por dia (LDA/Optuna),Dia 2,6,6,A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_subset_por_dia\lda_optuna_best_kruskal_top_20_confusion_by_day.csv
+02_subset_por_dia_lda_optuna,Matrizes de confusao - subset por dia (LDA/Optuna),Dia 3,6,6,A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_subset_por_dia\lda_optuna_best_kruskal_top_20_confusion_by_day.csv
+02_subset_por_dia_lda_optuna,Matrizes de confusao - subset por dia (LDA/Optuna),Dia 4,6,6,A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_subset_por_dia\lda_optuna_best_kruskal_top_20_confusion_by_day.csv
+02_subset_por_dia_lda_optuna,Matrizes de confusao - subset por dia (LDA/Optuna),Dia 5,6,6,A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_subset_por_dia\lda_optuna_best_kruskal_top_20_confusion_by_day.csv
+02_subset_por_dia_lda_optuna,Matrizes de confusao - subset por dia (LDA/Optuna),Dia 6,6,6,A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_subset_por_dia\lda_optuna_best_kruskal_top_20_confusion_by_day.csv
+02_subset_por_dia_lda_optuna,Matrizes de confusao - subset por dia (LDA/Optuna),Dia 9,6,6,A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),A (EMB48 IRR) | B (EMB48 NIRR) | C (BR16 IRR) | D (BR16 NIRR) | E (CD202 IRR) | F (CD202 NIRR),C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_subset_por_dia\lda_optuna_best_kruskal_top_20_confusion_by_day.csv
+03_irrigacao_bandas_diversificadas,Matrizes de confusao - irrigacao com bandas diversificadas,Global,2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_bandas_diversificadas\matriz_confusao.csv
+03_irrigacao_bandas_diversificadas,Matrizes de confusao - irrigacao com bandas diversificadas,BR16,2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_bandas_diversificadas\por_genotipo\BR16\matriz_confusao.csv
+03_irrigacao_bandas_diversificadas,Matrizes de confusao - irrigacao com bandas diversificadas,CD202,2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_bandas_diversificadas\por_genotipo\CD202\matriz_confusao.csv
+03_irrigacao_bandas_diversificadas,Matrizes de confusao - irrigacao com bandas diversificadas,EMB48,2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_bandas_diversificadas\por_genotipo\EMB48\matriz_confusao.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 2
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia2\matriz_confusao_Random_Forest.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 2
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia2\matriz_confusao_SVM_RBF.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 2
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia2\matriz_confusao_LDA.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 2
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia2\matriz_confusao_k-NN_k5.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 2
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia2\matriz_confusao_XGBoost.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 3
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia3\matriz_confusao_Random_Forest.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 3
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia3\matriz_confusao_SVM_RBF.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 3
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia3\matriz_confusao_LDA.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 3
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia3\matriz_confusao_k-NN_k5.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 3
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia3\matriz_confusao_XGBoost.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 4
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia4\matriz_confusao_Random_Forest.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 4
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia4\matriz_confusao_SVM_RBF.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 4
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia4\matriz_confusao_LDA.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 4
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia4\matriz_confusao_k-NN_k5.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 4
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia4\matriz_confusao_XGBoost.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 5
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia5\matriz_confusao_Random_Forest.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 5
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia5\matriz_confusao_SVM_RBF.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 5
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia5\matriz_confusao_LDA.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 5
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia5\matriz_confusao_k-NN_k5.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 5
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia5\matriz_confusao_XGBoost.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 6
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia6\matriz_confusao_Random_Forest.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 6
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia6\matriz_confusao_SVM_RBF.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 6
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia6\matriz_confusao_LDA.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 6
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia6\matriz_confusao_k-NN_k5.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 6
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia6\matriz_confusao_XGBoost.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 9
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia9\matriz_confusao_Random_Forest.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 9
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia9\matriz_confusao_SVM_RBF.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 9
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia9\matriz_confusao_LDA.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 9
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia9\matriz_confusao_k-NN_k5.csv
+04_irrigacao_por_dia_todos_genotipos,Matrizes de confusao - irrigacao por dia (todos os genotipos),"Dia 9
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia\dia9\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia2,Matrizes de confusao - irrigacao por dia e genotipo - Dia 2,"BR16
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia2\BR16\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia2,Matrizes de confusao - irrigacao por dia e genotipo - Dia 2,"BR16
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia2\BR16\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia2,Matrizes de confusao - irrigacao por dia e genotipo - Dia 2,"BR16
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia2\BR16\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia2,Matrizes de confusao - irrigacao por dia e genotipo - Dia 2,"BR16
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia2\BR16\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia2,Matrizes de confusao - irrigacao por dia e genotipo - Dia 2,"BR16
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia2\BR16\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia2,Matrizes de confusao - irrigacao por dia e genotipo - Dia 2,"CD202
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia2\CD202\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia2,Matrizes de confusao - irrigacao por dia e genotipo - Dia 2,"CD202
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia2\CD202\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia2,Matrizes de confusao - irrigacao por dia e genotipo - Dia 2,"CD202
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia2\CD202\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia2,Matrizes de confusao - irrigacao por dia e genotipo - Dia 2,"CD202
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia2\CD202\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia2,Matrizes de confusao - irrigacao por dia e genotipo - Dia 2,"CD202
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia2\CD202\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia2,Matrizes de confusao - irrigacao por dia e genotipo - Dia 2,"EMB48
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia2\EMB48\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia2,Matrizes de confusao - irrigacao por dia e genotipo - Dia 2,"EMB48
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia2\EMB48\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia2,Matrizes de confusao - irrigacao por dia e genotipo - Dia 2,"EMB48
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia2\EMB48\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia2,Matrizes de confusao - irrigacao por dia e genotipo - Dia 2,"EMB48
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia2\EMB48\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia2,Matrizes de confusao - irrigacao por dia e genotipo - Dia 2,"EMB48
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia2\EMB48\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia3,Matrizes de confusao - irrigacao por dia e genotipo - Dia 3,"BR16
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia3\BR16\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia3,Matrizes de confusao - irrigacao por dia e genotipo - Dia 3,"BR16
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia3\BR16\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia3,Matrizes de confusao - irrigacao por dia e genotipo - Dia 3,"BR16
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia3\BR16\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia3,Matrizes de confusao - irrigacao por dia e genotipo - Dia 3,"BR16
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia3\BR16\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia3,Matrizes de confusao - irrigacao por dia e genotipo - Dia 3,"BR16
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia3\BR16\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia3,Matrizes de confusao - irrigacao por dia e genotipo - Dia 3,"CD202
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia3\CD202\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia3,Matrizes de confusao - irrigacao por dia e genotipo - Dia 3,"CD202
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia3\CD202\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia3,Matrizes de confusao - irrigacao por dia e genotipo - Dia 3,"CD202
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia3\CD202\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia3,Matrizes de confusao - irrigacao por dia e genotipo - Dia 3,"CD202
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia3\CD202\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia3,Matrizes de confusao - irrigacao por dia e genotipo - Dia 3,"CD202
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia3\CD202\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia3,Matrizes de confusao - irrigacao por dia e genotipo - Dia 3,"EMB48
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia3\EMB48\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia3,Matrizes de confusao - irrigacao por dia e genotipo - Dia 3,"EMB48
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia3\EMB48\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia3,Matrizes de confusao - irrigacao por dia e genotipo - Dia 3,"EMB48
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia3\EMB48\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia3,Matrizes de confusao - irrigacao por dia e genotipo - Dia 3,"EMB48
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia3\EMB48\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia3,Matrizes de confusao - irrigacao por dia e genotipo - Dia 3,"EMB48
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia3\EMB48\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia4,Matrizes de confusao - irrigacao por dia e genotipo - Dia 4,"BR16
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia4\BR16\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia4,Matrizes de confusao - irrigacao por dia e genotipo - Dia 4,"BR16
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia4\BR16\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia4,Matrizes de confusao - irrigacao por dia e genotipo - Dia 4,"BR16
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia4\BR16\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia4,Matrizes de confusao - irrigacao por dia e genotipo - Dia 4,"BR16
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia4\BR16\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia4,Matrizes de confusao - irrigacao por dia e genotipo - Dia 4,"BR16
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia4\BR16\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia4,Matrizes de confusao - irrigacao por dia e genotipo - Dia 4,"CD202
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia4\CD202\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia4,Matrizes de confusao - irrigacao por dia e genotipo - Dia 4,"CD202
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia4\CD202\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia4,Matrizes de confusao - irrigacao por dia e genotipo - Dia 4,"CD202
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia4\CD202\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia4,Matrizes de confusao - irrigacao por dia e genotipo - Dia 4,"CD202
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia4\CD202\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia4,Matrizes de confusao - irrigacao por dia e genotipo - Dia 4,"CD202
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia4\CD202\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia4,Matrizes de confusao - irrigacao por dia e genotipo - Dia 4,"EMB48
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia4\EMB48\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia4,Matrizes de confusao - irrigacao por dia e genotipo - Dia 4,"EMB48
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia4\EMB48\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia4,Matrizes de confusao - irrigacao por dia e genotipo - Dia 4,"EMB48
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia4\EMB48\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia4,Matrizes de confusao - irrigacao por dia e genotipo - Dia 4,"EMB48
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia4\EMB48\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia4,Matrizes de confusao - irrigacao por dia e genotipo - Dia 4,"EMB48
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia4\EMB48\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia5,Matrizes de confusao - irrigacao por dia e genotipo - Dia 5,"BR16
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia5\BR16\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia5,Matrizes de confusao - irrigacao por dia e genotipo - Dia 5,"BR16
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia5\BR16\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia5,Matrizes de confusao - irrigacao por dia e genotipo - Dia 5,"BR16
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia5\BR16\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia5,Matrizes de confusao - irrigacao por dia e genotipo - Dia 5,"BR16
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia5\BR16\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia5,Matrizes de confusao - irrigacao por dia e genotipo - Dia 5,"BR16
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia5\BR16\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia5,Matrizes de confusao - irrigacao por dia e genotipo - Dia 5,"CD202
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia5\CD202\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia5,Matrizes de confusao - irrigacao por dia e genotipo - Dia 5,"CD202
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia5\CD202\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia5,Matrizes de confusao - irrigacao por dia e genotipo - Dia 5,"CD202
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia5\CD202\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia5,Matrizes de confusao - irrigacao por dia e genotipo - Dia 5,"CD202
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia5\CD202\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia5,Matrizes de confusao - irrigacao por dia e genotipo - Dia 5,"CD202
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia5\CD202\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia5,Matrizes de confusao - irrigacao por dia e genotipo - Dia 5,"EMB48
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia5\EMB48\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia5,Matrizes de confusao - irrigacao por dia e genotipo - Dia 5,"EMB48
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia5\EMB48\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia5,Matrizes de confusao - irrigacao por dia e genotipo - Dia 5,"EMB48
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia5\EMB48\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia5,Matrizes de confusao - irrigacao por dia e genotipo - Dia 5,"EMB48
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia5\EMB48\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia5,Matrizes de confusao - irrigacao por dia e genotipo - Dia 5,"EMB48
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia5\EMB48\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia6,Matrizes de confusao - irrigacao por dia e genotipo - Dia 6,"BR16
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia6\BR16\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia6,Matrizes de confusao - irrigacao por dia e genotipo - Dia 6,"BR16
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia6\BR16\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia6,Matrizes de confusao - irrigacao por dia e genotipo - Dia 6,"BR16
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia6\BR16\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia6,Matrizes de confusao - irrigacao por dia e genotipo - Dia 6,"BR16
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia6\BR16\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia6,Matrizes de confusao - irrigacao por dia e genotipo - Dia 6,"BR16
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia6\BR16\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia6,Matrizes de confusao - irrigacao por dia e genotipo - Dia 6,"CD202
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia6\CD202\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia6,Matrizes de confusao - irrigacao por dia e genotipo - Dia 6,"CD202
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia6\CD202\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia6,Matrizes de confusao - irrigacao por dia e genotipo - Dia 6,"CD202
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia6\CD202\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia6,Matrizes de confusao - irrigacao por dia e genotipo - Dia 6,"CD202
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia6\CD202\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia6,Matrizes de confusao - irrigacao por dia e genotipo - Dia 6,"CD202
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia6\CD202\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia6,Matrizes de confusao - irrigacao por dia e genotipo - Dia 6,"EMB48
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia6\EMB48\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia6,Matrizes de confusao - irrigacao por dia e genotipo - Dia 6,"EMB48
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia6\EMB48\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia6,Matrizes de confusao - irrigacao por dia e genotipo - Dia 6,"EMB48
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia6\EMB48\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia6,Matrizes de confusao - irrigacao por dia e genotipo - Dia 6,"EMB48
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia6\EMB48\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia6,Matrizes de confusao - irrigacao por dia e genotipo - Dia 6,"EMB48
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia6\EMB48\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia9,Matrizes de confusao - irrigacao por dia e genotipo - Dia 9,"BR16
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia9\BR16\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia9,Matrizes de confusao - irrigacao por dia e genotipo - Dia 9,"BR16
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia9\BR16\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia9,Matrizes de confusao - irrigacao por dia e genotipo - Dia 9,"BR16
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia9\BR16\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia9,Matrizes de confusao - irrigacao por dia e genotipo - Dia 9,"BR16
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia9\BR16\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia9,Matrizes de confusao - irrigacao por dia e genotipo - Dia 9,"BR16
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia9\BR16\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia9,Matrizes de confusao - irrigacao por dia e genotipo - Dia 9,"CD202
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia9\CD202\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia9,Matrizes de confusao - irrigacao por dia e genotipo - Dia 9,"CD202
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia9\CD202\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia9,Matrizes de confusao - irrigacao por dia e genotipo - Dia 9,"CD202
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia9\CD202\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia9,Matrizes de confusao - irrigacao por dia e genotipo - Dia 9,"CD202
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia9\CD202\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia9,Matrizes de confusao - irrigacao por dia e genotipo - Dia 9,"CD202
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia9\CD202\matriz_confusao_XGBoost.csv
+05_irrigacao_por_dia_genotipo_dia9,Matrizes de confusao - irrigacao por dia e genotipo - Dia 9,"EMB48
+Random Forest",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia9\EMB48\matriz_confusao_Random_Forest.csv
+05_irrigacao_por_dia_genotipo_dia9,Matrizes de confusao - irrigacao por dia e genotipo - Dia 9,"EMB48
+SVM (RBF)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia9\EMB48\matriz_confusao_SVM_RBF.csv
+05_irrigacao_por_dia_genotipo_dia9,Matrizes de confusao - irrigacao por dia e genotipo - Dia 9,"EMB48
+LDA",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia9\EMB48\matriz_confusao_LDA.csv
+05_irrigacao_por_dia_genotipo_dia9,Matrizes de confusao - irrigacao por dia e genotipo - Dia 9,"EMB48
+k-NN (k=5)",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia9\EMB48\matriz_confusao_k-NN_k5.csv
+05_irrigacao_por_dia_genotipo_dia9,Matrizes de confusao - irrigacao por dia e genotipo - Dia 9,"EMB48
+XGBoost",2,2,Nao irrigado | Irrigado,Nao irrigado | Irrigado,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_irrigacao_por_dia_genotipo\dia9\EMB48\matriz_confusao_XGBoost.csv
+11_significancia_global,Matrizes de confusao - classificacao global com bandas do teste de significancia,"Condicao
+Random Forest",2,2,NIRR | IRR,NIRR | IRR,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_significancia_global\condicao\matriz_confusao_Random_Forest.csv
+11_significancia_global,Matrizes de confusao - classificacao global com bandas do teste de significancia,"Condicao
+SVM (RBF)",2,2,NIRR | IRR,NIRR | IRR,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_significancia_global\condicao\matriz_confusao_SVM_RBF.csv
+11_significancia_global,Matrizes de confusao - classificacao global com bandas do teste de significancia,"Condicao
+LDA",2,2,NIRR | IRR,NIRR | IRR,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_significancia_global\condicao\matriz_confusao_LDA.csv
+11_significancia_global,Matrizes de confusao - classificacao global com bandas do teste de significancia,"Condicao
+k-NN (k=5)",2,2,NIRR | IRR,NIRR | IRR,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_significancia_global\condicao\matriz_confusao_k_NN_k_5.csv
+11_significancia_global,Matrizes de confusao - classificacao global com bandas do teste de significancia,"Condicao
+XGBoost",2,2,NIRR | IRR,NIRR | IRR,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_significancia_global\condicao\matriz_confusao_XGBoost.csv
+11_significancia_global,Matrizes de confusao - classificacao global com bandas do teste de significancia,"Condicao + genotipo
+Random Forest",6,6,IRR|BR16 | IRR|CD202 | IRR|EMB48 | NIRR|BR16 | NIRR|CD202 | NIRR|EMB48,IRR|BR16 | IRR|CD202 | IRR|EMB48 | NIRR|BR16 | NIRR|CD202 | NIRR|EMB48,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_significancia_global\condicao_genotipo\matriz_confusao_Random_Forest.csv
+11_significancia_global,Matrizes de confusao - classificacao global com bandas do teste de significancia,"Condicao + genotipo
+SVM (RBF)",6,6,IRR|BR16 | IRR|CD202 | IRR|EMB48 | NIRR|BR16 | NIRR|CD202 | NIRR|EMB48,IRR|BR16 | IRR|CD202 | IRR|EMB48 | NIRR|BR16 | NIRR|CD202 | NIRR|EMB48,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_significancia_global\condicao_genotipo\matriz_confusao_SVM_RBF.csv
+11_significancia_global,Matrizes de confusao - classificacao global com bandas do teste de significancia,"Condicao + genotipo
+LDA",6,6,IRR|BR16 | IRR|CD202 | IRR|EMB48 | NIRR|BR16 | NIRR|CD202 | NIRR|EMB48,IRR|BR16 | IRR|CD202 | IRR|EMB48 | NIRR|BR16 | NIRR|CD202 | NIRR|EMB48,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_significancia_global\condicao_genotipo\matriz_confusao_LDA.csv
+11_significancia_global,Matrizes de confusao - classificacao global com bandas do teste de significancia,"Condicao + genotipo
+k-NN (k=5)",6,6,IRR|BR16 | IRR|CD202 | IRR|EMB48 | NIRR|BR16 | NIRR|CD202 | NIRR|EMB48,IRR|BR16 | IRR|CD202 | IRR|EMB48 | NIRR|BR16 | NIRR|CD202 | NIRR|EMB48,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_significancia_global\condicao_genotipo\matriz_confusao_k_NN_k_5.csv
+11_significancia_global,Matrizes de confusao - classificacao global com bandas do teste de significancia,"Condicao + genotipo
+XGBoost",6,6,IRR|BR16 | IRR|CD202 | IRR|EMB48 | NIRR|BR16 | NIRR|CD202 | NIRR|EMB48,IRR|BR16 | IRR|CD202 | IRR|EMB48 | NIRR|BR16 | NIRR|CD202 | NIRR|EMB48,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_significancia_global\condicao_genotipo\matriz_confusao_XGBoost.csv
+11_significancia_global,Matrizes de confusao - classificacao global com bandas do teste de significancia,"Condicao + genotipo + turno
+Random Forest",12,12,IRR|BR16|manha + tarde | IRR|BR16|unico | IRR|CD202|manha + tarde | IRR|CD202|unico | IRR|EMB48|manha + tarde | IRR|EMB48|unico | NIRR|BR16|manha + tarde | NIRR|BR16|unico | NIRR|CD202|manha + tarde | NIRR|CD202|unico | NIRR|EMB48|manha + tarde | NIRR|EMB48|unico,IRR|BR16|manha + tarde | IRR|BR16|unico | IRR|CD202|manha + tarde | IRR|CD202|unico | IRR|EMB48|manha + tarde | IRR|EMB48|unico | NIRR|BR16|manha + tarde | NIRR|BR16|unico | NIRR|CD202|manha + tarde | NIRR|CD202|unico | NIRR|EMB48|manha + tarde | NIRR|EMB48|unico,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_significancia_global\condicao_genotipo_turno\matriz_confusao_Random_Forest.csv
+11_significancia_global,Matrizes de confusao - classificacao global com bandas do teste de significancia,"Condicao + genotipo + turno
+SVM (RBF)",12,12,IRR|BR16|manha + tarde | IRR|BR16|unico | IRR|CD202|manha + tarde | IRR|CD202|unico | IRR|EMB48|manha + tarde | IRR|EMB48|unico | NIRR|BR16|manha + tarde | NIRR|BR16|unico | NIRR|CD202|manha + tarde | NIRR|CD202|unico | NIRR|EMB48|manha + tarde | NIRR|EMB48|unico,IRR|BR16|manha + tarde | IRR|BR16|unico | IRR|CD202|manha + tarde | IRR|CD202|unico | IRR|EMB48|manha + tarde | IRR|EMB48|unico | NIRR|BR16|manha + tarde | NIRR|BR16|unico | NIRR|CD202|manha + tarde | NIRR|CD202|unico | NIRR|EMB48|manha + tarde | NIRR|EMB48|unico,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_significancia_global\condicao_genotipo_turno\matriz_confusao_SVM_RBF.csv
+11_significancia_global,Matrizes de confusao - classificacao global com bandas do teste de significancia,"Condicao + genotipo + turno
+LDA",12,12,IRR|BR16|manha + tarde | IRR|BR16|unico | IRR|CD202|manha + tarde | IRR|CD202|unico | IRR|EMB48|manha + tarde | IRR|EMB48|unico | NIRR|BR16|manha + tarde | NIRR|BR16|unico | NIRR|CD202|manha + tarde | NIRR|CD202|unico | NIRR|EMB48|manha + tarde | NIRR|EMB48|unico,IRR|BR16|manha + tarde | IRR|BR16|unico | IRR|CD202|manha + tarde | IRR|CD202|unico | IRR|EMB48|manha + tarde | IRR|EMB48|unico | NIRR|BR16|manha + tarde | NIRR|BR16|unico | NIRR|CD202|manha + tarde | NIRR|CD202|unico | NIRR|EMB48|manha + tarde | NIRR|EMB48|unico,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_significancia_global\condicao_genotipo_turno\matriz_confusao_LDA.csv
+11_significancia_global,Matrizes de confusao - classificacao global com bandas do teste de significancia,"Condicao + genotipo + turno
+k-NN (k=5)",12,12,IRR|BR16|manha + tarde | IRR|BR16|unico | IRR|CD202|manha + tarde | IRR|CD202|unico | IRR|EMB48|manha + tarde | IRR|EMB48|unico | NIRR|BR16|manha + tarde | NIRR|BR16|unico | NIRR|CD202|manha + tarde | NIRR|CD202|unico | NIRR|EMB48|manha + tarde | NIRR|EMB48|unico,IRR|BR16|manha + tarde | IRR|BR16|unico | IRR|CD202|manha + tarde | IRR|CD202|unico | IRR|EMB48|manha + tarde | IRR|EMB48|unico | NIRR|BR16|manha + tarde | NIRR|BR16|unico | NIRR|CD202|manha + tarde | NIRR|CD202|unico | NIRR|EMB48|manha + tarde | NIRR|EMB48|unico,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_significancia_global\condicao_genotipo_turno\matriz_confusao_k_NN_k_5.csv
+11_significancia_global,Matrizes de confusao - classificacao global com bandas do teste de significancia,"Condicao + genotipo + turno
+XGBoost",12,12,IRR|BR16|manha + tarde | IRR|BR16|unico | IRR|CD202|manha + tarde | IRR|CD202|unico | IRR|EMB48|manha + tarde | IRR|EMB48|unico | NIRR|BR16|manha + tarde | NIRR|BR16|unico | NIRR|CD202|manha + tarde | NIRR|CD202|unico | NIRR|EMB48|manha + tarde | NIRR|EMB48|unico,IRR|BR16|manha + tarde | IRR|BR16|unico | IRR|CD202|manha + tarde | IRR|CD202|unico | IRR|EMB48|manha + tarde | IRR|EMB48|unico | NIRR|BR16|manha + tarde | NIRR|BR16|unico | NIRR|CD202|manha + tarde | NIRR|CD202|unico | NIRR|EMB48|manha + tarde | NIRR|EMB48|unico,C:\Users\muril\OneDrive\Documentos\AgroSATHidrico\estresse_hidrico\outputs\tabelas\classificacao_significancia_global\condicao_genotipo_turno\matriz_confusao_XGBoost.csv

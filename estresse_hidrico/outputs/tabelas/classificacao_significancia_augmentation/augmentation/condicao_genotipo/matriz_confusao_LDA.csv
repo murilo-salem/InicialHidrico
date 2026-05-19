@@ -1,0 +1,7 @@
+﻿target,model,real,IRR|BR16,IRR|CD202,IRR|EMB48,NIRR|BR16,NIRR|CD202,NIRR|EMB48
+condicao_genotipo,LDA,IRR|BR16,14,2,4,4,0,0
+condicao_genotipo,LDA,IRR|CD202,4,3,10,2,4,1
+condicao_genotipo,LDA,IRR|EMB48,2,4,15,0,3,0
+condicao_genotipo,LDA,NIRR|BR16,1,0,0,17,6,0
+condicao_genotipo,LDA,NIRR|CD202,0,0,0,4,16,4
+condicao_genotipo,LDA,NIRR|EMB48,0,0,0,1,9,14

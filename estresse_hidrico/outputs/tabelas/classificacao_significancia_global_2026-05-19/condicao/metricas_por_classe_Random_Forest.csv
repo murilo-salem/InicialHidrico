@@ -1,0 +1,3 @@
+﻿target,model,classe,classe_codigo,precision,recall,f1,support
+condicao,Random Forest,NIRR,0,0.9583333333333334,0.9583333333333334,0.9583333333333334,72
+condicao,Random Forest,IRR,1,0.9583333333333334,0.9583333333333334,0.9583333333333334,72

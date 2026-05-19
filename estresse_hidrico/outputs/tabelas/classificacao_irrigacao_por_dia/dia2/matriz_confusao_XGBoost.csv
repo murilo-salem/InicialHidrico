@@ -1,0 +1,3 @@
+﻿analysis_id,analysis_label,dia,modelo,real,Nao irrigado,Irrigado
+dia2,dia2,dia2,XGBoost,Nao irrigado,8,4
+dia2,dia2,dia2,XGBoost,Irrigado,5,7

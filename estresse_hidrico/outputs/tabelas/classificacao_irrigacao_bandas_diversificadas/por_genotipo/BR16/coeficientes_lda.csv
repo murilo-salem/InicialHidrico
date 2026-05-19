@@ -1,0 +1,4 @@
+﻿analysis_id,analysis_label,scope,cultivar,feature,coeficiente_lda,abs_coeficiente_lda
+genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,BR16,band_721,-2.5646981055901987,2.5646981055901987
+genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,BR16,band_381,2.290126611226591,2.290126611226591
+genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,BR16,band_2444,-0.9875410574581049,0.9875410574581049

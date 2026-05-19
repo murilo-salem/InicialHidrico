@@ -1,0 +1,3 @@
+﻿analysis_id,analysis_label,dia,cultivar,modelo,real,Nao irrigado,Irrigado
+dia9_EMB48,dia9 - EMB48,dia9,EMB48,Random Forest,Nao irrigado,4,0
+dia9_EMB48,dia9 - EMB48,dia9,EMB48,Random Forest,Irrigado,0,4

@@ -1,0 +1,3 @@
+﻿target,model,real,NIRR,IRR
+condicao,Random Forest,NIRR,69,3
+condicao,Random Forest,IRR,3,69

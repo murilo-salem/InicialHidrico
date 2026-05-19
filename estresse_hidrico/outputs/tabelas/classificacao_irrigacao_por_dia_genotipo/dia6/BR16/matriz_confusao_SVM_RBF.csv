@@ -1,0 +1,3 @@
+﻿analysis_id,analysis_label,dia,cultivar,modelo,real,Nao irrigado,Irrigado
+dia6_BR16,dia6 - BR16,dia6,BR16,SVM (RBF),Nao irrigado,4,0
+dia6_BR16,dia6 - BR16,dia6,BR16,SVM (RBF),Irrigado,0,4

@@ -1,0 +1,9 @@
+﻿cultivar,condicao,data_coleta_iso,dia,replicata,bloco,grupo_cv,analysis_id,analysis_label,modelo,y_true,y_pred,prob_irrigado,acertou
+CD202,IRR,2017-02-25,dia4,1,B1,CD202_IRR_B1,dia4_CD202,dia4 - CD202,XGBoost,1,1,0.50478524,True
+CD202,IRR,2017-02-25,dia4,2,B2,CD202_IRR_B2,dia4_CD202,dia4 - CD202,XGBoost,1,1,0.50478524,True
+CD202,IRR,2017-02-25,dia4,3,B3,CD202_IRR_B3,dia4_CD202,dia4 - CD202,XGBoost,1,1,0.50478524,True
+CD202,IRR,2017-02-25,dia4,4,B4,CD202_IRR_B4,dia4_CD202,dia4 - CD202,XGBoost,1,1,0.50478524,True
+CD202,NIRR,2017-02-25,dia4,1,B1,CD202_NIRR_B1,dia4_CD202,dia4 - CD202,XGBoost,0,1,0.50478524,False
+CD202,NIRR,2017-02-25,dia4,2,B2,CD202_NIRR_B2,dia4_CD202,dia4 - CD202,XGBoost,0,1,0.50478524,False
+CD202,NIRR,2017-02-25,dia4,3,B3,CD202_NIRR_B3,dia4_CD202,dia4 - CD202,XGBoost,0,1,0.50478524,False
+CD202,NIRR,2017-02-25,dia4,4,B4,CD202_NIRR_B4,dia4_CD202,dia4 - CD202,XGBoost,0,1,0.50478524,False

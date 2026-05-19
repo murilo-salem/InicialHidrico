@@ -1,0 +1,9 @@
+﻿cultivar,condicao,data_coleta_iso,dia,replicata,bloco,grupo_cv,analysis_id,analysis_label,modelo,y_true,y_pred,prob_irrigado,acertou
+EMB48,IRR,2017-02-24,dia3,1,B1,EMB48_IRR_B1,dia3_EMB48,dia3 - EMB48,k-NN (k=5),1,1,0.6,True
+EMB48,IRR,2017-02-24,dia3,2,B2,EMB48_IRR_B2,dia3_EMB48,dia3 - EMB48,k-NN (k=5),1,1,0.6,True
+EMB48,IRR,2017-02-24,dia3,3,B3,EMB48_IRR_B3,dia3_EMB48,dia3 - EMB48,k-NN (k=5),1,1,0.6,True
+EMB48,IRR,2017-02-24,dia3,4,B4,EMB48_IRR_B4,dia3_EMB48,dia3 - EMB48,k-NN (k=5),1,1,0.6,True
+EMB48,NIRR,2017-02-24,dia3,1,B1,EMB48_NIRR_B1,dia3_EMB48,dia3 - EMB48,k-NN (k=5),0,0,0.4,True
+EMB48,NIRR,2017-02-24,dia3,2,B2,EMB48_NIRR_B2,dia3_EMB48,dia3 - EMB48,k-NN (k=5),0,0,0.4,True
+EMB48,NIRR,2017-02-24,dia3,3,B3,EMB48_NIRR_B3,dia3_EMB48,dia3 - EMB48,k-NN (k=5),0,0,0.4,True
+EMB48,NIRR,2017-02-24,dia3,4,B4,EMB48_NIRR_B4,dia3_EMB48,dia3 - EMB48,k-NN (k=5),0,0,0.4,True

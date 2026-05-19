@@ -1,0 +1,4 @@
+﻿analysis_id,analysis_label,scope,cultivar,feature,coeficiente_lda,abs_coeficiente_lda
+genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,EMB48,band_721,-4.864340759654006,4.864340759654006
+genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,EMB48,band_381,3.287092949185515,3.287092949185515
+genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,EMB48,band_2444,-0.09491444439470076,0.09491444439470076

@@ -1,0 +1,4 @@
+﻿analysis_id,analysis_label,scope,cultivar,feature,coeficiente_lda,abs_coeficiente_lda
+genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,CD202,band_381,3.463066037812059,3.463066037812059
+genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,CD202,band_2444,-2.4068024578791567,2.4068024578791567
+genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,CD202,band_721,-1.1996300942117637,1.1996300942117637

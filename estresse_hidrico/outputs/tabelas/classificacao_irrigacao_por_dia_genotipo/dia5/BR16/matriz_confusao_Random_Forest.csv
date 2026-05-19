@@ -1,0 +1,3 @@
+﻿analysis_id,analysis_label,dia,cultivar,modelo,real,Nao irrigado,Irrigado
+dia5_BR16,dia5 - BR16,dia5,BR16,Random Forest,Nao irrigado,4,0
+dia5_BR16,dia5 - BR16,dia5,BR16,Random Forest,Irrigado,0,4

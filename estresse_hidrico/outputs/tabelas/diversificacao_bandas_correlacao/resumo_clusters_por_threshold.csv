@@ -1,0 +1,4 @@
+﻿cluster_threshold,n_clusters,largest_cluster_size,median_cluster_size,mean_cluster_size,singleton_clusters
+0.95,3,133,14.0,49.333333333333336,1
+0.9,3,133,14.0,49.333333333333336,1
+0.85,3,133,14.0,49.333333333333336,1

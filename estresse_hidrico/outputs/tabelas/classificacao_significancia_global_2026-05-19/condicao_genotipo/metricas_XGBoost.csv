@@ -1,0 +1,2 @@
+﻿target,model,classes,n_classes,n_samples,n_groups,cv_splits,n_bandas,bandas,accuracy_media,accuracy_std,balanced_accuracy_media,balanced_accuracy_std,f1_macro_media,f1_macro_std,kappa_media,kappa_std,roc_auc_media,roc_auc_std,analysis_source
+condicao_genotipo,XGBoost,IRR|BR16; IRR|CD202; IRR|EMB48; NIRR|BR16; NIRR|CD202; NIRR|EMB48,6,144,24,4,5,band_400|band_530|band_550|band_401|band_720,0.5416666666666667,0.06612433730132271,0.5416666666666666,0.0661243373013227,0.5115741896991897,0.06903238134203032,0.45,0.07934920476158726,,,gen_cond

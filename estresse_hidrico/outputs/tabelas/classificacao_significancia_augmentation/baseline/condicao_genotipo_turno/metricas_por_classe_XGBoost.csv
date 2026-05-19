@@ -1,0 +1,13 @@
+﻿target,model,classe,classe_codigo,precision,recall,f1,support
+condicao_genotipo_turno,XGBoost,IRR|BR16|manha + tarde,0,0.4375,0.5833333333333334,0.5,12
+condicao_genotipo_turno,XGBoost,IRR|BR16|unico,1,0.2,0.08333333333333333,0.11764705882352941,12
+condicao_genotipo_turno,XGBoost,IRR|CD202|manha + tarde,2,0.3333333333333333,0.3333333333333333,0.3333333333333333,12
+condicao_genotipo_turno,XGBoost,IRR|CD202|unico,3,0.35714285714285715,0.4166666666666667,0.38461538461538464,12
+condicao_genotipo_turno,XGBoost,IRR|EMB48|manha + tarde,4,0.25,0.25,0.25,12
+condicao_genotipo_turno,XGBoost,IRR|EMB48|unico,5,0.5833333333333334,0.5833333333333334,0.5833333333333334,12
+condicao_genotipo_turno,XGBoost,NIRR|BR16|manha + tarde,6,0.35714285714285715,0.4166666666666667,0.38461538461538464,12
+condicao_genotipo_turno,XGBoost,NIRR|BR16|unico,7,0.15384615384615385,0.16666666666666666,0.16,12
+condicao_genotipo_turno,XGBoost,NIRR|CD202|manha + tarde,8,0.3333333333333333,0.4166666666666667,0.37037037037037035,12
+condicao_genotipo_turno,XGBoost,NIRR|CD202|unico,9,0.0,0.0,0.0,12
+condicao_genotipo_turno,XGBoost,NIRR|EMB48|manha + tarde,10,0.16666666666666666,0.16666666666666666,0.16666666666666666,12
+condicao_genotipo_turno,XGBoost,NIRR|EMB48|unico,11,0.21428571428571427,0.25,0.23076923076923078,12

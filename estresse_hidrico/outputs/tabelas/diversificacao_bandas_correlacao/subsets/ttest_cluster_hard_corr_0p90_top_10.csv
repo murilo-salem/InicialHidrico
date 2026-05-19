@@ -1,0 +1,4 @@
+﻿subset,band,wavelength_nm
+ttest_cluster_hard_corr_0p90_top_10,band_727,727
+ttest_cluster_hard_corr_0p90_top_10,band_383,383
+ttest_cluster_hard_corr_0p90_top_10,band_2444,2444

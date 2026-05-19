@@ -1,0 +1,2 @@
+﻿analysis_id,analysis_label,dia,modelo,n_bandas,bandas,n_amostras,n_grupos,n_splits_cv,accuracy_media,accuracy_std,balanced_accuracy_media,balanced_accuracy_std,f1_irrigado_media,f1_irrigado_std,f1_macro_media,f1_macro_std,roc_auc_media,roc_auc_std,kappa_media,kappa_std
+dia9,dia9,dia9,XGBoost,6,band_1200|band_1451|band_1951|band_970|band_670|NDRE,24,24,5,0.8400000000000001,0.1673320053068151,0.8666666666666666,0.1394433377556793,0.82,0.20493901531919195,0.8366666666666667,0.17336538165261126,1.0,0.0,0.7032967032967032,0.30244744933017326

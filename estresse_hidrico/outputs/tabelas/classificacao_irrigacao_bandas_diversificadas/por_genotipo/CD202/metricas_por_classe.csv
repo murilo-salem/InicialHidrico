@@ -1,0 +1,3 @@
+﻿analysis_id,analysis_label,scope,cultivar,classe,classe_codigo,precision,recall,f1,support
+genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,CD202,Nao irrigado,0,0.8571428571428571,1.0,0.9230769230769231,24
+genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,CD202,Irrigado,1,1.0,0.8333333333333334,0.9090909090909091,24

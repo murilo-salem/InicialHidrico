@@ -1,0 +1,3 @@
+﻿analysis_id,analysis_label,scope,cultivar,classe,classe_codigo,precision,recall,f1,support
+genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,BR16,Nao irrigado,0,0.8888888888888888,1.0,0.9411764705882353,24
+genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,BR16,Irrigado,1,1.0,0.875,0.9333333333333333,24

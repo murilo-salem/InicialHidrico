@@ -1,0 +1,3 @@
+﻿analysis_id,analysis_label,dia,cultivar,modelo,real,Nao irrigado,Irrigado
+dia6_EMB48,dia6 - EMB48,dia6,EMB48,LDA,Nao irrigado,4,0
+dia6_EMB48,dia6 - EMB48,dia6,EMB48,LDA,Irrigado,0,4

@@ -1,0 +1,25 @@
+﻿cultivar,condicao,data_coleta_iso,dia,replicata,bloco,grupo_cv,analysis_id,analysis_label,modelo,y_true,y_pred,prob_irrigado,acertou
+BR16,IRR,2017-02-24,dia3,1,B1,BR16_IRR_B1,dia3,dia3,k-NN (k=5),1,0,0.4,False
+BR16,IRR,2017-02-24,dia3,2,B2,BR16_IRR_B2,dia3,dia3,k-NN (k=5),1,0,0.2,False
+BR16,IRR,2017-02-24,dia3,3,B3,BR16_IRR_B3,dia3,dia3,k-NN (k=5),1,1,0.6,True
+BR16,IRR,2017-02-24,dia3,4,B4,BR16_IRR_B4,dia3,dia3,k-NN (k=5),1,1,1.0,True
+BR16,NIRR,2017-02-24,dia3,1,B1,BR16_NIRR_B1,dia3,dia3,k-NN (k=5),0,0,0.2,True
+BR16,NIRR,2017-02-24,dia3,2,B2,BR16_NIRR_B2,dia3,dia3,k-NN (k=5),0,0,0.2,True
+BR16,NIRR,2017-02-24,dia3,3,B3,BR16_NIRR_B3,dia3,dia3,k-NN (k=5),0,0,0.2,True
+BR16,NIRR,2017-02-24,dia3,4,B4,BR16_NIRR_B4,dia3,dia3,k-NN (k=5),0,0,0.4,True
+CD202,IRR,2017-02-24,dia3,1,B1,CD202_IRR_B1,dia3,dia3,k-NN (k=5),1,1,0.8,True
+CD202,IRR,2017-02-24,dia3,2,B2,CD202_IRR_B2,dia3,dia3,k-NN (k=5),1,1,1.0,True
+CD202,IRR,2017-02-24,dia3,3,B3,CD202_IRR_B3,dia3,dia3,k-NN (k=5),1,1,0.8,True
+CD202,IRR,2017-02-24,dia3,4,B4,CD202_IRR_B4,dia3,dia3,k-NN (k=5),1,1,1.0,True
+CD202,NIRR,2017-02-24,dia3,1,B1,CD202_NIRR_B1,dia3,dia3,k-NN (k=5),0,0,0.2,True
+CD202,NIRR,2017-02-24,dia3,2,B2,CD202_NIRR_B2,dia3,dia3,k-NN (k=5),0,0,0.2,True
+CD202,NIRR,2017-02-24,dia3,3,B3,CD202_NIRR_B3,dia3,dia3,k-NN (k=5),0,0,0.0,True
+CD202,NIRR,2017-02-24,dia3,4,B4,CD202_NIRR_B4,dia3,dia3,k-NN (k=5),0,0,0.0,True
+EMB48,IRR,2017-02-24,dia3,1,B1,EMB48_IRR_B1,dia3,dia3,k-NN (k=5),1,1,1.0,True
+EMB48,IRR,2017-02-24,dia3,2,B2,EMB48_IRR_B2,dia3,dia3,k-NN (k=5),1,1,1.0,True
+EMB48,IRR,2017-02-24,dia3,3,B3,EMB48_IRR_B3,dia3,dia3,k-NN (k=5),1,1,1.0,True
+EMB48,IRR,2017-02-24,dia3,4,B4,EMB48_IRR_B4,dia3,dia3,k-NN (k=5),1,1,1.0,True
+EMB48,NIRR,2017-02-24,dia3,1,B1,EMB48_NIRR_B1,dia3,dia3,k-NN (k=5),0,0,0.0,True
+EMB48,NIRR,2017-02-24,dia3,2,B2,EMB48_NIRR_B2,dia3,dia3,k-NN (k=5),0,0,0.2,True
+EMB48,NIRR,2017-02-24,dia3,3,B3,EMB48_NIRR_B3,dia3,dia3,k-NN (k=5),0,0,0.0,True
+EMB48,NIRR,2017-02-24,dia3,4,B4,EMB48_NIRR_B4,dia3,dia3,k-NN (k=5),0,0,0.0,True

@@ -1,0 +1,13 @@
+﻿target,model,real,IRR|BR16|manha + tarde,IRR|BR16|unico,IRR|CD202|manha + tarde,IRR|CD202|unico,IRR|EMB48|manha + tarde,IRR|EMB48|unico,NIRR|BR16|manha + tarde,NIRR|BR16|unico,NIRR|CD202|manha + tarde,NIRR|CD202|unico,NIRR|EMB48|manha + tarde,NIRR|EMB48|unico
+condicao_genotipo_turno,SVM (RBF),IRR|BR16|manha + tarde,9,1,0,0,2,0,0,0,0,0,0,0
+condicao_genotipo_turno,SVM (RBF),IRR|BR16|unico,4,4,0,1,0,3,0,0,0,0,0,0
+condicao_genotipo_turno,SVM (RBF),IRR|CD202|manha + tarde,0,1,1,1,6,0,0,0,2,1,0,0
+condicao_genotipo_turno,SVM (RBF),IRR|CD202|unico,0,2,0,1,1,8,0,0,0,0,0,0
+condicao_genotipo_turno,SVM (RBF),IRR|EMB48|manha + tarde,1,0,4,0,6,0,0,0,1,0,0,0
+condicao_genotipo_turno,SVM (RBF),IRR|EMB48|unico,0,0,0,6,1,5,0,0,0,0,0,0
+condicao_genotipo_turno,SVM (RBF),NIRR|BR16|manha + tarde,2,0,0,0,0,0,7,2,1,0,0,0
+condicao_genotipo_turno,SVM (RBF),NIRR|BR16|unico,0,0,0,0,0,0,4,3,2,3,0,0
+condicao_genotipo_turno,SVM (RBF),NIRR|CD202|manha + tarde,0,0,0,0,0,0,0,1,8,3,0,0
+condicao_genotipo_turno,SVM (RBF),NIRR|CD202|unico,0,0,0,0,0,0,0,3,7,1,0,1
+condicao_genotipo_turno,SVM (RBF),NIRR|EMB48|manha + tarde,0,0,0,0,0,0,0,1,3,2,1,5
+condicao_genotipo_turno,SVM (RBF),NIRR|EMB48|unico,0,0,0,0,0,0,0,0,3,2,4,3

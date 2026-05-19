@@ -1,0 +1,385 @@
+﻿target,top_n_requested,n_features_after_pruning,variant,model,classe,classe_codigo,precision,recall,f1,support
+condicao_genotipo_turno,5,5,jitter,Random Forest,IRR|BR16|manha + tarde,0,0.7,0.5833333333333334,0.6363636363636364,12
+condicao_genotipo_turno,5,5,jitter,Random Forest,IRR|BR16|unico,1,0.4444444444444444,0.3333333333333333,0.38095238095238093,12
+condicao_genotipo_turno,5,5,jitter,Random Forest,IRR|CD202|manha + tarde,2,0.3333333333333333,0.3333333333333333,0.3333333333333333,12
+condicao_genotipo_turno,5,5,jitter,Random Forest,IRR|CD202|unico,3,0.4,0.3333333333333333,0.36363636363636365,12
+condicao_genotipo_turno,5,5,jitter,Random Forest,IRR|EMB48|manha + tarde,4,0.4117647058823529,0.5833333333333334,0.4827586206896552,12
+condicao_genotipo_turno,5,5,jitter,Random Forest,IRR|EMB48|unico,5,0.6923076923076923,0.75,0.72,12
+condicao_genotipo_turno,5,5,jitter,Random Forest,NIRR|BR16|manha + tarde,6,0.4375,0.5833333333333334,0.5,12
+condicao_genotipo_turno,5,5,jitter,Random Forest,NIRR|BR16|unico,7,0.2222222222222222,0.16666666666666666,0.19047619047619047,12
+condicao_genotipo_turno,5,5,jitter,Random Forest,NIRR|CD202|manha + tarde,8,0.5294117647058824,0.75,0.6206896551724138,12
+condicao_genotipo_turno,5,5,jitter,Random Forest,NIRR|CD202|unico,9,0.0,0.0,0.0,12
+condicao_genotipo_turno,5,5,jitter,Random Forest,NIRR|EMB48|manha + tarde,10,0.4444444444444444,0.3333333333333333,0.38095238095238093,12
+condicao_genotipo_turno,5,5,jitter,Random Forest,NIRR|EMB48|unico,11,0.2857142857142857,0.3333333333333333,0.3076923076923077,12
+condicao_genotipo_turno,5,5,jitter,SVM (RBF),IRR|BR16|manha + tarde,0,0.5454545454545454,0.5,0.5217391304347826,12
+condicao_genotipo_turno,5,5,jitter,SVM (RBF),IRR|BR16|unico,1,0.36363636363636365,0.3333333333333333,0.34782608695652173,12
+condicao_genotipo_turno,5,5,jitter,SVM (RBF),IRR|CD202|manha + tarde,2,0.3333333333333333,0.25,0.2857142857142857,12
+condicao_genotipo_turno,5,5,jitter,SVM (RBF),IRR|CD202|unico,3,0.2727272727272727,0.25,0.2608695652173913,12
+condicao_genotipo_turno,5,5,jitter,SVM (RBF),IRR|EMB48|manha + tarde,4,0.35714285714285715,0.4166666666666667,0.38461538461538464,12
+condicao_genotipo_turno,5,5,jitter,SVM (RBF),IRR|EMB48|unico,5,0.5833333333333334,0.5833333333333334,0.5833333333333334,12
+condicao_genotipo_turno,5,5,jitter,SVM (RBF),NIRR|BR16|manha + tarde,6,0.4666666666666667,0.5833333333333334,0.5185185185185185,12
+condicao_genotipo_turno,5,5,jitter,SVM (RBF),NIRR|BR16|unico,7,0.2,0.16666666666666666,0.18181818181818182,12
+condicao_genotipo_turno,5,5,jitter,SVM (RBF),NIRR|CD202|manha + tarde,8,0.4583333333333333,0.9166666666666666,0.6111111111111112,12
+condicao_genotipo_turno,5,5,jitter,SVM (RBF),NIRR|CD202|unico,9,0.1,0.08333333333333333,0.09090909090909091,12
+condicao_genotipo_turno,5,5,jitter,SVM (RBF),NIRR|EMB48|manha + tarde,10,0.0,0.0,0.0,12
+condicao_genotipo_turno,5,5,jitter,SVM (RBF),NIRR|EMB48|unico,11,0.3076923076923077,0.3333333333333333,0.32,12
+condicao_genotipo_turno,5,5,jitter,LDA,IRR|BR16|manha + tarde,0,0.6363636363636364,0.5833333333333334,0.6086956521739131,12
+condicao_genotipo_turno,5,5,jitter,LDA,IRR|BR16|unico,1,0.3333333333333333,0.3333333333333333,0.3333333333333333,12
+condicao_genotipo_turno,5,5,jitter,LDA,IRR|CD202|manha + tarde,2,0.6666666666666666,0.3333333333333333,0.4444444444444444,12
+condicao_genotipo_turno,5,5,jitter,LDA,IRR|CD202|unico,3,0.3333333333333333,0.25,0.2857142857142857,12
+condicao_genotipo_turno,5,5,jitter,LDA,IRR|EMB48|manha + tarde,4,0.4666666666666667,0.5833333333333334,0.5185185185185185,12
+condicao_genotipo_turno,5,5,jitter,LDA,IRR|EMB48|unico,5,0.4,0.5,0.4444444444444444,12
+condicao_genotipo_turno,5,5,jitter,LDA,NIRR|BR16|manha + tarde,6,0.5454545454545454,0.5,0.5217391304347826,12
+condicao_genotipo_turno,5,5,jitter,LDA,NIRR|BR16|unico,7,0.26666666666666666,0.3333333333333333,0.2962962962962963,12
+condicao_genotipo_turno,5,5,jitter,LDA,NIRR|CD202|manha + tarde,8,0.3333333333333333,0.5,0.4,12
+condicao_genotipo_turno,5,5,jitter,LDA,NIRR|CD202|unico,9,0.23076923076923078,0.25,0.24,12
+condicao_genotipo_turno,5,5,jitter,LDA,NIRR|EMB48|manha + tarde,10,0.2222222222222222,0.16666666666666666,0.19047619047619047,12
+condicao_genotipo_turno,5,5,jitter,LDA,NIRR|EMB48|unico,11,0.4,0.3333333333333333,0.36363636363636365,12
+condicao_genotipo_turno,5,5,jitter,XGBoost,IRR|BR16|manha + tarde,0,0.5454545454545454,0.5,0.5217391304347826,12
+condicao_genotipo_turno,5,5,jitter,XGBoost,IRR|BR16|unico,1,0.3333333333333333,0.16666666666666666,0.2222222222222222,12
+condicao_genotipo_turno,5,5,jitter,XGBoost,IRR|CD202|manha + tarde,2,0.21428571428571427,0.25,0.23076923076923078,12
+condicao_genotipo_turno,5,5,jitter,XGBoost,IRR|CD202|unico,3,0.5454545454545454,0.5,0.5217391304347826,12
+condicao_genotipo_turno,5,5,jitter,XGBoost,IRR|EMB48|manha + tarde,4,0.4117647058823529,0.5833333333333334,0.4827586206896552,12
+condicao_genotipo_turno,5,5,jitter,XGBoost,IRR|EMB48|unico,5,0.6923076923076923,0.75,0.72,12
+condicao_genotipo_turno,5,5,jitter,XGBoost,NIRR|BR16|manha + tarde,6,0.46153846153846156,0.5,0.48,12
+condicao_genotipo_turno,5,5,jitter,XGBoost,NIRR|BR16|unico,7,0.2857142857142857,0.16666666666666666,0.21052631578947367,12
+condicao_genotipo_turno,5,5,jitter,XGBoost,NIRR|CD202|manha + tarde,8,0.4117647058823529,0.5833333333333334,0.4827586206896552,12
+condicao_genotipo_turno,5,5,jitter,XGBoost,NIRR|CD202|unico,9,0.2,0.16666666666666666,0.18181818181818182,12
+condicao_genotipo_turno,5,5,jitter,XGBoost,NIRR|EMB48|manha + tarde,10,0.25,0.25,0.25,12
+condicao_genotipo_turno,5,5,jitter,XGBoost,NIRR|EMB48|unico,11,0.23076923076923078,0.25,0.24,12
+condicao_genotipo_turno,5,5,mixup,Random Forest,IRR|BR16|manha + tarde,0,0.5,0.5,0.5,12
+condicao_genotipo_turno,5,5,mixup,Random Forest,IRR|BR16|unico,1,0.2222222222222222,0.16666666666666666,0.19047619047619047,12
+condicao_genotipo_turno,5,5,mixup,Random Forest,IRR|CD202|manha + tarde,2,0.1111111111111111,0.08333333333333333,0.09523809523809523,12
+condicao_genotipo_turno,5,5,mixup,Random Forest,IRR|CD202|unico,3,0.36363636363636365,0.3333333333333333,0.34782608695652173,12
+condicao_genotipo_turno,5,5,mixup,Random Forest,IRR|EMB48|manha + tarde,4,0.2857142857142857,0.3333333333333333,0.3076923076923077,12
+condicao_genotipo_turno,5,5,mixup,Random Forest,IRR|EMB48|unico,5,0.6,0.75,0.6666666666666666,12
+condicao_genotipo_turno,5,5,mixup,Random Forest,NIRR|BR16|manha + tarde,6,0.4375,0.5833333333333334,0.5,12
+condicao_genotipo_turno,5,5,mixup,Random Forest,NIRR|BR16|unico,7,0.2857142857142857,0.16666666666666666,0.21052631578947367,12
+condicao_genotipo_turno,5,5,mixup,Random Forest,NIRR|CD202|manha + tarde,8,0.5625,0.75,0.6428571428571429,12
+condicao_genotipo_turno,5,5,mixup,Random Forest,NIRR|CD202|unico,9,0.2,0.25,0.2222222222222222,12
+condicao_genotipo_turno,5,5,mixup,Random Forest,NIRR|EMB48|manha + tarde,10,0.375,0.25,0.3,12
+condicao_genotipo_turno,5,5,mixup,Random Forest,NIRR|EMB48|unico,11,0.3333333333333333,0.3333333333333333,0.3333333333333333,12
+condicao_genotipo_turno,5,5,mixup,SVM (RBF),IRR|BR16|manha + tarde,0,0.42857142857142855,0.5,0.46153846153846156,12
+condicao_genotipo_turno,5,5,mixup,SVM (RBF),IRR|BR16|unico,1,0.3,0.25,0.2727272727272727,12
+condicao_genotipo_turno,5,5,mixup,SVM (RBF),IRR|CD202|manha + tarde,2,0.2,0.16666666666666666,0.18181818181818182,12
+condicao_genotipo_turno,5,5,mixup,SVM (RBF),IRR|CD202|unico,3,0.42857142857142855,0.25,0.3157894736842105,12
+condicao_genotipo_turno,5,5,mixup,SVM (RBF),IRR|EMB48|manha + tarde,4,0.42857142857142855,0.5,0.46153846153846156,12
+condicao_genotipo_turno,5,5,mixup,SVM (RBF),IRR|EMB48|unico,5,0.5625,0.75,0.6428571428571429,12
+condicao_genotipo_turno,5,5,mixup,SVM (RBF),NIRR|BR16|manha + tarde,6,0.38461538461538464,0.4166666666666667,0.4,12
+condicao_genotipo_turno,5,5,mixup,SVM (RBF),NIRR|BR16|unico,7,0.25,0.16666666666666666,0.2,12
+condicao_genotipo_turno,5,5,mixup,SVM (RBF),NIRR|CD202|manha + tarde,8,0.42857142857142855,0.75,0.5454545454545454,12
+condicao_genotipo_turno,5,5,mixup,SVM (RBF),NIRR|CD202|unico,9,0.15384615384615385,0.16666666666666666,0.16,12
+condicao_genotipo_turno,5,5,mixup,SVM (RBF),NIRR|EMB48|manha + tarde,10,0.3333333333333333,0.16666666666666666,0.2222222222222222,12
+condicao_genotipo_turno,5,5,mixup,SVM (RBF),NIRR|EMB48|unico,11,0.3333333333333333,0.3333333333333333,0.3333333333333333,12
+condicao_genotipo_turno,5,5,mixup,LDA,IRR|BR16|manha + tarde,0,0.6,0.5,0.5454545454545454,12
+condicao_genotipo_turno,5,5,mixup,LDA,IRR|BR16|unico,1,0.38461538461538464,0.4166666666666667,0.4,12
+condicao_genotipo_turno,5,5,mixup,LDA,IRR|CD202|manha + tarde,2,0.5714285714285714,0.3333333333333333,0.42105263157894735,12
+condicao_genotipo_turno,5,5,mixup,LDA,IRR|CD202|unico,3,0.42857142857142855,0.25,0.3157894736842105,12
+condicao_genotipo_turno,5,5,mixup,LDA,IRR|EMB48|manha + tarde,4,0.5,0.5833333333333334,0.5384615384615384,12
+condicao_genotipo_turno,5,5,mixup,LDA,IRR|EMB48|unico,5,0.5,0.6666666666666666,0.5714285714285714,12
+condicao_genotipo_turno,5,5,mixup,LDA,NIRR|BR16|manha + tarde,6,0.5,0.5,0.5,12
+condicao_genotipo_turno,5,5,mixup,LDA,NIRR|BR16|unico,7,0.23076923076923078,0.25,0.24,12
+condicao_genotipo_turno,5,5,mixup,LDA,NIRR|CD202|manha + tarde,8,0.375,0.5,0.42857142857142855,12
+condicao_genotipo_turno,5,5,mixup,LDA,NIRR|CD202|unico,9,0.06666666666666667,0.08333333333333333,0.07407407407407407,12
+condicao_genotipo_turno,5,5,mixup,LDA,NIRR|EMB48|manha + tarde,10,0.0,0.0,0.0,12
+condicao_genotipo_turno,5,5,mixup,LDA,NIRR|EMB48|unico,11,0.4375,0.5833333333333334,0.5,12
+condicao_genotipo_turno,5,5,mixup,XGBoost,IRR|BR16|manha + tarde,0,0.5384615384615384,0.5833333333333334,0.56,12
+condicao_genotipo_turno,5,5,mixup,XGBoost,IRR|BR16|unico,1,0.36363636363636365,0.3333333333333333,0.34782608695652173,12
+condicao_genotipo_turno,5,5,mixup,XGBoost,IRR|CD202|manha + tarde,2,0.2,0.16666666666666666,0.18181818181818182,12
+condicao_genotipo_turno,5,5,mixup,XGBoost,IRR|CD202|unico,3,0.5555555555555556,0.4166666666666667,0.47619047619047616,12
+condicao_genotipo_turno,5,5,mixup,XGBoost,IRR|EMB48|manha + tarde,4,0.3333333333333333,0.3333333333333333,0.3333333333333333,12
+condicao_genotipo_turno,5,5,mixup,XGBoost,IRR|EMB48|unico,5,0.6428571428571429,0.75,0.6923076923076923,12
+condicao_genotipo_turno,5,5,mixup,XGBoost,NIRR|BR16|manha + tarde,6,0.4,0.5,0.4444444444444444,12
+condicao_genotipo_turno,5,5,mixup,XGBoost,NIRR|BR16|unico,7,0.4,0.16666666666666666,0.23529411764705882,12
+condicao_genotipo_turno,5,5,mixup,XGBoost,NIRR|CD202|manha + tarde,8,0.3125,0.4166666666666667,0.35714285714285715,12
+condicao_genotipo_turno,5,5,mixup,XGBoost,NIRR|CD202|unico,9,0.25,0.3333333333333333,0.2857142857142857,12
+condicao_genotipo_turno,5,5,mixup,XGBoost,NIRR|EMB48|manha + tarde,10,0.18181818181818182,0.16666666666666666,0.17391304347826086,12
+condicao_genotipo_turno,5,5,mixup,XGBoost,NIRR|EMB48|unico,11,0.3333333333333333,0.3333333333333333,0.3333333333333333,12
+condicao_genotipo_turno,8,8,jitter,Random Forest,IRR|BR16|manha + tarde,0,0.45454545454545453,0.4166666666666667,0.43478260869565216,12
+condicao_genotipo_turno,8,8,jitter,Random Forest,IRR|BR16|unico,1,0.25,0.16666666666666666,0.2,12
+condicao_genotipo_turno,8,8,jitter,Random Forest,IRR|CD202|manha + tarde,2,0.4444444444444444,0.3333333333333333,0.38095238095238093,12
+condicao_genotipo_turno,8,8,jitter,Random Forest,IRR|CD202|unico,3,0.3076923076923077,0.3333333333333333,0.32,12
+condicao_genotipo_turno,8,8,jitter,Random Forest,IRR|EMB48|manha + tarde,4,0.35294117647058826,0.5,0.41379310344827586,12
+condicao_genotipo_turno,8,8,jitter,Random Forest,IRR|EMB48|unico,5,0.6666666666666666,0.6666666666666666,0.6666666666666666,12
+condicao_genotipo_turno,8,8,jitter,Random Forest,NIRR|BR16|manha + tarde,6,0.42857142857142855,0.5,0.46153846153846156,12
+condicao_genotipo_turno,8,8,jitter,Random Forest,NIRR|BR16|unico,7,0.18181818181818182,0.16666666666666666,0.17391304347826086,12
+condicao_genotipo_turno,8,8,jitter,Random Forest,NIRR|CD202|manha + tarde,8,0.375,0.75,0.5,12
+condicao_genotipo_turno,8,8,jitter,Random Forest,NIRR|CD202|unico,9,0.2,0.16666666666666666,0.18181818181818182,12
+condicao_genotipo_turno,8,8,jitter,Random Forest,NIRR|EMB48|manha + tarde,10,0.25,0.16666666666666666,0.2,12
+condicao_genotipo_turno,8,8,jitter,Random Forest,NIRR|EMB48|unico,11,0.2857142857142857,0.16666666666666666,0.21052631578947367,12
+condicao_genotipo_turno,8,8,jitter,SVM (RBF),IRR|BR16|manha + tarde,0,0.5,0.5833333333333334,0.5384615384615384,12
+condicao_genotipo_turno,8,8,jitter,SVM (RBF),IRR|BR16|unico,1,0.5,0.3333333333333333,0.4,12
+condicao_genotipo_turno,8,8,jitter,SVM (RBF),IRR|CD202|manha + tarde,2,0.25,0.16666666666666666,0.2,12
+condicao_genotipo_turno,8,8,jitter,SVM (RBF),IRR|CD202|unico,3,0.2857142857142857,0.16666666666666666,0.21052631578947367,12
+condicao_genotipo_turno,8,8,jitter,SVM (RBF),IRR|EMB48|manha + tarde,4,0.5333333333333333,0.6666666666666666,0.5925925925925926,12
+condicao_genotipo_turno,8,8,jitter,SVM (RBF),IRR|EMB48|unico,5,0.47368421052631576,0.75,0.5806451612903226,12
+condicao_genotipo_turno,8,8,jitter,SVM (RBF),NIRR|BR16|manha + tarde,6,0.7142857142857143,0.4166666666666667,0.5263157894736842,12
+condicao_genotipo_turno,8,8,jitter,SVM (RBF),NIRR|BR16|unico,7,0.4375,0.5833333333333334,0.5,12
+condicao_genotipo_turno,8,8,jitter,SVM (RBF),NIRR|CD202|manha + tarde,8,0.3076923076923077,0.6666666666666666,0.42105263157894735,12
+condicao_genotipo_turno,8,8,jitter,SVM (RBF),NIRR|CD202|unico,9,0.0,0.0,0.0,12
+condicao_genotipo_turno,8,8,jitter,SVM (RBF),NIRR|EMB48|manha + tarde,10,0.3333333333333333,0.16666666666666666,0.2222222222222222,12
+condicao_genotipo_turno,8,8,jitter,SVM (RBF),NIRR|EMB48|unico,11,0.2222222222222222,0.16666666666666666,0.19047619047619047,12
+condicao_genotipo_turno,8,8,jitter,LDA,IRR|BR16|manha + tarde,0,0.6363636363636364,0.5833333333333334,0.6086956521739131,12
+condicao_genotipo_turno,8,8,jitter,LDA,IRR|BR16|unico,1,0.4166666666666667,0.4166666666666667,0.4166666666666667,12
+condicao_genotipo_turno,8,8,jitter,LDA,IRR|CD202|manha + tarde,2,0.6,0.5,0.5454545454545454,12
+condicao_genotipo_turno,8,8,jitter,LDA,IRR|CD202|unico,3,0.4444444444444444,0.3333333333333333,0.38095238095238093,12
+condicao_genotipo_turno,8,8,jitter,LDA,IRR|EMB48|manha + tarde,4,0.5,0.5,0.5,12
+condicao_genotipo_turno,8,8,jitter,LDA,IRR|EMB48|unico,5,0.5,0.6666666666666666,0.5714285714285714,12
+condicao_genotipo_turno,8,8,jitter,LDA,NIRR|BR16|manha + tarde,6,0.5,0.3333333333333333,0.4,12
+condicao_genotipo_turno,8,8,jitter,LDA,NIRR|BR16|unico,7,0.26666666666666666,0.3333333333333333,0.2962962962962963,12
+condicao_genotipo_turno,8,8,jitter,LDA,NIRR|CD202|manha + tarde,8,0.26666666666666666,0.3333333333333333,0.2962962962962963,12
+condicao_genotipo_turno,8,8,jitter,LDA,NIRR|CD202|unico,9,0.17647058823529413,0.25,0.20689655172413793,12
+condicao_genotipo_turno,8,8,jitter,LDA,NIRR|EMB48|manha + tarde,10,0.0,0.0,0.0,12
+condicao_genotipo_turno,8,8,jitter,LDA,NIRR|EMB48|unico,11,0.36363636363636365,0.3333333333333333,0.34782608695652173,12
+condicao_genotipo_turno,8,8,jitter,XGBoost,IRR|BR16|manha + tarde,0,0.42857142857142855,0.5,0.46153846153846156,12
+condicao_genotipo_turno,8,8,jitter,XGBoost,IRR|BR16|unico,1,0.2,0.08333333333333333,0.11764705882352941,12
+condicao_genotipo_turno,8,8,jitter,XGBoost,IRR|CD202|manha + tarde,2,0.3,0.25,0.2727272727272727,12
+condicao_genotipo_turno,8,8,jitter,XGBoost,IRR|CD202|unico,3,0.26666666666666666,0.3333333333333333,0.2962962962962963,12
+condicao_genotipo_turno,8,8,jitter,XGBoost,IRR|EMB48|manha + tarde,4,0.38461538461538464,0.4166666666666667,0.4,12
+condicao_genotipo_turno,8,8,jitter,XGBoost,IRR|EMB48|unico,5,0.5384615384615384,0.5833333333333334,0.56,12
+condicao_genotipo_turno,8,8,jitter,XGBoost,NIRR|BR16|manha + tarde,6,0.46153846153846156,0.5,0.48,12
+condicao_genotipo_turno,8,8,jitter,XGBoost,NIRR|BR16|unico,7,0.2857142857142857,0.16666666666666666,0.21052631578947367,12
+condicao_genotipo_turno,8,8,jitter,XGBoost,NIRR|CD202|manha + tarde,8,0.29411764705882354,0.4166666666666667,0.3448275862068966,12
+condicao_genotipo_turno,8,8,jitter,XGBoost,NIRR|CD202|unico,9,0.14285714285714285,0.16666666666666666,0.15384615384615385,12
+condicao_genotipo_turno,8,8,jitter,XGBoost,NIRR|EMB48|manha + tarde,10,0.25,0.25,0.25,12
+condicao_genotipo_turno,8,8,jitter,XGBoost,NIRR|EMB48|unico,11,0.18181818181818182,0.16666666666666666,0.17391304347826086,12
+condicao_genotipo_turno,8,8,mixup,Random Forest,IRR|BR16|manha + tarde,0,0.4117647058823529,0.5833333333333334,0.4827586206896552,12
+condicao_genotipo_turno,8,8,mixup,Random Forest,IRR|BR16|unico,1,0.375,0.25,0.3,12
+condicao_genotipo_turno,8,8,mixup,Random Forest,IRR|CD202|manha + tarde,2,0.25,0.16666666666666666,0.2,12
+condicao_genotipo_turno,8,8,mixup,Random Forest,IRR|CD202|unico,3,0.46153846153846156,0.5,0.48,12
+condicao_genotipo_turno,8,8,mixup,Random Forest,IRR|EMB48|manha + tarde,4,0.2727272727272727,0.25,0.2608695652173913,12
+condicao_genotipo_turno,8,8,mixup,Random Forest,IRR|EMB48|unico,5,0.6666666666666666,0.6666666666666666,0.6666666666666666,12
+condicao_genotipo_turno,8,8,mixup,Random Forest,NIRR|BR16|manha + tarde,6,0.5384615384615384,0.5833333333333334,0.56,12
+condicao_genotipo_turno,8,8,mixup,Random Forest,NIRR|BR16|unico,7,0.2,0.16666666666666666,0.18181818181818182,12
+condicao_genotipo_turno,8,8,mixup,Random Forest,NIRR|CD202|manha + tarde,8,0.4166666666666667,0.4166666666666667,0.4166666666666667,12
+condicao_genotipo_turno,8,8,mixup,Random Forest,NIRR|CD202|unico,9,0.06666666666666667,0.08333333333333333,0.07407407407407407,12
+condicao_genotipo_turno,8,8,mixup,Random Forest,NIRR|EMB48|manha + tarde,10,0.16666666666666666,0.16666666666666666,0.16666666666666666,12
+condicao_genotipo_turno,8,8,mixup,Random Forest,NIRR|EMB48|unico,11,0.3076923076923077,0.3333333333333333,0.32,12
+condicao_genotipo_turno,8,8,mixup,SVM (RBF),IRR|BR16|manha + tarde,0,0.5833333333333334,0.5833333333333334,0.5833333333333334,12
+condicao_genotipo_turno,8,8,mixup,SVM (RBF),IRR|BR16|unico,1,0.36363636363636365,0.3333333333333333,0.34782608695652173,12
+condicao_genotipo_turno,8,8,mixup,SVM (RBF),IRR|CD202|manha + tarde,2,0.25,0.16666666666666666,0.2,12
+condicao_genotipo_turno,8,8,mixup,SVM (RBF),IRR|CD202|unico,3,0.2857142857142857,0.16666666666666666,0.21052631578947367,12
+condicao_genotipo_turno,8,8,mixup,SVM (RBF),IRR|EMB48|manha + tarde,4,0.4666666666666667,0.5833333333333334,0.5185185185185185,12
+condicao_genotipo_turno,8,8,mixup,SVM (RBF),IRR|EMB48|unico,5,0.5294117647058824,0.75,0.6206896551724138,12
+condicao_genotipo_turno,8,8,mixup,SVM (RBF),NIRR|BR16|manha + tarde,6,0.5,0.5,0.5,12
+condicao_genotipo_turno,8,8,mixup,SVM (RBF),NIRR|BR16|unico,7,0.2727272727272727,0.25,0.2608695652173913,12
+condicao_genotipo_turno,8,8,mixup,SVM (RBF),NIRR|CD202|manha + tarde,8,0.42105263157894735,0.6666666666666666,0.5161290322580645,12
+condicao_genotipo_turno,8,8,mixup,SVM (RBF),NIRR|CD202|unico,9,0.0,0.0,0.0,12
+condicao_genotipo_turno,8,8,mixup,SVM (RBF),NIRR|EMB48|manha + tarde,10,0.2222222222222222,0.16666666666666666,0.19047619047619047,12
+condicao_genotipo_turno,8,8,mixup,SVM (RBF),NIRR|EMB48|unico,11,0.2,0.16666666666666666,0.18181818181818182,12
+condicao_genotipo_turno,8,8,mixup,LDA,IRR|BR16|manha + tarde,0,0.6666666666666666,0.5,0.5714285714285714,12
+condicao_genotipo_turno,8,8,mixup,LDA,IRR|BR16|unico,1,0.4166666666666667,0.4166666666666667,0.4166666666666667,12
+condicao_genotipo_turno,8,8,mixup,LDA,IRR|CD202|manha + tarde,2,0.5,0.25,0.3333333333333333,12
+condicao_genotipo_turno,8,8,mixup,LDA,IRR|CD202|unico,3,0.45454545454545453,0.4166666666666667,0.43478260869565216,12
+condicao_genotipo_turno,8,8,mixup,LDA,IRR|EMB48|manha + tarde,4,0.5,0.5833333333333334,0.5384615384615384,12
+condicao_genotipo_turno,8,8,mixup,LDA,IRR|EMB48|unico,5,0.5714285714285714,0.6666666666666666,0.6153846153846154,12
+condicao_genotipo_turno,8,8,mixup,LDA,NIRR|BR16|manha + tarde,6,0.5,0.4166666666666667,0.45454545454545453,12
+condicao_genotipo_turno,8,8,mixup,LDA,NIRR|BR16|unico,7,0.25,0.3333333333333333,0.2857142857142857,12
+condicao_genotipo_turno,8,8,mixup,LDA,NIRR|CD202|manha + tarde,8,0.2222222222222222,0.3333333333333333,0.26666666666666666,12
+condicao_genotipo_turno,8,8,mixup,LDA,NIRR|CD202|unico,9,0.13333333333333333,0.16666666666666666,0.14814814814814814,12
+condicao_genotipo_turno,8,8,mixup,LDA,NIRR|EMB48|manha + tarde,10,0.0,0.0,0.0,12
+condicao_genotipo_turno,8,8,mixup,LDA,NIRR|EMB48|unico,11,0.42857142857142855,0.5,0.46153846153846156,12
+condicao_genotipo_turno,8,8,mixup,XGBoost,IRR|BR16|manha + tarde,0,0.5,0.5833333333333334,0.5384615384615384,12
+condicao_genotipo_turno,8,8,mixup,XGBoost,IRR|BR16|unico,1,0.4444444444444444,0.3333333333333333,0.38095238095238093,12
+condicao_genotipo_turno,8,8,mixup,XGBoost,IRR|CD202|manha + tarde,2,0.36363636363636365,0.3333333333333333,0.34782608695652173,12
+condicao_genotipo_turno,8,8,mixup,XGBoost,IRR|CD202|unico,3,0.5454545454545454,0.5,0.5217391304347826,12
+condicao_genotipo_turno,8,8,mixup,XGBoost,IRR|EMB48|manha + tarde,4,0.4,0.3333333333333333,0.36363636363636365,12
+condicao_genotipo_turno,8,8,mixup,XGBoost,IRR|EMB48|unico,5,0.5714285714285714,0.6666666666666666,0.6153846153846154,12
+condicao_genotipo_turno,8,8,mixup,XGBoost,NIRR|BR16|manha + tarde,6,0.4,0.5,0.4444444444444444,12
+condicao_genotipo_turno,8,8,mixup,XGBoost,NIRR|BR16|unico,7,0.375,0.25,0.3,12
+condicao_genotipo_turno,8,8,mixup,XGBoost,NIRR|CD202|manha + tarde,8,0.35714285714285715,0.4166666666666667,0.38461538461538464,12
+condicao_genotipo_turno,8,8,mixup,XGBoost,NIRR|CD202|unico,9,0.16666666666666666,0.16666666666666666,0.16666666666666666,12
+condicao_genotipo_turno,8,8,mixup,XGBoost,NIRR|EMB48|manha + tarde,10,0.2727272727272727,0.25,0.2608695652173913,12
+condicao_genotipo_turno,8,8,mixup,XGBoost,NIRR|EMB48|unico,11,0.3333333333333333,0.4166666666666667,0.37037037037037035,12
+condicao_genotipo_turno,10,6,jitter,Random Forest,IRR|BR16|manha + tarde,0,0.5833333333333334,0.5833333333333334,0.5833333333333334,12
+condicao_genotipo_turno,10,6,jitter,Random Forest,IRR|BR16|unico,1,0.6,0.25,0.35294117647058826,12
+condicao_genotipo_turno,10,6,jitter,Random Forest,IRR|CD202|manha + tarde,2,0.2222222222222222,0.16666666666666666,0.19047619047619047,12
+condicao_genotipo_turno,10,6,jitter,Random Forest,IRR|CD202|unico,3,0.46153846153846156,0.5,0.48,12
+condicao_genotipo_turno,10,6,jitter,Random Forest,IRR|EMB48|manha + tarde,4,0.3333333333333333,0.5,0.4,12
+condicao_genotipo_turno,10,6,jitter,Random Forest,IRR|EMB48|unico,5,0.5333333333333333,0.6666666666666666,0.5925925925925926,12
+condicao_genotipo_turno,10,6,jitter,Random Forest,NIRR|BR16|manha + tarde,6,0.42857142857142855,0.5,0.46153846153846156,12
+condicao_genotipo_turno,10,6,jitter,Random Forest,NIRR|BR16|unico,7,0.2,0.16666666666666666,0.18181818181818182,12
+condicao_genotipo_turno,10,6,jitter,Random Forest,NIRR|CD202|manha + tarde,8,0.3888888888888889,0.5833333333333334,0.4666666666666667,12
+condicao_genotipo_turno,10,6,jitter,Random Forest,NIRR|CD202|unico,9,0.08333333333333333,0.08333333333333333,0.08333333333333333,12
+condicao_genotipo_turno,10,6,jitter,Random Forest,NIRR|EMB48|manha + tarde,10,0.2727272727272727,0.25,0.2608695652173913,12
+condicao_genotipo_turno,10,6,jitter,Random Forest,NIRR|EMB48|unico,11,0.14285714285714285,0.08333333333333333,0.10526315789473684,12
+condicao_genotipo_turno,10,6,jitter,SVM (RBF),IRR|BR16|manha + tarde,0,0.5454545454545454,0.5,0.5217391304347826,12
+condicao_genotipo_turno,10,6,jitter,SVM (RBF),IRR|BR16|unico,1,0.5,0.5,0.5,12
+condicao_genotipo_turno,10,6,jitter,SVM (RBF),IRR|CD202|manha + tarde,2,0.4444444444444444,0.3333333333333333,0.38095238095238093,12
+condicao_genotipo_turno,10,6,jitter,SVM (RBF),IRR|CD202|unico,3,0.5555555555555556,0.4166666666666667,0.47619047619047616,12
+condicao_genotipo_turno,10,6,jitter,SVM (RBF),IRR|EMB48|manha + tarde,4,0.4666666666666667,0.5833333333333334,0.5185185185185185,12
+condicao_genotipo_turno,10,6,jitter,SVM (RBF),IRR|EMB48|unico,5,0.5384615384615384,0.5833333333333334,0.56,12
+condicao_genotipo_turno,10,6,jitter,SVM (RBF),NIRR|BR16|manha + tarde,6,0.6666666666666666,0.5,0.5714285714285714,12
+condicao_genotipo_turno,10,6,jitter,SVM (RBF),NIRR|BR16|unico,7,0.375,0.5,0.42857142857142855,12
+condicao_genotipo_turno,10,6,jitter,SVM (RBF),NIRR|CD202|manha + tarde,8,0.38461538461538464,0.8333333333333334,0.5263157894736842,12
+condicao_genotipo_turno,10,6,jitter,SVM (RBF),NIRR|CD202|unico,9,0.1,0.08333333333333333,0.09090909090909091,12
+condicao_genotipo_turno,10,6,jitter,SVM (RBF),NIRR|EMB48|manha + tarde,10,0.0,0.0,0.0,12
+condicao_genotipo_turno,10,6,jitter,SVM (RBF),NIRR|EMB48|unico,11,0.36363636363636365,0.3333333333333333,0.34782608695652173,12
+condicao_genotipo_turno,10,6,jitter,LDA,IRR|BR16|manha + tarde,0,0.5454545454545454,0.5,0.5217391304347826,12
+condicao_genotipo_turno,10,6,jitter,LDA,IRR|BR16|unico,1,0.38461538461538464,0.4166666666666667,0.4,12
+condicao_genotipo_turno,10,6,jitter,LDA,IRR|CD202|manha + tarde,2,0.7142857142857143,0.4166666666666667,0.5263157894736842,12
+condicao_genotipo_turno,10,6,jitter,LDA,IRR|CD202|unico,3,0.4444444444444444,0.3333333333333333,0.38095238095238093,12
+condicao_genotipo_turno,10,6,jitter,LDA,IRR|EMB48|manha + tarde,4,0.42857142857142855,0.5,0.46153846153846156,12
+condicao_genotipo_turno,10,6,jitter,LDA,IRR|EMB48|unico,5,0.5,0.5833333333333334,0.5384615384615384,12
+condicao_genotipo_turno,10,6,jitter,LDA,NIRR|BR16|manha + tarde,6,0.5,0.5,0.5,12
+condicao_genotipo_turno,10,6,jitter,LDA,NIRR|BR16|unico,7,0.2857142857142857,0.3333333333333333,0.3076923076923077,12
+condicao_genotipo_turno,10,6,jitter,LDA,NIRR|CD202|manha + tarde,8,0.35294117647058826,0.5,0.41379310344827586,12
+condicao_genotipo_turno,10,6,jitter,LDA,NIRR|CD202|unico,9,0.15384615384615385,0.16666666666666666,0.16,12
+condicao_genotipo_turno,10,6,jitter,LDA,NIRR|EMB48|manha + tarde,10,0.0,0.0,0.0,12
+condicao_genotipo_turno,10,6,jitter,LDA,NIRR|EMB48|unico,11,0.35714285714285715,0.4166666666666667,0.38461538461538464,12
+condicao_genotipo_turno,10,6,jitter,XGBoost,IRR|BR16|manha + tarde,0,0.5384615384615384,0.5833333333333334,0.56,12
+condicao_genotipo_turno,10,6,jitter,XGBoost,IRR|BR16|unico,1,0.4444444444444444,0.3333333333333333,0.38095238095238093,12
+condicao_genotipo_turno,10,6,jitter,XGBoost,IRR|CD202|manha + tarde,2,0.3333333333333333,0.3333333333333333,0.3333333333333333,12
+condicao_genotipo_turno,10,6,jitter,XGBoost,IRR|CD202|unico,3,0.6,0.5,0.5454545454545454,12
+condicao_genotipo_turno,10,6,jitter,XGBoost,IRR|EMB48|manha + tarde,4,0.4,0.5,0.4444444444444444,12
+condicao_genotipo_turno,10,6,jitter,XGBoost,IRR|EMB48|unico,5,0.6923076923076923,0.75,0.72,12
+condicao_genotipo_turno,10,6,jitter,XGBoost,NIRR|BR16|manha + tarde,6,0.38461538461538464,0.4166666666666667,0.4,12
+condicao_genotipo_turno,10,6,jitter,XGBoost,NIRR|BR16|unico,7,0.25,0.16666666666666666,0.2,12
+condicao_genotipo_turno,10,6,jitter,XGBoost,NIRR|CD202|manha + tarde,8,0.4117647058823529,0.5833333333333334,0.4827586206896552,12
+condicao_genotipo_turno,10,6,jitter,XGBoost,NIRR|CD202|unico,9,0.23076923076923078,0.25,0.24,12
+condicao_genotipo_turno,10,6,jitter,XGBoost,NIRR|EMB48|manha + tarde,10,0.3333333333333333,0.3333333333333333,0.3333333333333333,12
+condicao_genotipo_turno,10,6,jitter,XGBoost,NIRR|EMB48|unico,11,0.1111111111111111,0.08333333333333333,0.09523809523809523,12
+condicao_genotipo_turno,10,6,mixup,Random Forest,IRR|BR16|manha + tarde,0,0.4666666666666667,0.5833333333333334,0.5185185185185185,12
+condicao_genotipo_turno,10,6,mixup,Random Forest,IRR|BR16|unico,1,0.2222222222222222,0.16666666666666666,0.19047619047619047,12
+condicao_genotipo_turno,10,6,mixup,Random Forest,IRR|CD202|manha + tarde,2,0.125,0.08333333333333333,0.1,12
+condicao_genotipo_turno,10,6,mixup,Random Forest,IRR|CD202|unico,3,0.2727272727272727,0.25,0.2608695652173913,12
+condicao_genotipo_turno,10,6,mixup,Random Forest,IRR|EMB48|manha + tarde,4,0.21428571428571427,0.25,0.23076923076923078,12
+condicao_genotipo_turno,10,6,mixup,Random Forest,IRR|EMB48|unico,5,0.5384615384615384,0.5833333333333334,0.56,12
+condicao_genotipo_turno,10,6,mixup,Random Forest,NIRR|BR16|manha + tarde,6,0.5,0.6666666666666666,0.5714285714285714,12
+condicao_genotipo_turno,10,6,mixup,Random Forest,NIRR|BR16|unico,7,0.3333333333333333,0.16666666666666666,0.2222222222222222,12
+condicao_genotipo_turno,10,6,mixup,Random Forest,NIRR|CD202|manha + tarde,8,0.5,0.5833333333333334,0.5384615384615384,12
+condicao_genotipo_turno,10,6,mixup,Random Forest,NIRR|CD202|unico,9,0.13333333333333333,0.16666666666666666,0.14814814814814814,12
+condicao_genotipo_turno,10,6,mixup,Random Forest,NIRR|EMB48|manha + tarde,10,0.2222222222222222,0.16666666666666666,0.19047619047619047,12
+condicao_genotipo_turno,10,6,mixup,Random Forest,NIRR|EMB48|unico,11,0.2857142857142857,0.3333333333333333,0.3076923076923077,12
+condicao_genotipo_turno,10,6,mixup,SVM (RBF),IRR|BR16|manha + tarde,0,0.5384615384615384,0.5833333333333334,0.56,12
+condicao_genotipo_turno,10,6,mixup,SVM (RBF),IRR|BR16|unico,1,0.38461538461538464,0.4166666666666667,0.4,12
+condicao_genotipo_turno,10,6,mixup,SVM (RBF),IRR|CD202|manha + tarde,2,0.2727272727272727,0.25,0.2608695652173913,12
+condicao_genotipo_turno,10,6,mixup,SVM (RBF),IRR|CD202|unico,3,0.3333333333333333,0.16666666666666666,0.2222222222222222,12
+condicao_genotipo_turno,10,6,mixup,SVM (RBF),IRR|EMB48|manha + tarde,4,0.38461538461538464,0.4166666666666667,0.4,12
+condicao_genotipo_turno,10,6,mixup,SVM (RBF),IRR|EMB48|unico,5,0.5333333333333333,0.6666666666666666,0.5925925925925926,12
+condicao_genotipo_turno,10,6,mixup,SVM (RBF),NIRR|BR16|manha + tarde,6,0.5,0.5,0.5,12
+condicao_genotipo_turno,10,6,mixup,SVM (RBF),NIRR|BR16|unico,7,0.3076923076923077,0.3333333333333333,0.32,12
+condicao_genotipo_turno,10,6,mixup,SVM (RBF),NIRR|CD202|manha + tarde,8,0.4166666666666667,0.8333333333333334,0.5555555555555556,12
+condicao_genotipo_turno,10,6,mixup,SVM (RBF),NIRR|CD202|unico,9,0.0,0.0,0.0,12
+condicao_genotipo_turno,10,6,mixup,SVM (RBF),NIRR|EMB48|manha + tarde,10,0.1111111111111111,0.08333333333333333,0.09523809523809523,12
+condicao_genotipo_turno,10,6,mixup,SVM (RBF),NIRR|EMB48|unico,11,0.2,0.16666666666666666,0.18181818181818182,12
+condicao_genotipo_turno,10,6,mixup,LDA,IRR|BR16|manha + tarde,0,0.6,0.5,0.5454545454545454,12
+condicao_genotipo_turno,10,6,mixup,LDA,IRR|BR16|unico,1,0.38461538461538464,0.4166666666666667,0.4,12
+condicao_genotipo_turno,10,6,mixup,LDA,IRR|CD202|manha + tarde,2,0.5714285714285714,0.3333333333333333,0.42105263157894735,12
+condicao_genotipo_turno,10,6,mixup,LDA,IRR|CD202|unico,3,0.4444444444444444,0.3333333333333333,0.38095238095238093,12
+condicao_genotipo_turno,10,6,mixup,LDA,IRR|EMB48|manha + tarde,4,0.5,0.5833333333333334,0.5384615384615384,12
+condicao_genotipo_turno,10,6,mixup,LDA,IRR|EMB48|unico,5,0.5,0.5833333333333334,0.5384615384615384,12
+condicao_genotipo_turno,10,6,mixup,LDA,NIRR|BR16|manha + tarde,6,0.5,0.5,0.5,12
+condicao_genotipo_turno,10,6,mixup,LDA,NIRR|BR16|unico,7,0.2857142857142857,0.3333333333333333,0.3076923076923077,12
+condicao_genotipo_turno,10,6,mixup,LDA,NIRR|CD202|manha + tarde,8,0.21428571428571427,0.25,0.23076923076923078,12
+condicao_genotipo_turno,10,6,mixup,LDA,NIRR|CD202|unico,9,0.17647058823529413,0.25,0.20689655172413793,12
+condicao_genotipo_turno,10,6,mixup,LDA,NIRR|EMB48|manha + tarde,10,0.0,0.0,0.0,12
+condicao_genotipo_turno,10,6,mixup,LDA,NIRR|EMB48|unico,11,0.42857142857142855,0.5,0.46153846153846156,12
+condicao_genotipo_turno,10,6,mixup,XGBoost,IRR|BR16|manha + tarde,0,0.5,0.6666666666666666,0.5714285714285714,12
+condicao_genotipo_turno,10,6,mixup,XGBoost,IRR|BR16|unico,1,0.4,0.3333333333333333,0.36363636363636365,12
+condicao_genotipo_turno,10,6,mixup,XGBoost,IRR|CD202|manha + tarde,2,0.375,0.25,0.3,12
+condicao_genotipo_turno,10,6,mixup,XGBoost,IRR|CD202|unico,3,0.5,0.5,0.5,12
+condicao_genotipo_turno,10,6,mixup,XGBoost,IRR|EMB48|manha + tarde,4,0.36363636363636365,0.3333333333333333,0.34782608695652173,12
+condicao_genotipo_turno,10,6,mixup,XGBoost,IRR|EMB48|unico,5,0.5833333333333334,0.5833333333333334,0.5833333333333334,12
+condicao_genotipo_turno,10,6,mixup,XGBoost,NIRR|BR16|manha + tarde,6,0.35714285714285715,0.4166666666666667,0.38461538461538464,12
+condicao_genotipo_turno,10,6,mixup,XGBoost,NIRR|BR16|unico,7,0.4,0.16666666666666666,0.23529411764705882,12
+condicao_genotipo_turno,10,6,mixup,XGBoost,NIRR|CD202|manha + tarde,8,0.4,0.5,0.4444444444444444,12
+condicao_genotipo_turno,10,6,mixup,XGBoost,NIRR|CD202|unico,9,0.2,0.25,0.2222222222222222,12
+condicao_genotipo_turno,10,6,mixup,XGBoost,NIRR|EMB48|manha + tarde,10,0.09090909090909091,0.08333333333333333,0.08695652173913043,12
+condicao_genotipo_turno,10,6,mixup,XGBoost,NIRR|EMB48|unico,11,0.2,0.25,0.2222222222222222,12
+condicao_genotipo_turno,15,7,jitter,Random Forest,IRR|BR16|manha + tarde,0,0.46153846153846156,0.5,0.48,12
+condicao_genotipo_turno,15,7,jitter,Random Forest,IRR|BR16|unico,1,0.5,0.25,0.3333333333333333,12
+condicao_genotipo_turno,15,7,jitter,Random Forest,IRR|CD202|manha + tarde,2,0.3333333333333333,0.25,0.2857142857142857,12
+condicao_genotipo_turno,15,7,jitter,Random Forest,IRR|CD202|unico,3,0.36363636363636365,0.3333333333333333,0.34782608695652173,12
+condicao_genotipo_turno,15,7,jitter,Random Forest,IRR|EMB48|manha + tarde,4,0.2777777777777778,0.4166666666666667,0.3333333333333333,12
+condicao_genotipo_turno,15,7,jitter,Random Forest,IRR|EMB48|unico,5,0.5,0.5833333333333334,0.5384615384615384,12
+condicao_genotipo_turno,15,7,jitter,Random Forest,NIRR|BR16|manha + tarde,6,0.4666666666666667,0.5833333333333334,0.5185185185185185,12
+condicao_genotipo_turno,15,7,jitter,Random Forest,NIRR|BR16|unico,7,0.2222222222222222,0.16666666666666666,0.19047619047619047,12
+condicao_genotipo_turno,15,7,jitter,Random Forest,NIRR|CD202|manha + tarde,8,0.5714285714285714,0.6666666666666666,0.6153846153846154,12
+condicao_genotipo_turno,15,7,jitter,Random Forest,NIRR|CD202|unico,9,0.07142857142857142,0.08333333333333333,0.07692307692307693,12
+condicao_genotipo_turno,15,7,jitter,Random Forest,NIRR|EMB48|manha + tarde,10,0.36363636363636365,0.3333333333333333,0.34782608695652173,12
+condicao_genotipo_turno,15,7,jitter,Random Forest,NIRR|EMB48|unico,11,0.1,0.08333333333333333,0.09090909090909091,12
+condicao_genotipo_turno,15,7,jitter,SVM (RBF),IRR|BR16|manha + tarde,0,0.5,0.5,0.5,12
+condicao_genotipo_turno,15,7,jitter,SVM (RBF),IRR|BR16|unico,1,0.4166666666666667,0.4166666666666667,0.4166666666666667,12
+condicao_genotipo_turno,15,7,jitter,SVM (RBF),IRR|CD202|manha + tarde,2,0.25,0.08333333333333333,0.125,12
+condicao_genotipo_turno,15,7,jitter,SVM (RBF),IRR|CD202|unico,3,0.3333333333333333,0.16666666666666666,0.2222222222222222,12
+condicao_genotipo_turno,15,7,jitter,SVM (RBF),IRR|EMB48|manha + tarde,4,0.4444444444444444,0.6666666666666666,0.5333333333333333,12
+condicao_genotipo_turno,15,7,jitter,SVM (RBF),IRR|EMB48|unico,5,0.4666666666666667,0.5833333333333334,0.5185185185185185,12
+condicao_genotipo_turno,15,7,jitter,SVM (RBF),NIRR|BR16|manha + tarde,6,0.7777777777777778,0.5833333333333334,0.6666666666666666,12
+condicao_genotipo_turno,15,7,jitter,SVM (RBF),NIRR|BR16|unico,7,0.375,0.5,0.42857142857142855,12
+condicao_genotipo_turno,15,7,jitter,SVM (RBF),NIRR|CD202|manha + tarde,8,0.3103448275862069,0.75,0.43902439024390244,12
+condicao_genotipo_turno,15,7,jitter,SVM (RBF),NIRR|CD202|unico,9,0.2,0.16666666666666666,0.18181818181818182,12
+condicao_genotipo_turno,15,7,jitter,SVM (RBF),NIRR|EMB48|manha + tarde,10,0.0,0.0,0.0,12
+condicao_genotipo_turno,15,7,jitter,SVM (RBF),NIRR|EMB48|unico,11,0.3,0.25,0.2727272727272727,12
+condicao_genotipo_turno,15,7,jitter,LDA,IRR|BR16|manha + tarde,0,0.5454545454545454,0.5,0.5217391304347826,12
+condicao_genotipo_turno,15,7,jitter,LDA,IRR|BR16|unico,1,0.4166666666666667,0.4166666666666667,0.4166666666666667,12
+condicao_genotipo_turno,15,7,jitter,LDA,IRR|CD202|manha + tarde,2,0.5,0.3333333333333333,0.4,12
+condicao_genotipo_turno,15,7,jitter,LDA,IRR|CD202|unico,3,0.4444444444444444,0.3333333333333333,0.38095238095238093,12
+condicao_genotipo_turno,15,7,jitter,LDA,IRR|EMB48|manha + tarde,4,0.4666666666666667,0.5833333333333334,0.5185185185185185,12
+condicao_genotipo_turno,15,7,jitter,LDA,IRR|EMB48|unico,5,0.5,0.5833333333333334,0.5384615384615384,12
+condicao_genotipo_turno,15,7,jitter,LDA,NIRR|BR16|manha + tarde,6,0.5384615384615384,0.5833333333333334,0.56,12
+condicao_genotipo_turno,15,7,jitter,LDA,NIRR|BR16|unico,7,0.3333333333333333,0.3333333333333333,0.3333333333333333,12
+condicao_genotipo_turno,15,7,jitter,LDA,NIRR|CD202|manha + tarde,8,0.25,0.25,0.25,12
+condicao_genotipo_turno,15,7,jitter,LDA,NIRR|CD202|unico,9,0.16666666666666666,0.25,0.2,12
+condicao_genotipo_turno,15,7,jitter,LDA,NIRR|EMB48|manha + tarde,10,0.0,0.0,0.0,12
+condicao_genotipo_turno,15,7,jitter,LDA,NIRR|EMB48|unico,11,0.3076923076923077,0.3333333333333333,0.32,12
+condicao_genotipo_turno,15,7,jitter,XGBoost,IRR|BR16|manha + tarde,0,0.42857142857142855,0.5,0.46153846153846156,12
+condicao_genotipo_turno,15,7,jitter,XGBoost,IRR|BR16|unico,1,0.5714285714285714,0.3333333333333333,0.42105263157894735,12
+condicao_genotipo_turno,15,7,jitter,XGBoost,IRR|CD202|manha + tarde,2,0.4444444444444444,0.3333333333333333,0.38095238095238093,12
+condicao_genotipo_turno,15,7,jitter,XGBoost,IRR|CD202|unico,3,0.38461538461538464,0.4166666666666667,0.4,12
+condicao_genotipo_turno,15,7,jitter,XGBoost,IRR|EMB48|manha + tarde,4,0.375,0.5,0.42857142857142855,12
+condicao_genotipo_turno,15,7,jitter,XGBoost,IRR|EMB48|unico,5,0.5714285714285714,0.6666666666666666,0.6153846153846154,12
+condicao_genotipo_turno,15,7,jitter,XGBoost,NIRR|BR16|manha + tarde,6,0.42857142857142855,0.5,0.46153846153846156,12
+condicao_genotipo_turno,15,7,jitter,XGBoost,NIRR|BR16|unico,7,0.2222222222222222,0.16666666666666666,0.19047619047619047,12
+condicao_genotipo_turno,15,7,jitter,XGBoost,NIRR|CD202|manha + tarde,8,0.4375,0.5833333333333334,0.5,12
+condicao_genotipo_turno,15,7,jitter,XGBoost,NIRR|CD202|unico,9,0.1,0.08333333333333333,0.09090909090909091,12
+condicao_genotipo_turno,15,7,jitter,XGBoost,NIRR|EMB48|manha + tarde,10,0.25,0.25,0.25,12
+condicao_genotipo_turno,15,7,jitter,XGBoost,NIRR|EMB48|unico,11,0.2,0.16666666666666666,0.18181818181818182,12
+condicao_genotipo_turno,15,7,mixup,Random Forest,IRR|BR16|manha + tarde,0,0.375,0.5,0.42857142857142855,12
+condicao_genotipo_turno,15,7,mixup,Random Forest,IRR|BR16|unico,1,0.2222222222222222,0.16666666666666666,0.19047619047619047,12
+condicao_genotipo_turno,15,7,mixup,Random Forest,IRR|CD202|manha + tarde,2,0.2,0.16666666666666666,0.18181818181818182,12
+condicao_genotipo_turno,15,7,mixup,Random Forest,IRR|CD202|unico,3,0.2727272727272727,0.25,0.2608695652173913,12
+condicao_genotipo_turno,15,7,mixup,Random Forest,IRR|EMB48|manha + tarde,4,0.2727272727272727,0.25,0.2608695652173913,12
+condicao_genotipo_turno,15,7,mixup,Random Forest,IRR|EMB48|unico,5,0.5833333333333334,0.5833333333333334,0.5833333333333334,12
+condicao_genotipo_turno,15,7,mixup,Random Forest,NIRR|BR16|manha + tarde,6,0.4117647058823529,0.5833333333333334,0.4827586206896552,12
+condicao_genotipo_turno,15,7,mixup,Random Forest,NIRR|BR16|unico,7,0.2857142857142857,0.16666666666666666,0.21052631578947367,12
+condicao_genotipo_turno,15,7,mixup,Random Forest,NIRR|CD202|manha + tarde,8,0.5384615384615384,0.5833333333333334,0.56,12
+condicao_genotipo_turno,15,7,mixup,Random Forest,NIRR|CD202|unico,9,0.13333333333333333,0.16666666666666666,0.14814814814814814,12
+condicao_genotipo_turno,15,7,mixup,Random Forest,NIRR|EMB48|manha + tarde,10,0.2,0.16666666666666666,0.18181818181818182,12
+condicao_genotipo_turno,15,7,mixup,Random Forest,NIRR|EMB48|unico,11,0.3076923076923077,0.3333333333333333,0.32,12
+condicao_genotipo_turno,15,7,mixup,SVM (RBF),IRR|BR16|manha + tarde,0,0.5833333333333334,0.5833333333333334,0.5833333333333334,12
+condicao_genotipo_turno,15,7,mixup,SVM (RBF),IRR|BR16|unico,1,0.4166666666666667,0.4166666666666667,0.4166666666666667,12
+condicao_genotipo_turno,15,7,mixup,SVM (RBF),IRR|CD202|manha + tarde,2,0.16666666666666666,0.08333333333333333,0.1111111111111111,12
+condicao_genotipo_turno,15,7,mixup,SVM (RBF),IRR|CD202|unico,3,0.4,0.16666666666666666,0.23529411764705882,12
+condicao_genotipo_turno,15,7,mixup,SVM (RBF),IRR|EMB48|manha + tarde,4,0.5294117647058824,0.75,0.6206896551724138,12
+condicao_genotipo_turno,15,7,mixup,SVM (RBF),IRR|EMB48|unico,5,0.5,0.75,0.6,12
+condicao_genotipo_turno,15,7,mixup,SVM (RBF),NIRR|BR16|manha + tarde,6,0.5555555555555556,0.4166666666666667,0.47619047619047616,12
+condicao_genotipo_turno,15,7,mixup,SVM (RBF),NIRR|BR16|unico,7,0.375,0.5,0.42857142857142855,12
+condicao_genotipo_turno,15,7,mixup,SVM (RBF),NIRR|CD202|manha + tarde,8,0.3684210526315789,0.5833333333333334,0.45161290322580644,12
+condicao_genotipo_turno,15,7,mixup,SVM (RBF),NIRR|CD202|unico,9,0.0,0.0,0.0,12
+condicao_genotipo_turno,15,7,mixup,SVM (RBF),NIRR|EMB48|manha + tarde,10,0.1111111111111111,0.08333333333333333,0.09523809523809523,12
+condicao_genotipo_turno,15,7,mixup,SVM (RBF),NIRR|EMB48|unico,11,0.2,0.16666666666666666,0.18181818181818182,12
+condicao_genotipo_turno,15,7,mixup,LDA,IRR|BR16|manha + tarde,0,0.625,0.4166666666666667,0.5,12
+condicao_genotipo_turno,15,7,mixup,LDA,IRR|BR16|unico,1,0.38461538461538464,0.4166666666666667,0.4,12
+condicao_genotipo_turno,15,7,mixup,LDA,IRR|CD202|manha + tarde,2,0.5555555555555556,0.4166666666666667,0.47619047619047616,12
+condicao_genotipo_turno,15,7,mixup,LDA,IRR|CD202|unico,3,0.4,0.3333333333333333,0.36363636363636365,12
+condicao_genotipo_turno,15,7,mixup,LDA,IRR|EMB48|manha + tarde,4,0.5384615384615384,0.5833333333333334,0.56,12
+condicao_genotipo_turno,15,7,mixup,LDA,IRR|EMB48|unico,5,0.5384615384615384,0.5833333333333334,0.56,12
+condicao_genotipo_turno,15,7,mixup,LDA,NIRR|BR16|manha + tarde,6,0.36363636363636365,0.3333333333333333,0.34782608695652173,12
+condicao_genotipo_turno,15,7,mixup,LDA,NIRR|BR16|unico,7,0.29411764705882354,0.4166666666666667,0.3448275862068966,12
+condicao_genotipo_turno,15,7,mixup,LDA,NIRR|CD202|manha + tarde,8,0.3333333333333333,0.3333333333333333,0.3333333333333333,12
+condicao_genotipo_turno,15,7,mixup,LDA,NIRR|CD202|unico,9,0.16666666666666666,0.25,0.2,12
+condicao_genotipo_turno,15,7,mixup,LDA,NIRR|EMB48|manha + tarde,10,0.0,0.0,0.0,12
+condicao_genotipo_turno,15,7,mixup,LDA,NIRR|EMB48|unico,11,0.4,0.5,0.4444444444444444,12
+condicao_genotipo_turno,15,7,mixup,XGBoost,IRR|BR16|manha + tarde,0,0.4375,0.5833333333333334,0.5,12
+condicao_genotipo_turno,15,7,mixup,XGBoost,IRR|BR16|unico,1,0.45454545454545453,0.4166666666666667,0.43478260869565216,12
+condicao_genotipo_turno,15,7,mixup,XGBoost,IRR|CD202|manha + tarde,2,0.3333333333333333,0.3333333333333333,0.3333333333333333,12
+condicao_genotipo_turno,15,7,mixup,XGBoost,IRR|CD202|unico,3,0.5555555555555556,0.4166666666666667,0.47619047619047616,12
+condicao_genotipo_turno,15,7,mixup,XGBoost,IRR|EMB48|manha + tarde,4,0.375,0.25,0.3,12
+condicao_genotipo_turno,15,7,mixup,XGBoost,IRR|EMB48|unico,5,0.6428571428571429,0.75,0.6923076923076923,12
+condicao_genotipo_turno,15,7,mixup,XGBoost,NIRR|BR16|manha + tarde,6,0.42857142857142855,0.5,0.46153846153846156,12
+condicao_genotipo_turno,15,7,mixup,XGBoost,NIRR|BR16|unico,7,0.3333333333333333,0.16666666666666666,0.2222222222222222,12
+condicao_genotipo_turno,15,7,mixup,XGBoost,NIRR|CD202|manha + tarde,8,0.4,0.5,0.4444444444444444,12
+condicao_genotipo_turno,15,7,mixup,XGBoost,NIRR|CD202|unico,9,0.2,0.25,0.2222222222222222,12
+condicao_genotipo_turno,15,7,mixup,XGBoost,NIRR|EMB48|manha + tarde,10,0.1,0.08333333333333333,0.09090909090909091,12
+condicao_genotipo_turno,15,7,mixup,XGBoost,NIRR|EMB48|unico,11,0.2857142857142857,0.3333333333333333,0.3076923076923077,12

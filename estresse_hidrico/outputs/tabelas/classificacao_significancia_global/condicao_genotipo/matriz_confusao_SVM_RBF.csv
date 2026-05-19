@@ -1,0 +1,7 @@
+﻿target,model,real,IRR|BR16,IRR|CD202,IRR|EMB48,NIRR|BR16,NIRR|CD202,NIRR|EMB48
+condicao_genotipo,SVM (RBF),IRR|BR16,14,1,7,2,0,0
+condicao_genotipo,SVM (RBF),IRR|CD202,7,2,11,0,4,0
+condicao_genotipo,SVM (RBF),IRR|EMB48,4,6,12,0,2,0
+condicao_genotipo,SVM (RBF),NIRR|BR16,0,0,0,20,4,0
+condicao_genotipo,SVM (RBF),NIRR|CD202,0,0,0,5,18,1
+condicao_genotipo,SVM (RBF),NIRR|EMB48,0,0,0,2,9,13

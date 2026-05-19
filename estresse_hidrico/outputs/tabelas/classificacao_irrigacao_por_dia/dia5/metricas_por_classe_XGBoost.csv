@@ -1,0 +1,3 @@
+﻿analysis_id,analysis_label,dia,modelo,classe,classe_codigo,precision,recall,f1,support
+dia5,dia5,dia5,XGBoost,Nao irrigado,0,0.9166666666666666,0.9166666666666666,0.9166666666666666,12
+dia5,dia5,dia5,XGBoost,Irrigado,1,0.9166666666666666,0.9166666666666666,0.9166666666666666,12

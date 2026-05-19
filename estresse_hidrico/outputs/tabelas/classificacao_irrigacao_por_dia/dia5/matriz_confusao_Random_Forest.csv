@@ -1,0 +1,3 @@
+﻿analysis_id,analysis_label,dia,modelo,real,Nao irrigado,Irrigado
+dia5,dia5,dia5,Random Forest,Nao irrigado,11,1
+dia5,dia5,dia5,Random Forest,Irrigado,1,11

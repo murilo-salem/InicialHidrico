@@ -1,0 +1,3 @@
+﻿analysis_id,analysis_label,dia,modelo,real,Nao irrigado,Irrigado
+dia3,dia3,dia3,LDA,Nao irrigado,12,0
+dia3,dia3,dia3,LDA,Irrigado,1,11

@@ -1,0 +1,289 @@
+﻿cultivar,condicao,data_coleta_iso,dia,replicata,bloco,grupo_cv,analysis_id,analysis_label,scope,y_true,y_pred,prob_irrigado,predicao_label,acertou
+BR16,IRR,2017-02-23,dia2,1,B1,BR16_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,0,0.49765431345434225,NIRR,False
+BR16,IRR,2017-02-23,dia2,2,B2,BR16_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,0,0.2752023206202034,NIRR,False
+BR16,IRR,2017-02-23,dia2,3,B3,BR16_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,0,0.2659652749885163,NIRR,False
+BR16,IRR,2017-02-23,dia2,4,B4,BR16_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,0,0.24366777768721767,NIRR,False
+BR16,NIRR,2017-02-23,dia2,1,B1,BR16_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.3239139283031095,NIRR,True
+BR16,NIRR,2017-02-23,dia2,2,B2,BR16_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.13148900164051244,NIRR,True
+BR16,NIRR,2017-02-23,dia2,3,B3,BR16_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,0,0.044682498905746916,NIRR,True
+BR16,NIRR,2017-02-23,dia2,4,B4,BR16_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,0.13879532240661827,NIRR,True
+CD202,IRR,2017-02-23,dia2,1,B1,CD202_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,0,0.08348455542908773,NIRR,False
+CD202,IRR,2017-02-23,dia2,2,B2,CD202_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,0,0.4274942792462704,NIRR,False
+CD202,IRR,2017-02-23,dia2,3,B3,CD202_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,0,0.07254880868660994,NIRR,False
+CD202,IRR,2017-02-23,dia2,4,B4,CD202_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,1,0.760501651673135,IRR,True
+CD202,NIRR,2017-02-23,dia2,1,B1,CD202_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.0437926652790447,NIRR,True
+CD202,NIRR,2017-02-23,dia2,2,B2,CD202_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.10071991027636004,NIRR,True
+CD202,NIRR,2017-02-23,dia2,3,B3,CD202_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,0,0.007992743220063669,NIRR,True
+CD202,NIRR,2017-02-23,dia2,4,B4,CD202_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,0.006948706400043848,NIRR,True
+EMB48,IRR,2017-02-23,dia2,1,B1,EMB48_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,0,0.209649748766773,NIRR,False
+EMB48,IRR,2017-02-23,dia2,2,B2,EMB48_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,0,0.4044780652314556,NIRR,False
+EMB48,IRR,2017-02-23,dia2,3,B3,EMB48_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,1,0.8661422061912719,IRR,True
+EMB48,IRR,2017-02-23,dia2,4,B4,EMB48_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,0,0.05487986285867896,NIRR,False
+EMB48,NIRR,2017-02-23,dia2,1,B1,EMB48_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.0011754869283730602,NIRR,True
+EMB48,NIRR,2017-02-23,dia2,2,B2,EMB48_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.19501125792582552,NIRR,True
+EMB48,NIRR,2017-02-23,dia2,3,B3,EMB48_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,0,0.000493578201497508,NIRR,True
+EMB48,NIRR,2017-02-23,dia2,4,B4,EMB48_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,0.0016440586599203745,NIRR,True
+BR16,IRR,2017-02-24,dia3,1,B1,BR16_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,1,0.6702480132473219,IRR,True
+BR16,IRR,2017-02-24,dia3,2,B2,BR16_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,1,0.5093588666663385,IRR,True
+BR16,IRR,2017-02-24,dia3,3,B3,BR16_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,1,0.7523023094755332,IRR,True
+BR16,IRR,2017-02-24,dia3,4,B4,BR16_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9995306816201966,IRR,True
+BR16,NIRR,2017-02-24,dia3,1,B1,BR16_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.00942528256824857,NIRR,True
+BR16,NIRR,2017-02-24,dia3,2,B2,BR16_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.016482803722314334,NIRR,True
+BR16,NIRR,2017-02-24,dia3,3,B3,BR16_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,0,0.1465802219102733,NIRR,True
+BR16,NIRR,2017-02-24,dia3,4,B4,BR16_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,0.06177748668350103,NIRR,True
+CD202,IRR,2017-02-24,dia3,1,B1,CD202_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,0,0.15952820694565772,NIRR,False
+CD202,IRR,2017-02-24,dia3,2,B2,CD202_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9562945794784704,IRR,True
+CD202,IRR,2017-02-24,dia3,3,B3,CD202_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,0,0.3157071505655501,NIRR,False
+CD202,IRR,2017-02-24,dia3,4,B4,CD202_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9991489903164275,IRR,True
+CD202,NIRR,2017-02-24,dia3,1,B1,CD202_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.010868955925370946,NIRR,True
+CD202,NIRR,2017-02-24,dia3,2,B2,CD202_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.007377201310064483,NIRR,True
+CD202,NIRR,2017-02-24,dia3,3,B3,CD202_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,0,0.0014506822144535175,NIRR,True
+CD202,NIRR,2017-02-24,dia3,4,B4,CD202_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,0.011934228217421046,NIRR,True
+EMB48,IRR,2017-02-24,dia3,1,B1,EMB48_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9537921574351917,IRR,True
+EMB48,IRR,2017-02-24,dia3,2,B2,EMB48_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9893664282415333,IRR,True
+EMB48,IRR,2017-02-24,dia3,3,B3,EMB48_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9474484623694348,IRR,True
+EMB48,IRR,2017-02-24,dia3,4,B4,EMB48_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,1,0.6201840060095208,IRR,True
+EMB48,NIRR,2017-02-24,dia3,1,B1,EMB48_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.00025353294043883466,NIRR,True
+EMB48,NIRR,2017-02-24,dia3,2,B2,EMB48_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.0634261443679965,NIRR,True
+EMB48,NIRR,2017-02-24,dia3,3,B3,EMB48_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,0,3.331501262675135e-05,NIRR,True
+EMB48,NIRR,2017-02-24,dia3,4,B4,EMB48_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,0.0005969940861962396,NIRR,True
+BR16,IRR,2017-02-25,dia4,1,B1,BR16_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9991960771071762,IRR,True
+BR16,IRR,2017-02-25,dia4,2,B2,BR16_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9396893607990806,IRR,True
+BR16,IRR,2017-02-25,dia4,3,B3,BR16_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,1,0.920951010219904,IRR,True
+BR16,IRR,2017-02-25,dia4,4,B4,BR16_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9995953163452271,IRR,True
+BR16,NIRR,2017-02-25,dia4,1,B1,BR16_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.04933389384533886,NIRR,True
+BR16,NIRR,2017-02-25,dia4,2,B2,BR16_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.1821468245556246,NIRR,True
+BR16,NIRR,2017-02-25,dia4,3,B3,BR16_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,0,0.16294701630392125,NIRR,True
+BR16,NIRR,2017-02-25,dia4,4,B4,BR16_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,0.039325244024302014,NIRR,True
+CD202,IRR,2017-02-25,dia4,1,B1,CD202_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9989580753955869,IRR,True
+CD202,IRR,2017-02-25,dia4,2,B2,CD202_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9622687839611829,IRR,True
+CD202,IRR,2017-02-25,dia4,3,B3,CD202_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,1,0.999517088727172,IRR,True
+CD202,IRR,2017-02-25,dia4,4,B4,CD202_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9997920663952578,IRR,True
+CD202,NIRR,2017-02-25,dia4,1,B1,CD202_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.08101380931181164,NIRR,True
+CD202,NIRR,2017-02-25,dia4,2,B2,CD202_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.3132433060691396,NIRR,True
+CD202,NIRR,2017-02-25,dia4,3,B3,CD202_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,0,0.013922184308619348,NIRR,True
+CD202,NIRR,2017-02-25,dia4,4,B4,CD202_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,0.03247104397827489,NIRR,True
+EMB48,IRR,2017-02-25,dia4,1,B1,EMB48_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9998760106579729,IRR,True
+EMB48,IRR,2017-02-25,dia4,2,B2,EMB48_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9993468299959272,IRR,True
+EMB48,IRR,2017-02-25,dia4,3,B3,EMB48_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9997702937555127,IRR,True
+EMB48,IRR,2017-02-25,dia4,4,B4,EMB48_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9948250335569038,IRR,True
+EMB48,NIRR,2017-02-25,dia4,1,B1,EMB48_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.007620795565471191,NIRR,True
+EMB48,NIRR,2017-02-25,dia4,2,B2,EMB48_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.48742529971693804,NIRR,True
+EMB48,NIRR,2017-02-25,dia4,3,B3,EMB48_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,0,0.010299827823380747,NIRR,True
+EMB48,NIRR,2017-02-25,dia4,4,B4,EMB48_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,0.005839095124282382,NIRR,True
+BR16,IRR,2017-02-26,dia5,1,B1,BR16_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9999997001814447,IRR,True
+BR16,IRR,2017-02-26,dia5,2,B2,BR16_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9231536469838647,IRR,True
+BR16,IRR,2017-02-26,dia5,3,B3,BR16_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9399754436068076,IRR,True
+BR16,IRR,2017-02-26,dia5,4,B4,BR16_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9997545784965657,IRR,True
+BR16,NIRR,2017-02-26,dia5,1,B1,BR16_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.03797732664996807,NIRR,True
+BR16,NIRR,2017-02-26,dia5,2,B2,BR16_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.0025146040348010303,NIRR,True
+BR16,NIRR,2017-02-26,dia5,3,B3,BR16_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,0,0.020283300467165245,NIRR,True
+BR16,NIRR,2017-02-26,dia5,4,B4,BR16_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,0.00148633887447423,NIRR,True
+CD202,IRR,2017-02-26,dia5,1,B1,CD202_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9906968799647099,IRR,True
+CD202,IRR,2017-02-26,dia5,2,B2,CD202_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9996215224528987,IRR,True
+CD202,IRR,2017-02-26,dia5,3,B3,CD202_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9986146548474814,IRR,True
+CD202,IRR,2017-02-26,dia5,4,B4,CD202_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9999192643025768,IRR,True
+CD202,NIRR,2017-02-26,dia5,1,B1,CD202_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.016417371024344003,NIRR,True
+CD202,NIRR,2017-02-26,dia5,2,B2,CD202_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.006326577138812229,NIRR,True
+CD202,NIRR,2017-02-26,dia5,3,B3,CD202_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,0,0.0027899143303862376,NIRR,True
+CD202,NIRR,2017-02-26,dia5,4,B4,CD202_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,0.0026741653038087542,NIRR,True
+EMB48,IRR,2017-02-26,dia5,1,B1,EMB48_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9861583169111391,IRR,True
+EMB48,IRR,2017-02-26,dia5,2,B2,EMB48_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9959231598982984,IRR,True
+EMB48,IRR,2017-02-26,dia5,3,B3,EMB48_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,1,0.999376353755028,IRR,True
+EMB48,IRR,2017-02-26,dia5,4,B4,EMB48_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9999892991782409,IRR,True
+EMB48,NIRR,2017-02-26,dia5,1,B1,EMB48_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.0004037724147602463,NIRR,True
+EMB48,NIRR,2017-02-26,dia5,2,B2,EMB48_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.008858594283727764,NIRR,True
+EMB48,NIRR,2017-02-26,dia5,3,B3,EMB48_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,0,4.339102504424866e-05,NIRR,True
+EMB48,NIRR,2017-02-26,dia5,4,B4,EMB48_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,8.256981217063013e-05,NIRR,True
+BR16,IRR,2017-02-27,dia6,1,B1,BR16_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,1,0.999877808360987,IRR,True
+BR16,IRR,2017-02-27,dia6,2,B2,BR16_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,1,0.999988249123764,IRR,True
+BR16,IRR,2017-02-27,dia6,3,B3,BR16_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9996912163349166,IRR,True
+BR16,IRR,2017-02-27,dia6,4,B4,BR16_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9998615652022946,IRR,True
+BR16,NIRR,2017-02-27,dia6,1,B1,BR16_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.02051160997625409,NIRR,True
+BR16,NIRR,2017-02-27,dia6,2,B2,BR16_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.03980140663050424,NIRR,True
+BR16,NIRR,2017-02-27,dia6,3,B3,BR16_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,0,0.007073946951200872,NIRR,True
+BR16,NIRR,2017-02-27,dia6,4,B4,BR16_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,0.002737434184643989,NIRR,True
+CD202,IRR,2017-02-27,dia6,1,B1,CD202_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9999326055235109,IRR,True
+CD202,IRR,2017-02-27,dia6,2,B2,CD202_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9996762097423245,IRR,True
+CD202,IRR,2017-02-27,dia6,3,B3,CD202_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9929705265011065,IRR,True
+CD202,IRR,2017-02-27,dia6,4,B4,CD202_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9998027865691592,IRR,True
+CD202,NIRR,2017-02-27,dia6,1,B1,CD202_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.014590093330675062,NIRR,True
+CD202,NIRR,2017-02-27,dia6,2,B2,CD202_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.019610257398564174,NIRR,True
+CD202,NIRR,2017-02-27,dia6,3,B3,CD202_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,0,0.0039876022136352465,NIRR,True
+CD202,NIRR,2017-02-27,dia6,4,B4,CD202_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,0.002575103284554788,NIRR,True
+EMB48,IRR,2017-02-27,dia6,1,B1,EMB48_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9999888247585089,IRR,True
+EMB48,IRR,2017-02-27,dia6,2,B2,EMB48_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9968288010216003,IRR,True
+EMB48,IRR,2017-02-27,dia6,3,B3,EMB48_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9999621367113896,IRR,True
+EMB48,IRR,2017-02-27,dia6,4,B4,EMB48_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9949503749123203,IRR,True
+EMB48,NIRR,2017-02-27,dia6,1,B1,EMB48_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.0009187740025009075,NIRR,True
+EMB48,NIRR,2017-02-27,dia6,2,B2,EMB48_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.01432094056763949,NIRR,True
+EMB48,NIRR,2017-02-27,dia6,3,B3,EMB48_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,0,5.681763864706802e-05,NIRR,True
+EMB48,NIRR,2017-02-27,dia6,4,B4,EMB48_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,6.16203624439953e-05,NIRR,True
+BR16,IRR,2017-03-02,dia9,1,B1,BR16_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,1,0.6036823159159739,IRR,True
+BR16,IRR,2017-03-02,dia9,2,B2,BR16_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,1,0.6650526408434021,IRR,True
+BR16,IRR,2017-03-02,dia9,3,B3,BR16_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9087428377721599,IRR,True
+BR16,IRR,2017-03-02,dia9,4,B4,BR16_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9893661048523038,IRR,True
+BR16,NIRR,2017-03-02,dia9,1,B1,BR16_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.04813835378001547,NIRR,True
+BR16,NIRR,2017-03-02,dia9,2,B2,BR16_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.28851550518024627,NIRR,True
+BR16,NIRR,2017-03-02,dia9,3,B3,BR16_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,1,0.5732691027518904,IRR,False
+BR16,NIRR,2017-03-02,dia9,4,B4,BR16_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,0.2190909499090088,NIRR,True
+CD202,IRR,2017-03-02,dia9,1,B1,CD202_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9998554214091541,IRR,True
+CD202,IRR,2017-03-02,dia9,2,B2,CD202_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,1,0.7694021681901966,IRR,True
+CD202,IRR,2017-03-02,dia9,3,B3,CD202_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9547607432764497,IRR,True
+CD202,IRR,2017-03-02,dia9,4,B4,CD202_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,1,0.5247351004860156,IRR,True
+CD202,NIRR,2017-03-02,dia9,1,B1,CD202_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.002682776615297053,NIRR,True
+CD202,NIRR,2017-03-02,dia9,2,B2,CD202_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.013857762539593874,NIRR,True
+CD202,NIRR,2017-03-02,dia9,3,B3,CD202_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,0,0.044791093617751944,NIRR,True
+CD202,NIRR,2017-03-02,dia9,4,B4,CD202_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,0.010202883926880419,NIRR,True
+EMB48,IRR,2017-03-02,dia9,1,B1,EMB48_IRR_B1,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9682648689256207,IRR,True
+EMB48,IRR,2017-03-02,dia9,2,B2,EMB48_IRR_B2,global,Classificacao binaria IRR vs NIRR,global,1,1,0.849424592229264,IRR,True
+EMB48,IRR,2017-03-02,dia9,3,B3,EMB48_IRR_B3,global,Classificacao binaria IRR vs NIRR,global,1,1,0.9972946564806539,IRR,True
+EMB48,IRR,2017-03-02,dia9,4,B4,EMB48_IRR_B4,global,Classificacao binaria IRR vs NIRR,global,1,1,0.6226931579376453,IRR,True
+EMB48,NIRR,2017-03-02,dia9,1,B1,EMB48_NIRR_B1,global,Classificacao binaria IRR vs NIRR,global,0,0,0.04947674526301688,NIRR,True
+EMB48,NIRR,2017-03-02,dia9,2,B2,EMB48_NIRR_B2,global,Classificacao binaria IRR vs NIRR,global,0,0,0.08203088870337633,NIRR,True
+EMB48,NIRR,2017-03-02,dia9,3,B3,EMB48_NIRR_B3,global,Classificacao binaria IRR vs NIRR,global,0,0,0.0037006121701356766,NIRR,True
+EMB48,NIRR,2017-03-02,dia9,4,B4,EMB48_NIRR_B4,global,Classificacao binaria IRR vs NIRR,global,0,0,0.0033161840526062985,NIRR,True
+BR16,IRR,2017-02-23,dia2,1,B1,BR16_IRR_B1,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.8053082386969405,IRR,True
+BR16,IRR,2017-02-23,dia2,2,B2,BR16_IRR_B2,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,0,0.45567011726330053,NIRR,False
+BR16,IRR,2017-02-23,dia2,3,B3,BR16_IRR_B3,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,0,0.08656618197730431,NIRR,False
+BR16,IRR,2017-02-23,dia2,4,B4,BR16_IRR_B4,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,0,0.046563114436629506,NIRR,False
+BR16,NIRR,2017-02-23,dia2,1,B1,BR16_NIRR_B1,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.1932106465848847,NIRR,True
+BR16,NIRR,2017-02-23,dia2,2,B2,BR16_NIRR_B2,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.07604701582015526,NIRR,True
+BR16,NIRR,2017-02-23,dia2,3,B3,BR16_NIRR_B3,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.011898637204643368,NIRR,True
+BR16,NIRR,2017-02-23,dia2,4,B4,BR16_NIRR_B4,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.031923618882621636,NIRR,True
+BR16,IRR,2017-02-24,dia3,1,B1,BR16_IRR_B1,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.9021738063664042,IRR,True
+BR16,IRR,2017-02-24,dia3,2,B2,BR16_IRR_B2,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.6658950075792168,IRR,True
+BR16,IRR,2017-02-24,dia3,3,B3,BR16_IRR_B3,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.7699190542892854,IRR,True
+BR16,IRR,2017-02-24,dia3,4,B4,BR16_IRR_B4,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.9996363800869206,IRR,True
+BR16,NIRR,2017-02-24,dia3,1,B1,BR16_NIRR_B1,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.003651901050938321,NIRR,True
+BR16,NIRR,2017-02-24,dia3,2,B2,BR16_NIRR_B2,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.0018235684721728126,NIRR,True
+BR16,NIRR,2017-02-24,dia3,3,B3,BR16_NIRR_B3,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.06358031634692671,NIRR,True
+BR16,NIRR,2017-02-24,dia3,4,B4,BR16_NIRR_B4,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.015969121365415763,NIRR,True
+BR16,IRR,2017-02-25,dia4,1,B1,BR16_IRR_B1,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.9952112534704998,IRR,True
+BR16,IRR,2017-02-25,dia4,2,B2,BR16_IRR_B2,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.9558557598382608,IRR,True
+BR16,IRR,2017-02-25,dia4,3,B3,BR16_IRR_B3,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.9154909998256716,IRR,True
+BR16,IRR,2017-02-25,dia4,4,B4,BR16_IRR_B4,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.9970055382995797,IRR,True
+BR16,NIRR,2017-02-25,dia4,1,B1,BR16_NIRR_B1,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.018788882712854168,NIRR,True
+BR16,NIRR,2017-02-25,dia4,2,B2,BR16_NIRR_B2,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.1832865601887333,NIRR,True
+BR16,NIRR,2017-02-25,dia4,3,B3,BR16_NIRR_B3,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.0734862600620517,NIRR,True
+BR16,NIRR,2017-02-25,dia4,4,B4,BR16_NIRR_B4,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.002365018172714503,NIRR,True
+BR16,IRR,2017-02-26,dia5,1,B1,BR16_IRR_B1,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.999994800721306,IRR,True
+BR16,IRR,2017-02-26,dia5,2,B2,BR16_IRR_B2,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.9690330482593082,IRR,True
+BR16,IRR,2017-02-26,dia5,3,B3,BR16_IRR_B3,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.9549285388928086,IRR,True
+BR16,IRR,2017-02-26,dia5,4,B4,BR16_IRR_B4,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.9996751352469891,IRR,True
+BR16,NIRR,2017-02-26,dia5,1,B1,BR16_NIRR_B1,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.015031621780703013,NIRR,True
+BR16,NIRR,2017-02-26,dia5,2,B2,BR16_NIRR_B2,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.00025585138366559964,NIRR,True
+BR16,NIRR,2017-02-26,dia5,3,B3,BR16_NIRR_B3,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.004860830263785256,NIRR,True
+BR16,NIRR,2017-02-26,dia5,4,B4,BR16_NIRR_B4,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,5.617944511562394e-05,NIRR,True
+BR16,IRR,2017-02-27,dia6,1,B1,BR16_IRR_B1,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.9999578261229567,IRR,True
+BR16,IRR,2017-02-27,dia6,2,B2,BR16_IRR_B2,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.9999721461921476,IRR,True
+BR16,IRR,2017-02-27,dia6,3,B3,BR16_IRR_B3,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.999916416172423,IRR,True
+BR16,IRR,2017-02-27,dia6,4,B4,BR16_IRR_B4,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.9998173806606417,IRR,True
+BR16,NIRR,2017-02-27,dia6,1,B1,BR16_NIRR_B1,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.00797024139344279,NIRR,True
+BR16,NIRR,2017-02-27,dia6,2,B2,BR16_NIRR_B2,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.01786550563954381,NIRR,True
+BR16,NIRR,2017-02-27,dia6,3,B3,BR16_NIRR_B3,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.001472959793058941,NIRR,True
+BR16,NIRR,2017-02-27,dia6,4,B4,BR16_NIRR_B4,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.00015825437407502528,NIRR,True
+BR16,IRR,2017-03-02,dia9,1,B1,BR16_IRR_B1,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.869224565408813,IRR,True
+BR16,IRR,2017-03-02,dia9,2,B2,BR16_IRR_B2,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.8190823990561973,IRR,True
+BR16,IRR,2017-03-02,dia9,3,B3,BR16_IRR_B3,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.9061995535861277,IRR,True
+BR16,IRR,2017-03-02,dia9,4,B4,BR16_IRR_B4,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,1,1,0.9720048268771485,IRR,True
+BR16,NIRR,2017-03-02,dia9,1,B1,BR16_NIRR_B1,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.021526834511789827,NIRR,True
+BR16,NIRR,2017-03-02,dia9,2,B2,BR16_NIRR_B2,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.3482614535572481,NIRR,True
+BR16,NIRR,2017-03-02,dia9,3,B3,BR16_NIRR_B3,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.4857112777946241,NIRR,True
+BR16,NIRR,2017-03-02,dia9,4,B4,BR16_NIRR_B4,genotipo_BR16,Classificacao binaria IRR vs NIRR - BR16,por_genotipo,0,0,0.15752790497542982,NIRR,True
+CD202,IRR,2017-02-23,dia2,1,B1,CD202_IRR_B1,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,0,0.042228601796323116,NIRR,False
+CD202,IRR,2017-02-23,dia2,2,B2,CD202_IRR_B2,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,0,0.29437921311475745,NIRR,False
+CD202,IRR,2017-02-23,dia2,3,B3,CD202_IRR_B3,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,0,0.197844821062048,NIRR,False
+CD202,IRR,2017-02-23,dia2,4,B4,CD202_IRR_B4,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.8292883470535262,IRR,True
+CD202,NIRR,2017-02-23,dia2,1,B1,CD202_NIRR_B1,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.016379825021252088,NIRR,True
+CD202,NIRR,2017-02-23,dia2,2,B2,CD202_NIRR_B2,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.06833553626395138,NIRR,True
+CD202,NIRR,2017-02-23,dia2,3,B3,CD202_NIRR_B3,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,5.402503951629938e-05,NIRR,True
+CD202,NIRR,2017-02-23,dia2,4,B4,CD202_NIRR_B4,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.0018217906527585469,NIRR,True
+CD202,IRR,2017-02-24,dia3,1,B1,CD202_IRR_B1,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,0,0.13575247631361662,NIRR,False
+CD202,IRR,2017-02-24,dia3,2,B2,CD202_IRR_B2,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.958741320737855,IRR,True
+CD202,IRR,2017-02-24,dia3,3,B3,CD202_IRR_B3,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.7863898373285938,IRR,True
+CD202,IRR,2017-02-24,dia3,4,B4,CD202_IRR_B4,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.9997527530846831,IRR,True
+CD202,NIRR,2017-02-24,dia3,1,B1,CD202_NIRR_B1,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.07582023203060026,NIRR,True
+CD202,NIRR,2017-02-24,dia3,2,B2,CD202_NIRR_B2,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.004455698405105218,NIRR,True
+CD202,NIRR,2017-02-24,dia3,3,B3,CD202_NIRR_B3,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,9.074371728793238e-06,NIRR,True
+CD202,NIRR,2017-02-24,dia3,4,B4,CD202_NIRR_B4,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.008686436484310698,NIRR,True
+CD202,IRR,2017-02-25,dia4,1,B1,CD202_IRR_B1,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.9998748592193855,IRR,True
+CD202,IRR,2017-02-25,dia4,2,B2,CD202_IRR_B2,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.910449592414664,IRR,True
+CD202,IRR,2017-02-25,dia4,3,B3,CD202_IRR_B3,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.9999584726961505,IRR,True
+CD202,IRR,2017-02-25,dia4,4,B4,CD202_IRR_B4,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.9999704995231655,IRR,True
+CD202,NIRR,2017-02-25,dia4,1,B1,CD202_NIRR_B1,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.22781126832376786,NIRR,True
+CD202,NIRR,2017-02-25,dia4,2,B2,CD202_NIRR_B2,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.37519289236995357,NIRR,True
+CD202,NIRR,2017-02-25,dia4,3,B3,CD202_NIRR_B3,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.0031942255417069594,NIRR,True
+CD202,NIRR,2017-02-25,dia4,4,B4,CD202_NIRR_B4,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.03965294240608536,NIRR,True
+CD202,IRR,2017-02-26,dia5,1,B1,CD202_IRR_B1,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.9953507996848049,IRR,True
+CD202,IRR,2017-02-26,dia5,2,B2,CD202_IRR_B2,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.9978766466239,IRR,True
+CD202,IRR,2017-02-26,dia5,3,B3,CD202_IRR_B3,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.9997807847532477,IRR,True
+CD202,IRR,2017-02-26,dia5,4,B4,CD202_IRR_B4,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.9999888551677463,IRR,True
+CD202,NIRR,2017-02-26,dia5,1,B1,CD202_NIRR_B1,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.009177396543426657,NIRR,True
+CD202,NIRR,2017-02-26,dia5,2,B2,CD202_NIRR_B2,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.0009618954293837067,NIRR,True
+CD202,NIRR,2017-02-26,dia5,3,B3,CD202_NIRR_B3,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.0001040894520516287,NIRR,True
+CD202,NIRR,2017-02-26,dia5,4,B4,CD202_NIRR_B4,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.0004224863940111307,NIRR,True
+CD202,IRR,2017-02-27,dia6,1,B1,CD202_IRR_B1,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.9999967957180521,IRR,True
+CD202,IRR,2017-02-27,dia6,2,B2,CD202_IRR_B2,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.9998271198995068,IRR,True
+CD202,IRR,2017-02-27,dia6,3,B3,CD202_IRR_B3,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.9981938935863295,IRR,True
+CD202,IRR,2017-02-27,dia6,4,B4,CD202_IRR_B4,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.9999375475734911,IRR,True
+CD202,NIRR,2017-02-27,dia6,1,B1,CD202_NIRR_B1,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.003979920425938067,NIRR,True
+CD202,NIRR,2017-02-27,dia6,2,B2,CD202_NIRR_B2,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.0021068195893150423,NIRR,True
+CD202,NIRR,2017-02-27,dia6,3,B3,CD202_NIRR_B3,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,5.7142897054156254e-05,NIRR,True
+CD202,NIRR,2017-02-27,dia6,4,B4,CD202_NIRR_B4,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.0008058146746445845,NIRR,True
+CD202,IRR,2017-03-02,dia9,1,B1,CD202_IRR_B1,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.9999956444161894,IRR,True
+CD202,IRR,2017-03-02,dia9,2,B2,CD202_IRR_B2,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.5807843097239149,IRR,True
+CD202,IRR,2017-03-02,dia9,3,B3,CD202_IRR_B3,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.9849861743857808,IRR,True
+CD202,IRR,2017-03-02,dia9,4,B4,CD202_IRR_B4,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,1,1,0.5270248616931515,IRR,True
+CD202,NIRR,2017-03-02,dia9,1,B1,CD202_NIRR_B1,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.0034369054537490805,NIRR,True
+CD202,NIRR,2017-03-02,dia9,2,B2,CD202_NIRR_B2,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.003130230536857696,NIRR,True
+CD202,NIRR,2017-03-02,dia9,3,B3,CD202_NIRR_B3,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.003922701306222977,NIRR,True
+CD202,NIRR,2017-03-02,dia9,4,B4,CD202_NIRR_B4,genotipo_CD202,Classificacao binaria IRR vs NIRR - CD202,por_genotipo,0,0,0.010382552839040278,NIRR,True
+EMB48,IRR,2017-02-23,dia2,1,B1,EMB48_IRR_B1,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,0,0.13112357731555296,NIRR,False
+EMB48,IRR,2017-02-23,dia2,2,B2,EMB48_IRR_B2,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.5977645170439013,IRR,True
+EMB48,IRR,2017-02-23,dia2,3,B3,EMB48_IRR_B3,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.9956317956538049,IRR,True
+EMB48,IRR,2017-02-23,dia2,4,B4,EMB48_IRR_B4,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,0,0.04587750448446617,NIRR,False
+EMB48,NIRR,2017-02-23,dia2,1,B1,EMB48_NIRR_B1,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.0010832055690566886,NIRR,True
+EMB48,NIRR,2017-02-23,dia2,2,B2,EMB48_NIRR_B2,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.2549532232188893,NIRR,True
+EMB48,NIRR,2017-02-23,dia2,3,B3,EMB48_NIRR_B3,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.0001066373407442993,NIRR,True
+EMB48,NIRR,2017-02-23,dia2,4,B4,EMB48_NIRR_B4,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.0009010297275115928,NIRR,True
+EMB48,IRR,2017-02-24,dia3,1,B1,EMB48_IRR_B1,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.9778938658104648,IRR,True
+EMB48,IRR,2017-02-24,dia3,2,B2,EMB48_IRR_B2,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.9969697659846537,IRR,True
+EMB48,IRR,2017-02-24,dia3,3,B3,EMB48_IRR_B3,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.9986509949497082,IRR,True
+EMB48,IRR,2017-02-24,dia3,4,B4,EMB48_IRR_B4,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.9345284948365159,IRR,True
+EMB48,NIRR,2017-02-24,dia3,1,B1,EMB48_NIRR_B1,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.0001585978651490216,NIRR,True
+EMB48,NIRR,2017-02-24,dia3,2,B2,EMB48_NIRR_B2,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.1247928128996441,NIRR,True
+EMB48,NIRR,2017-02-24,dia3,3,B3,EMB48_NIRR_B3,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,3.942022372797732e-06,NIRR,True
+EMB48,NIRR,2017-02-24,dia3,4,B4,EMB48_NIRR_B4,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.0009283504364712589,NIRR,True
+EMB48,IRR,2017-02-25,dia4,1,B1,EMB48_IRR_B1,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.9999961355469709,IRR,True
+EMB48,IRR,2017-02-25,dia4,2,B2,EMB48_IRR_B2,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.9998209536980069,IRR,True
+EMB48,IRR,2017-02-25,dia4,3,B3,EMB48_IRR_B3,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.9999995043868504,IRR,True
+EMB48,IRR,2017-02-25,dia4,4,B4,EMB48_IRR_B4,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.9994339027993748,IRR,True
+EMB48,NIRR,2017-02-25,dia4,1,B1,EMB48_NIRR_B1,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.003867177031427862,NIRR,True
+EMB48,NIRR,2017-02-25,dia4,2,B2,EMB48_NIRR_B2,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,1,0.7885685251883892,IRR,False
+EMB48,NIRR,2017-02-25,dia4,3,B3,EMB48_NIRR_B3,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.002065554970638312,NIRR,True
+EMB48,NIRR,2017-02-25,dia4,4,B4,EMB48_NIRR_B4,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.0037234671110896998,NIRR,True
+EMB48,IRR,2017-02-26,dia5,1,B1,EMB48_IRR_B1,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.998836854340246,IRR,True
+EMB48,IRR,2017-02-26,dia5,2,B2,EMB48_IRR_B2,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.998756929997912,IRR,True
+EMB48,IRR,2017-02-26,dia5,3,B3,EMB48_IRR_B3,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.9999985656853239,IRR,True
+EMB48,IRR,2017-02-26,dia5,4,B4,EMB48_IRR_B4,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.9999991525210915,IRR,True
+EMB48,NIRR,2017-02-26,dia5,1,B1,EMB48_NIRR_B1,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.0002475990873485986,NIRR,True
+EMB48,NIRR,2017-02-26,dia5,2,B2,EMB48_NIRR_B2,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.005748916067323192,NIRR,True
+EMB48,NIRR,2017-02-26,dia5,3,B3,EMB48_NIRR_B3,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,3.932517928697337e-05,NIRR,True
+EMB48,NIRR,2017-02-26,dia5,4,B4,EMB48_NIRR_B4,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.00038788202655256395,NIRR,True
+EMB48,IRR,2017-02-27,dia6,1,B1,EMB48_IRR_B1,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.9999998537670475,IRR,True
+EMB48,IRR,2017-02-27,dia6,2,B2,EMB48_IRR_B2,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.9988474099406651,IRR,True
+EMB48,IRR,2017-02-27,dia6,3,B3,EMB48_IRR_B3,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.999999964329587,IRR,True
+EMB48,IRR,2017-02-27,dia6,4,B4,EMB48_IRR_B4,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.993230813161449,IRR,True
+EMB48,NIRR,2017-02-27,dia6,1,B1,EMB48_NIRR_B1,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.0006383013507279044,NIRR,True
+EMB48,NIRR,2017-02-27,dia6,2,B2,EMB48_NIRR_B2,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.013907719868106799,NIRR,True
+EMB48,NIRR,2017-02-27,dia6,3,B3,EMB48_NIRR_B3,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,1.2492514631228164e-05,NIRR,True
+EMB48,NIRR,2017-02-27,dia6,4,B4,EMB48_NIRR_B4,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,3.819862612911176e-07,NIRR,True
+EMB48,IRR,2017-03-02,dia9,1,B1,EMB48_IRR_B1,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.995559367598047,IRR,True
+EMB48,IRR,2017-03-02,dia9,2,B2,EMB48_IRR_B2,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.9254545671615682,IRR,True
+EMB48,IRR,2017-03-02,dia9,3,B3,EMB48_IRR_B3,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.9999789107155794,IRR,True
+EMB48,IRR,2017-03-02,dia9,4,B4,EMB48_IRR_B4,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,1,1,0.9668662348144926,IRR,True
+EMB48,NIRR,2017-03-02,dia9,1,B1,EMB48_NIRR_B1,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.047635754892650116,NIRR,True
+EMB48,NIRR,2017-03-02,dia9,2,B2,EMB48_NIRR_B2,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.15352727172476865,NIRR,True
+EMB48,NIRR,2017-03-02,dia9,3,B3,EMB48_NIRR_B3,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.0008336556314560211,NIRR,True
+EMB48,NIRR,2017-03-02,dia9,4,B4,EMB48_NIRR_B4,genotipo_EMB48,Classificacao binaria IRR vs NIRR - EMB48,por_genotipo,0,0,0.0020089417586802204,NIRR,True

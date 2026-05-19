@@ -1,0 +1,9 @@
+﻿cultivar,condicao,data_coleta_iso,dia,replicata,bloco,grupo_cv,analysis_id,analysis_label,modelo,y_true,y_pred,prob_irrigado,acertou
+BR16,IRR,2017-03-02,dia9,1,B1,BR16_IRR_B1,dia9_BR16,dia9 - BR16,Random Forest,1,0,0.19066666666666668,False
+BR16,IRR,2017-03-02,dia9,2,B2,BR16_IRR_B2,dia9_BR16,dia9 - BR16,Random Forest,1,1,0.8186666666666667,True
+BR16,IRR,2017-03-02,dia9,3,B3,BR16_IRR_B3,dia9_BR16,dia9 - BR16,Random Forest,1,1,0.712,True
+BR16,IRR,2017-03-02,dia9,4,B4,BR16_IRR_B4,dia9_BR16,dia9 - BR16,Random Forest,1,1,0.8813333333333333,True
+BR16,NIRR,2017-03-02,dia9,1,B1,BR16_NIRR_B1,dia9_BR16,dia9 - BR16,Random Forest,0,0,0.13466666666666666,True
+BR16,NIRR,2017-03-02,dia9,2,B2,BR16_NIRR_B2,dia9_BR16,dia9 - BR16,Random Forest,0,0,0.168,True
+BR16,NIRR,2017-03-02,dia9,3,B3,BR16_NIRR_B3,dia9_BR16,dia9 - BR16,Random Forest,0,0,0.3253333333333333,True
+BR16,NIRR,2017-03-02,dia9,4,B4,BR16_NIRR_B4,dia9_BR16,dia9 - BR16,Random Forest,0,0,0.4786666666666667,True

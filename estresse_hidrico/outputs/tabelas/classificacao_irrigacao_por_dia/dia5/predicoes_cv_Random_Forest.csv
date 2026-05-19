@@ -1,0 +1,25 @@
+﻿cultivar,condicao,data_coleta_iso,dia,replicata,bloco,grupo_cv,analysis_id,analysis_label,modelo,y_true,y_pred,prob_irrigado,acertou
+BR16,IRR,2017-02-26,dia5,1,B1,BR16_IRR_B1,dia5,dia5,Random Forest,1,1,1.0,True
+BR16,IRR,2017-02-26,dia5,2,B2,BR16_IRR_B2,dia5,dia5,Random Forest,1,1,0.724,True
+BR16,IRR,2017-02-26,dia5,3,B3,BR16_IRR_B3,dia5,dia5,Random Forest,1,0,0.4226666666666667,False
+BR16,IRR,2017-02-26,dia5,4,B4,BR16_IRR_B4,dia5,dia5,Random Forest,1,1,1.0,True
+BR16,NIRR,2017-02-26,dia5,1,B1,BR16_NIRR_B1,dia5,dia5,Random Forest,0,0,0.12666666666666668,True
+BR16,NIRR,2017-02-26,dia5,2,B2,BR16_NIRR_B2,dia5,dia5,Random Forest,0,0,0.03333333333333333,True
+BR16,NIRR,2017-02-26,dia5,3,B3,BR16_NIRR_B3,dia5,dia5,Random Forest,0,0,0.09733333333333333,True
+BR16,NIRR,2017-02-26,dia5,4,B4,BR16_NIRR_B4,dia5,dia5,Random Forest,0,0,0.0013333333333333333,True
+CD202,IRR,2017-02-26,dia5,1,B1,CD202_IRR_B1,dia5,dia5,Random Forest,1,1,0.996,True
+CD202,IRR,2017-02-26,dia5,2,B2,CD202_IRR_B2,dia5,dia5,Random Forest,1,1,0.9986666666666667,True
+CD202,IRR,2017-02-26,dia5,3,B3,CD202_IRR_B3,dia5,dia5,Random Forest,1,1,0.9946666666666667,True
+CD202,IRR,2017-02-26,dia5,4,B4,CD202_IRR_B4,dia5,dia5,Random Forest,1,1,1.0,True
+CD202,NIRR,2017-02-26,dia5,1,B1,CD202_NIRR_B1,dia5,dia5,Random Forest,0,1,0.516,False
+CD202,NIRR,2017-02-26,dia5,2,B2,CD202_NIRR_B2,dia5,dia5,Random Forest,0,0,0.0,True
+CD202,NIRR,2017-02-26,dia5,3,B3,CD202_NIRR_B3,dia5,dia5,Random Forest,0,0,0.04666666666666667,True
+CD202,NIRR,2017-02-26,dia5,4,B4,CD202_NIRR_B4,dia5,dia5,Random Forest,0,0,0.02666666666666667,True
+EMB48,IRR,2017-02-26,dia5,1,B1,EMB48_IRR_B1,dia5,dia5,Random Forest,1,1,0.9866666666666667,True
+EMB48,IRR,2017-02-26,dia5,2,B2,EMB48_IRR_B2,dia5,dia5,Random Forest,1,1,0.704,True
+EMB48,IRR,2017-02-26,dia5,3,B3,EMB48_IRR_B3,dia5,dia5,Random Forest,1,1,1.0,True
+EMB48,IRR,2017-02-26,dia5,4,B4,EMB48_IRR_B4,dia5,dia5,Random Forest,1,1,1.0,True
+EMB48,NIRR,2017-02-26,dia5,1,B1,EMB48_NIRR_B1,dia5,dia5,Random Forest,0,0,0.0,True
+EMB48,NIRR,2017-02-26,dia5,2,B2,EMB48_NIRR_B2,dia5,dia5,Random Forest,0,0,0.0,True
+EMB48,NIRR,2017-02-26,dia5,3,B3,EMB48_NIRR_B3,dia5,dia5,Random Forest,0,0,0.028,True
+EMB48,NIRR,2017-02-26,dia5,4,B4,EMB48_NIRR_B4,dia5,dia5,Random Forest,0,0,0.0,True

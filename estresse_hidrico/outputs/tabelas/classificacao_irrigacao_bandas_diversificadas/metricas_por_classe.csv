@@ -1,0 +1,3 @@
+﻿analysis_id,analysis_label,scope,cultivar,classe,classe_codigo,precision,recall,f1,support
+global,Classificacao binaria IRR vs NIRR,global,,Nao irrigado,0,0.8554216867469879,0.9861111111111112,0.9161290322580645,72
+global,Classificacao binaria IRR vs NIRR,global,,Irrigado,1,0.9836065573770492,0.8333333333333334,0.9022556390977443,72

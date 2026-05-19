@@ -1,0 +1,4 @@
+﻿analysis_id,analysis_label,scope,cultivar,feature,coeficiente_lda,abs_coeficiente_lda
+global,Classificacao binaria IRR vs NIRR,global,,band_381,2.9174387638544745,2.9174387638544745
+global,Classificacao binaria IRR vs NIRR,global,,band_721,-2.304750031206119,2.304750031206119
+global,Classificacao binaria IRR vs NIRR,global,,band_2444,-0.9228048070554282,0.9228048070554282

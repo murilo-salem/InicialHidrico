@@ -1,0 +1,13 @@
+﻿target,model,real,IRR|BR16|manha + tarde,IRR|BR16|unico,IRR|CD202|manha + tarde,IRR|CD202|unico,IRR|EMB48|manha + tarde,IRR|EMB48|unico,NIRR|BR16|manha + tarde,NIRR|BR16|unico,NIRR|CD202|manha + tarde,NIRR|CD202|unico,NIRR|EMB48|manha + tarde,NIRR|EMB48|unico
+condicao_genotipo_turno,k-NN (k=5),IRR|BR16|manha + tarde,7,1,1,0,2,0,1,0,0,0,0,0
+condicao_genotipo_turno,k-NN (k=5),IRR|BR16|unico,2,4,1,2,0,3,0,0,0,0,0,0
+condicao_genotipo_turno,k-NN (k=5),IRR|CD202|manha + tarde,0,1,2,0,6,0,1,0,0,2,0,0
+condicao_genotipo_turno,k-NN (k=5),IRR|CD202|unico,0,2,0,2,1,7,0,0,0,0,0,0
+condicao_genotipo_turno,k-NN (k=5),IRR|EMB48|manha + tarde,1,0,3,0,8,0,0,0,0,0,0,0
+condicao_genotipo_turno,k-NN (k=5),IRR|EMB48|unico,0,0,0,4,1,7,0,0,0,0,0,0
+condicao_genotipo_turno,k-NN (k=5),NIRR|BR16|manha + tarde,2,0,0,0,0,0,4,2,3,1,0,0
+condicao_genotipo_turno,k-NN (k=5),NIRR|BR16|unico,0,0,0,0,0,0,6,1,2,2,1,0
+condicao_genotipo_turno,k-NN (k=5),NIRR|CD202|manha + tarde,0,0,0,0,0,0,2,1,4,4,1,0
+condicao_genotipo_turno,k-NN (k=5),NIRR|CD202|unico,0,0,0,0,0,0,1,2,4,2,1,2
+condicao_genotipo_turno,k-NN (k=5),NIRR|EMB48|manha + tarde,0,0,0,0,0,0,1,1,0,3,4,3
+condicao_genotipo_turno,k-NN (k=5),NIRR|EMB48|unico,0,0,0,0,0,0,0,2,2,2,5,1

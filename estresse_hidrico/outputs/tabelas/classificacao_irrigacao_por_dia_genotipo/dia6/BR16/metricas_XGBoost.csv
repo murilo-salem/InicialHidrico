@@ -1,0 +1,2 @@
+﻿analysis_id,analysis_label,dia,cultivar,modelo,n_bandas,bandas,n_amostras,n_grupos,n_splits_cv,accuracy_media,accuracy_std,balanced_accuracy_media,balanced_accuracy_std,f1_irrigado_media,f1_irrigado_std,f1_macro_media,f1_macro_std,roc_auc_media,roc_auc_std,kappa_media,kappa_std
+dia6_BR16,dia6 - BR16,dia6,BR16,XGBoost,6,band_1200|band_1451|band_1951|band_970|band_670|NDRE,8,8,4,0.5,0.0,0.5,0.0,0.6666666666666666,0.0,0.3333333333333333,0.0,0.5,0.0,0.0,0.0

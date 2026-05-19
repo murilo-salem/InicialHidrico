@@ -1,0 +1,7 @@
+﻿target,model,real,IRR|BR16,IRR|CD202,IRR|EMB48,NIRR|BR16,NIRR|CD202,NIRR|EMB48
+condicao_genotipo,Random Forest,IRR|BR16,13,6,4,1,0,0
+condicao_genotipo,Random Forest,IRR|CD202,4,8,10,0,1,1
+condicao_genotipo,Random Forest,IRR|EMB48,2,5,16,0,0,1
+condicao_genotipo,Random Forest,NIRR|BR16,2,0,0,14,6,2
+condicao_genotipo,Random Forest,NIRR|CD202,0,1,0,7,11,5
+condicao_genotipo,Random Forest,NIRR|EMB48,0,1,1,2,5,15

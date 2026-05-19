@@ -1,0 +1,4 @@
+﻿subset_name,subset_kind,ranking_source,selection_policy,selection_cluster_threshold,evaluation_cluster_threshold,requested_k,selection_order,selection_round,band,wavelength_nm,cluster_id
+kruskal_cluster_hard_corr_0p95_top_10,diversified,kruskal,hard,0.95,0.95,10,1,1,band_381,381,1
+kruskal_cluster_hard_corr_0p95_top_10,diversified,kruskal,hard,0.95,0.95,10,2,1,band_721,721,2
+kruskal_cluster_hard_corr_0p95_top_10,diversified,kruskal,hard,0.95,0.95,10,3,1,band_2444,2444,3
