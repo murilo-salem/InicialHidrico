@@ -1,0 +1,6 @@
+﻿target,model,feature,vip_score
+condicao_genotipo_turno,LDA,band_720,1.132544526387106
+condicao_genotipo_turno,LDA,band_401,1.0259760033794072
+condicao_genotipo_turno,LDA,band_400,1.0258824596800562
+condicao_genotipo_turno,LDA,band_550,0.9114691456306127
+condicao_genotipo_turno,LDA,band_530,0.8840278908068585

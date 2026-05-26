@@ -1,0 +1,4 @@
+﻿target,model,real,BR16,CD202,EMB48
+gen,k-NN (k=5),BR16,6,1,1
+gen,k-NN (k=5),CD202,1,4,3
+gen,k-NN (k=5),EMB48,1,4,3

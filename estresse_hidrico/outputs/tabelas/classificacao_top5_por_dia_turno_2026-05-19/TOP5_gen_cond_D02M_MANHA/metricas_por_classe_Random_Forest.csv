@@ -1,0 +1,7 @@
+﻿target,model,classe,classe_codigo,precision,recall,f1,support
+gen_cond,Random Forest,IRR|BR16,0,0.4,0.5,0.4444444444444444,4
+gen_cond,Random Forest,IRR|CD202,1,1.0,0.25,0.4,4
+gen_cond,Random Forest,IRR|EMB48,2,0.4,0.5,0.4444444444444444,4
+gen_cond,Random Forest,NIRR|BR16,3,0.25,0.25,0.25,4
+gen_cond,Random Forest,NIRR|CD202,4,0.3333333333333333,0.25,0.2857142857142857,4
+gen_cond,Random Forest,NIRR|EMB48,5,0.5,0.75,0.6,4

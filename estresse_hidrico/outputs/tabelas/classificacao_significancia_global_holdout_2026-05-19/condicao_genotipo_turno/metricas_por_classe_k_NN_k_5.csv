@@ -1,0 +1,13 @@
+﻿target,model,classe,classe_codigo,precision,recall,f1,support
+condicao_genotipo_turno,k-NN (k=5),IRR|BR16|manha + tarde,0,0.0,0.0,0.0,3
+condicao_genotipo_turno,k-NN (k=5),IRR|BR16|unico,1,0.0,0.0,0.0,3
+condicao_genotipo_turno,k-NN (k=5),IRR|CD202|manha + tarde,2,0.0,0.0,0.0,3
+condicao_genotipo_turno,k-NN (k=5),IRR|CD202|unico,3,0.0,0.0,0.0,3
+condicao_genotipo_turno,k-NN (k=5),IRR|EMB48|manha + tarde,4,0.3333333333333333,0.3333333333333333,0.3333333333333333,3
+condicao_genotipo_turno,k-NN (k=5),IRR|EMB48|unico,5,0.25,0.3333333333333333,0.2857142857142857,3
+condicao_genotipo_turno,k-NN (k=5),NIRR|BR16|manha + tarde,6,0.25,0.3333333333333333,0.2857142857142857,3
+condicao_genotipo_turno,k-NN (k=5),NIRR|BR16|unico,7,0.2,0.3333333333333333,0.25,3
+condicao_genotipo_turno,k-NN (k=5),NIRR|CD202|manha + tarde,8,0.6,1.0,0.75,3
+condicao_genotipo_turno,k-NN (k=5),NIRR|CD202|unico,9,0.0,0.0,0.0,3
+condicao_genotipo_turno,k-NN (k=5),NIRR|EMB48|manha + tarde,10,1.0,0.3333333333333333,0.5,3
+condicao_genotipo_turno,k-NN (k=5),NIRR|EMB48|unico,11,0.0,0.0,0.0,3

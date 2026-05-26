@@ -1,0 +1,25 @@
+﻿cultivar,condicao,data_coleta_iso,dia,replicata,bloco,turnos_disponiveis,turno_label,target,model,y_true,y_pred,label_true,label_pred,acertou,prob_IRR,prob_NIRR
+BR16,IRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,cond,k-NN (k=5),0,1,IRR,NIRR,False,0.4,0.6
+BR16,IRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,cond,k-NN (k=5),0,0,IRR,IRR,True,0.6,0.4
+BR16,IRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,cond,k-NN (k=5),0,0,IRR,IRR,True,1.0,0.0
+BR16,IRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,cond,k-NN (k=5),0,0,IRR,IRR,True,1.0,0.0
+BR16,NIRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,cond,k-NN (k=5),1,1,NIRR,NIRR,True,0.0,1.0
+BR16,NIRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,cond,k-NN (k=5),1,1,NIRR,NIRR,True,0.2,0.8
+BR16,NIRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,cond,k-NN (k=5),1,1,NIRR,NIRR,True,0.4,0.6
+BR16,NIRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,cond,k-NN (k=5),1,1,NIRR,NIRR,True,0.2,0.8
+CD202,IRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,cond,k-NN (k=5),0,0,IRR,IRR,True,1.0,0.0
+CD202,IRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,cond,k-NN (k=5),0,0,IRR,IRR,True,0.8,0.2
+CD202,IRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,cond,k-NN (k=5),0,0,IRR,IRR,True,1.0,0.0
+CD202,IRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,cond,k-NN (k=5),0,0,IRR,IRR,True,0.6,0.4
+CD202,NIRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,cond,k-NN (k=5),1,1,NIRR,NIRR,True,0.0,1.0
+CD202,NIRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,cond,k-NN (k=5),1,1,NIRR,NIRR,True,0.0,1.0
+CD202,NIRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,cond,k-NN (k=5),1,1,NIRR,NIRR,True,0.0,1.0
+CD202,NIRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,cond,k-NN (k=5),1,1,NIRR,NIRR,True,0.0,1.0
+EMB48,IRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,cond,k-NN (k=5),0,0,IRR,IRR,True,1.0,0.0
+EMB48,IRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,cond,k-NN (k=5),0,0,IRR,IRR,True,0.8,0.2
+EMB48,IRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,cond,k-NN (k=5),0,0,IRR,IRR,True,1.0,0.0
+EMB48,IRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,cond,k-NN (k=5),0,0,IRR,IRR,True,0.8,0.2
+EMB48,NIRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,cond,k-NN (k=5),1,0,NIRR,IRR,False,0.6,0.4
+EMB48,NIRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,cond,k-NN (k=5),1,1,NIRR,NIRR,True,0.4,0.6
+EMB48,NIRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,cond,k-NN (k=5),1,1,NIRR,NIRR,True,0.2,0.8
+EMB48,NIRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,cond,k-NN (k=5),1,1,NIRR,NIRR,True,0.0,1.0

@@ -1,0 +1,4 @@
+﻿target,model,real,BR16,CD202,EMB48
+gen,SVM (RBF),BR16,6,2,0
+gen,SVM (RBF),CD202,1,3,4
+gen,SVM (RBF),EMB48,1,2,5

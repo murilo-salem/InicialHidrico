@@ -1,0 +1,6 @@
+﻿analysis_source,rank_recurrence,wavelength_nm,frequency,mean_rank,best_rank,min_q,band_column,resolved_wavelength_nm,resolved_exact_match
+gen_cond,1,400,4,1.25,1,1.728522632715259e-26,band_400,400,True
+gen_cond,2,530,3,3.6666666666666665,2,2.359267131901225e-28,band_530,530,True
+gen_cond,3,550,2,2.0,2,1.6087903827791048e-24,band_550,550,True
+gen_cond,4,401,2,2.5,1,1.3106927168707852e-28,band_401,401,True
+gen_cond,5,720,2,3.0,3,4.790983261779158e-24,band_720,720,True

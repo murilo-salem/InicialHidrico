@@ -1,0 +1,4 @@
+﻿target,model,classe,classe_codigo,precision,recall,f1,support
+gen,LDA,BR16,0,0.5555555555555556,0.625,0.5882352941176471,8
+gen,LDA,CD202,1,0.375,0.375,0.375,8
+gen,LDA,EMB48,2,0.8571428571428571,0.75,0.8,8

@@ -1,0 +1,4 @@
+﻿target,model,real,BR16,CD202,EMB48
+gen,Random Forest,BR16,2,5,1
+gen,Random Forest,CD202,3,2,3
+gen,Random Forest,EMB48,0,3,5

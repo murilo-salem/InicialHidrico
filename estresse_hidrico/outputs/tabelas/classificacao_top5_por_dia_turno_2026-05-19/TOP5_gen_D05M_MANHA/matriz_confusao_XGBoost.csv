@@ -1,0 +1,4 @@
+﻿target,model,real,BR16,CD202,EMB48
+gen,XGBoost,BR16,5,1,2
+gen,XGBoost,CD202,1,4,3
+gen,XGBoost,EMB48,1,3,4

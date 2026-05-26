@@ -1,0 +1,3 @@
+﻿target,model,real,IRR,NIRR
+cond,Random Forest,IRR,11,1
+cond,Random Forest,NIRR,1,11

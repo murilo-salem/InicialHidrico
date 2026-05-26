@@ -1,0 +1,7 @@
+﻿target,model,real,IRR|BR16,IRR|CD202,IRR|EMB48,NIRR|BR16,NIRR|CD202,NIRR|EMB48
+gen_cond,k-NN (k=5),IRR|BR16,2,0,0,1,1,0
+gen_cond,k-NN (k=5),IRR|CD202,1,2,1,0,0,0
+gen_cond,k-NN (k=5),IRR|EMB48,0,3,0,0,1,0
+gen_cond,k-NN (k=5),NIRR|BR16,3,0,0,0,1,0
+gen_cond,k-NN (k=5),NIRR|CD202,1,1,1,0,0,1
+gen_cond,k-NN (k=5),NIRR|EMB48,0,0,1,0,2,1

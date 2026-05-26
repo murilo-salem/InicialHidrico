@@ -1,0 +1,25 @@
+﻿cultivar,condicao,data_coleta_iso,dia,replicata,bloco,turnos_disponiveis,turno_label,target,model,y_true,y_pred,label_true,label_pred,acertou,prob_IRR,prob_NIRR
+BR16,IRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,cond,XGBoost,0,0,IRR,IRR,True,0.8596484661102295,0.14035150408744812
+BR16,IRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,cond,XGBoost,0,0,IRR,IRR,True,0.8625814318656921,0.13741855323314667
+BR16,IRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,cond,XGBoost,0,0,IRR,IRR,True,0.8612855076789856,0.1387145072221756
+BR16,IRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,cond,XGBoost,0,0,IRR,IRR,True,0.8848369717597961,0.11516300588846207
+BR16,NIRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,cond,XGBoost,1,1,NIRR,NIRR,True,0.10319185256958008,0.8968081474304199
+BR16,NIRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,cond,XGBoost,1,1,NIRR,NIRR,True,0.1014549732208252,0.8985450267791748
+BR16,NIRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,cond,XGBoost,1,1,NIRR,NIRR,True,0.23799198865890503,0.762008011341095
+BR16,NIRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,cond,XGBoost,1,1,NIRR,NIRR,True,0.1583653688430786,0.8416346311569214
+CD202,IRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,cond,XGBoost,0,0,IRR,IRR,True,0.8761030435562134,0.12389698624610901
+CD202,IRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,cond,XGBoost,0,0,IRR,IRR,True,0.8734880089759827,0.12651200592517853
+CD202,IRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,cond,XGBoost,0,0,IRR,IRR,True,0.8861265182495117,0.11387345939874649
+CD202,IRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,cond,XGBoost,0,0,IRR,IRR,True,0.8237936496734619,0.1762063354253769
+CD202,NIRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,cond,XGBoost,1,1,NIRR,NIRR,True,0.10658878087997437,0.8934112191200256
+CD202,NIRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,cond,XGBoost,1,1,NIRR,NIRR,True,0.12416958808898926,0.8758304119110107
+CD202,NIRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,cond,XGBoost,1,1,NIRR,NIRR,True,0.1073535680770874,0.8926464319229126
+CD202,NIRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,cond,XGBoost,1,1,NIRR,NIRR,True,0.15219742059707642,0.8478025794029236
+EMB48,IRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,cond,XGBoost,0,0,IRR,IRR,True,0.8761030435562134,0.12389698624610901
+EMB48,IRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,cond,XGBoost,0,0,IRR,IRR,True,0.8689203858375549,0.13107962906360626
+EMB48,IRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,cond,XGBoost,0,0,IRR,IRR,True,0.8861265182495117,0.11387345939874649
+EMB48,IRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,cond,XGBoost,0,1,IRR,NIRR,False,0.33051395416259766,0.6694860458374023
+EMB48,NIRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,cond,XGBoost,1,1,NIRR,NIRR,True,0.2255275845527649,0.7744724154472351
+EMB48,NIRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,cond,XGBoost,1,1,NIRR,NIRR,True,0.10752862691879272,0.8924713730812073
+EMB48,NIRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,cond,XGBoost,1,1,NIRR,NIRR,True,0.10883438587188721,0.8911656141281128
+EMB48,NIRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,cond,XGBoost,1,1,NIRR,NIRR,True,0.10825282335281372,0.8917471766471863

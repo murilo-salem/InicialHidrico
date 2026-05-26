@@ -1,0 +1,2 @@
+﻿target,model,classes,n_classes,n_samples,n_groups,cv_splits,n_bandas,bandas,accuracy_media,accuracy_std,balanced_accuracy_media,balanced_accuracy_std,f1_macro_media,f1_macro_std,kappa_media,kappa_std,roc_auc_media,roc_auc_std,scenario_id,analysis,dia_code,dia,turno_code,turno,validation_mode,split_seed
+gen,Random Forest,BR16; CD202; EMB48,3,24,12,4,5,band_550|band_610|band_720|band_679|band_2189,0.625,0.3695592971013909,0.625,0.3695592971013909,0.6194444444444445,0.3551357475345938,0.4374999999999999,0.5543389456520864,,,TOP5_gen_D02T_TARDE,gen,02,dia2,T,TARDE,cv_grouped,42

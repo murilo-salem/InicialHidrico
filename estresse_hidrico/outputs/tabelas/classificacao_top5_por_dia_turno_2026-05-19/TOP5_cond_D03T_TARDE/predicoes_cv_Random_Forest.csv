@@ -1,0 +1,25 @@
+﻿cultivar,condicao,data_coleta_iso,dia,replicata,bloco,turnos_disponiveis,turno_label,target,model,y_true,y_pred,label_true,label_pred,acertou,prob_IRR,prob_NIRR
+BR16,IRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,cond,Random Forest,0,0,IRR,IRR,True,0.6146666666666667,0.38533333333333336
+BR16,IRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,cond,Random Forest,0,0,IRR,IRR,True,0.8506666666666667,0.14933333333333335
+BR16,IRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,cond,Random Forest,0,0,IRR,IRR,True,0.512,0.488
+BR16,IRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,cond,Random Forest,0,0,IRR,IRR,True,0.9933333333333333,0.006666666666666667
+BR16,NIRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,cond,Random Forest,1,1,NIRR,NIRR,True,0.0,1.0
+BR16,NIRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,cond,Random Forest,1,1,NIRR,NIRR,True,0.02666666666666667,0.9733333333333334
+BR16,NIRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,cond,Random Forest,1,1,NIRR,NIRR,True,0.17466666666666666,0.8253333333333334
+BR16,NIRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,cond,Random Forest,1,1,NIRR,NIRR,True,0.0013333333333333333,0.9986666666666667
+CD202,IRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,cond,Random Forest,0,0,IRR,IRR,True,0.628,0.372
+CD202,IRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,cond,Random Forest,0,0,IRR,IRR,True,1.0,0.0
+CD202,IRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,cond,Random Forest,0,0,IRR,IRR,True,0.9933333333333333,0.006666666666666667
+CD202,IRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,cond,Random Forest,0,0,IRR,IRR,True,0.9933333333333333,0.006666666666666667
+CD202,NIRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,cond,Random Forest,1,0,NIRR,IRR,False,0.6413333333333333,0.3586666666666667
+CD202,NIRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,cond,Random Forest,1,1,NIRR,NIRR,True,0.16133333333333333,0.8386666666666667
+CD202,NIRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,cond,Random Forest,1,1,NIRR,NIRR,True,0.0013333333333333333,0.9986666666666667
+CD202,NIRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,cond,Random Forest,1,1,NIRR,NIRR,True,0.04,0.96
+EMB48,IRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,cond,Random Forest,0,0,IRR,IRR,True,0.996,0.004
+EMB48,IRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,cond,Random Forest,0,0,IRR,IRR,True,0.7053333333333334,0.2946666666666667
+EMB48,IRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,cond,Random Forest,0,0,IRR,IRR,True,1.0,0.0
+EMB48,IRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,cond,Random Forest,0,0,IRR,IRR,True,0.9933333333333333,0.006666666666666667
+EMB48,NIRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,cond,Random Forest,1,1,NIRR,NIRR,True,0.3333333333333333,0.6666666666666666
+EMB48,NIRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,cond,Random Forest,1,1,NIRR,NIRR,True,0.068,0.932
+EMB48,NIRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,cond,Random Forest,1,1,NIRR,NIRR,True,0.0,1.0
+EMB48,NIRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,cond,Random Forest,1,1,NIRR,NIRR,True,0.006666666666666667,0.9933333333333333

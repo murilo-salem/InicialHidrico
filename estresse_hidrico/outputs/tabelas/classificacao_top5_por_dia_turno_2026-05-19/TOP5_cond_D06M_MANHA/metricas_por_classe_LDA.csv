@@ -1,0 +1,3 @@
+﻿target,model,classe,classe_codigo,precision,recall,f1,support
+cond,LDA,IRR,0,1.0,1.0,1.0,12
+cond,LDA,NIRR,1,1.0,1.0,1.0,12

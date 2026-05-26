@@ -1,0 +1,3 @@
+﻿target,model,real,IRR,NIRR
+cond,LDA,IRR,10,2
+cond,LDA,NIRR,0,12

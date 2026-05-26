@@ -1,0 +1,6 @@
+﻿rank,wavelength_nm,resolved_wavelength_nm,band_column,resolved_exact_match,q_FDR_BH
+1,550,550,band_550,True,7.399571712781317e-22
+2,610,610,band_610,True,1.182777331177991e-13
+3,720,720,band_720,True,1.1974620594560056e-13
+4,679,679,band_679,True,3.774659295590211e-07
+5,2189,2189,band_2189,True,1.8571013312399e-06

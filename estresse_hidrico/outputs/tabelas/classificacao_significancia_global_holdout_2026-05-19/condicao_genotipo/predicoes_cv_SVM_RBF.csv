@@ -1,0 +1,145 @@
+﻿cultivar,condicao,data_coleta_iso,dia,replicata,bloco,turnos_disponiveis,turno_label,target,model,in_test_split,y_true,y_pred,label_true,label_pred,acertou,prob_IRR_BR16,prob_IRR_CD202,prob_IRR_EMB48,prob_NIRR_BR16,prob_NIRR_CD202,prob_NIRR_EMB48
+BR16,IRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,0,3,IRR|BR16,NIRR|BR16,False,0.15034646553572503,0.15088632697432255,0.1440318299549729,0.36365158774987005,0.15389588811084176,0.03718790167426732
+BR16,NIRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+BR16,NIRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+BR16,NIRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,3,4,NIRR|BR16,NIRR|CD202,False,0.025022889767616453,0.15232050908993378,0.07174325370893395,0.07466903173508295,0.5737173477842952,0.10252696791413791
+BR16,NIRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+CD202,IRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,1,2,IRR|CD202,IRR|EMB48,False,0.18327606135786645,0.3258130479698272,0.3440540355212026,0.05311766128959707,0.07332440109267677,0.02041479276883019
+CD202,NIRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+CD202,NIRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+CD202,NIRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,4,4,NIRR|CD202,NIRR|CD202,True,0.02108472392822862,0.1330437157798302,0.058771679571820945,0.06360798331921137,0.6072722743689274,0.11621962303198143
+CD202,NIRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+EMB48,IRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,2,1,IRR|EMB48,IRR|CD202,False,0.04832572711386343,0.3382038514722218,0.25495184971156637,0.056477814227019606,0.23614468000866323,0.06589607746666548
+EMB48,IRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,IRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,IRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,5,4,NIRR|EMB48,NIRR|CD202,False,0.03705844920173159,0.21030776480258642,0.13737599808218265,0.07656758725870637,0.4598444189229073,0.07884578173188539
+EMB48,NIRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,
+BR16,IRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,0,0,IRR|BR16,IRR|BR16,True,0.681883612450912,0.16994267300398178,0.11781038018939673,0.008903825026306584,0.006730444660356288,0.014729064669046431
+BR16,NIRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+BR16,NIRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+BR16,NIRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,3,3,NIRR|BR16,NIRR|BR16,True,0.0477748829440562,0.042744498261464065,0.04618892969398664,0.5304767528899127,0.2227890860367411,0.11002585017383967
+BR16,NIRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+CD202,IRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,1,2,IRR|CD202,IRR|EMB48,False,0.32433947889905823,0.35279492391376543,0.29970471603661497,0.007712759262537233,0.006061622715848295,0.009386499172176016
+CD202,NIRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+CD202,NIRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+CD202,NIRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,4,4,NIRR|CD202,NIRR|CD202,True,0.01481055202601811,0.05479309942890877,0.022302389630611156,0.027176540349907907,0.35418222714735786,0.5267351914171964
+CD202,NIRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+EMB48,IRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,2,2,IRR|EMB48,IRR|EMB48,True,0.07262968072103591,0.45914782254453895,0.4380392903090623,0.008713054936429572,0.012863328445604835,0.008606823043328708
+EMB48,IRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,IRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,IRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,5,4,NIRR|EMB48,NIRR|CD202,False,0.028770088306577686,0.04509497912285377,0.036510078784004946,0.35643620741954496,0.4103601665302706,0.1228284798367485
+EMB48,NIRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,
+BR16,IRR,2017-02-25,dia4,1,B1,unico,unico,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-02-25,dia4,2,B2,unico,unico,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-02-25,dia4,3,B3,unico,unico,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-02-25,dia4,4,B4,unico,unico,condicao_genotipo,SVM (RBF),True,0,2,IRR|BR16,IRR|EMB48,False,0.14977009534589042,0.3980497637332395,0.393733481882733,0.018676230332576038,0.014873990063252846,0.02489643864230793
+BR16,NIRR,2017-02-25,dia4,1,B1,unico,unico,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+BR16,NIRR,2017-02-25,dia4,2,B2,unico,unico,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+BR16,NIRR,2017-02-25,dia4,3,B3,unico,unico,condicao_genotipo,SVM (RBF),True,3,4,NIRR|BR16,NIRR|CD202,False,0.05193552840805506,0.07209133285614769,0.07496654774878933,0.3358358655536136,0.3732970468356827,0.09187367859771162
+BR16,NIRR,2017-02-25,dia4,4,B4,unico,unico,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+CD202,IRR,2017-02-25,dia4,1,B1,unico,unico,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-02-25,dia4,2,B2,unico,unico,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-02-25,dia4,3,B3,unico,unico,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-02-25,dia4,4,B4,unico,unico,condicao_genotipo,SVM (RBF),True,1,2,IRR|CD202,IRR|EMB48,False,0.167984073161769,0.44105118373008256,0.3587339664247837,0.010848192582144239,0.007955632305064363,0.013426951796155967
+CD202,NIRR,2017-02-25,dia4,1,B1,unico,unico,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+CD202,NIRR,2017-02-25,dia4,2,B2,unico,unico,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+CD202,NIRR,2017-02-25,dia4,3,B3,unico,unico,condicao_genotipo,SVM (RBF),True,4,4,NIRR|CD202,NIRR|CD202,True,0.010825801237414258,0.050341881028304954,0.02293253055415384,0.01944609543127183,0.5074188641297557,0.38903482761909947
+CD202,NIRR,2017-02-25,dia4,4,B4,unico,unico,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+EMB48,IRR,2017-02-25,dia4,1,B1,unico,unico,condicao_genotipo,SVM (RBF),True,2,2,IRR|EMB48,IRR|EMB48,True,0.09012355504370799,0.43486342733513583,0.4287885937719832,0.01501041844377734,0.012131953239304815,0.019082052166090966
+EMB48,IRR,2017-02-25,dia4,2,B2,unico,unico,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,IRR,2017-02-25,dia4,3,B3,unico,unico,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,IRR,2017-02-25,dia4,4,B4,unico,unico,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-02-25,dia4,1,B1,unico,unico,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-02-25,dia4,2,B2,unico,unico,condicao_genotipo,SVM (RBF),True,5,4,NIRR|EMB48,NIRR|CD202,False,0.07615117017066449,0.11573631543878611,0.1532835961296928,0.1861263346324943,0.3819506526760932,0.08675193095226875
+EMB48,NIRR,2017-02-25,dia4,3,B3,unico,unico,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-02-25,dia4,4,B4,unico,unico,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,
+BR16,IRR,2017-02-26,dia5,1,B1,unico,unico,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-02-26,dia5,2,B2,unico,unico,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-02-26,dia5,3,B3,unico,unico,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-02-26,dia5,4,B4,unico,unico,condicao_genotipo,SVM (RBF),True,0,2,IRR|BR16,IRR|EMB48,False,0.2766495155906379,0.38452021210025766,0.30024068208459337,0.012617174302451099,0.009278314428954191,0.016694101493106187
+BR16,NIRR,2017-02-26,dia5,1,B1,unico,unico,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+BR16,NIRR,2017-02-26,dia5,2,B2,unico,unico,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+BR16,NIRR,2017-02-26,dia5,3,B3,unico,unico,condicao_genotipo,SVM (RBF),True,3,3,NIRR|BR16,NIRR|BR16,True,0.023086768083293675,0.03084200458713399,0.02425408432646114,0.3949178490452503,0.3561940961885854,0.1707051977692755
+BR16,NIRR,2017-02-26,dia5,4,B4,unico,unico,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+CD202,IRR,2017-02-26,dia5,1,B1,unico,unico,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-02-26,dia5,2,B2,unico,unico,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-02-26,dia5,3,B3,unico,unico,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-02-26,dia5,4,B4,unico,unico,condicao_genotipo,SVM (RBF),True,1,2,IRR|CD202,IRR|EMB48,False,0.1419259546085298,0.4327423902016224,0.3742653540236448,0.016627122850620638,0.01304894312103018,0.021390235194552184
+CD202,NIRR,2017-02-26,dia5,1,B1,unico,unico,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+CD202,NIRR,2017-02-26,dia5,2,B2,unico,unico,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+CD202,NIRR,2017-02-26,dia5,3,B3,unico,unico,condicao_genotipo,SVM (RBF),True,4,5,NIRR|CD202,NIRR|EMB48,False,0.022664057378985043,0.049235755383362154,0.02631812095816507,0.029212616162594005,0.09589757421409217,0.7766718759028014
+CD202,NIRR,2017-02-26,dia5,4,B4,unico,unico,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+EMB48,IRR,2017-02-26,dia5,1,B1,unico,unico,condicao_genotipo,SVM (RBF),True,2,2,IRR|EMB48,IRR|EMB48,True,0.20935087654941534,0.40413729828788997,0.36071320656851,0.008618760224352767,0.009016378269920633,0.008163480099911292
+EMB48,IRR,2017-02-26,dia5,2,B2,unico,unico,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,IRR,2017-02-26,dia5,3,B3,unico,unico,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,IRR,2017-02-26,dia5,4,B4,unico,unico,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-02-26,dia5,1,B1,unico,unico,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-02-26,dia5,2,B2,unico,unico,condicao_genotipo,SVM (RBF),True,5,4,NIRR|EMB48,NIRR|CD202,False,0.014548632911608595,0.08228826588033684,0.03229055425865838,0.02559355472729472,0.491331955698776,0.35394703652332493
+EMB48,NIRR,2017-02-26,dia5,3,B3,unico,unico,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-02-26,dia5,4,B4,unico,unico,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,
+BR16,IRR,2017-02-27,dia6,1,B1,unico,unico,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-02-27,dia6,2,B2,unico,unico,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-02-27,dia6,3,B3,unico,unico,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-02-27,dia6,4,B4,unico,unico,condicao_genotipo,SVM (RBF),True,0,2,IRR|BR16,IRR|EMB48,False,0.16444204497044648,0.43782491012904867,0.3584963902793743,0.01303017406748592,0.00973461758971791,0.016471862963926588
+BR16,NIRR,2017-02-27,dia6,1,B1,unico,unico,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+BR16,NIRR,2017-02-27,dia6,2,B2,unico,unico,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+BR16,NIRR,2017-02-27,dia6,3,B3,unico,unico,condicao_genotipo,SVM (RBF),True,3,4,NIRR|BR16,NIRR|CD202,False,0.012931537689305179,0.02618494541920825,0.015543977713154413,0.18726368408794025,0.555655932365015,0.20241992272537684
+BR16,NIRR,2017-02-27,dia6,4,B4,unico,unico,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+CD202,IRR,2017-02-27,dia6,1,B1,unico,unico,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-02-27,dia6,2,B2,unico,unico,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-02-27,dia6,3,B3,unico,unico,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-02-27,dia6,4,B4,unico,unico,condicao_genotipo,SVM (RBF),True,1,0,IRR|CD202,IRR|BR16,False,0.3896947756410761,0.3269926004478003,0.24791637872135858,0.010862714832778621,0.008403364373388584,0.016130165983597785
+CD202,NIRR,2017-02-27,dia6,1,B1,unico,unico,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+CD202,NIRR,2017-02-27,dia6,2,B2,unico,unico,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+CD202,NIRR,2017-02-27,dia6,3,B3,unico,unico,condicao_genotipo,SVM (RBF),True,4,4,NIRR|CD202,NIRR|CD202,True,0.012148267592659105,0.027353060421261715,0.0153299223791532,0.16287578914058376,0.5889534934044033,0.19333946706193905
+CD202,NIRR,2017-02-27,dia6,4,B4,unico,unico,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+EMB48,IRR,2017-02-27,dia6,1,B1,unico,unico,condicao_genotipo,SVM (RBF),True,2,2,IRR|EMB48,IRR|EMB48,True,0.1905512331901781,0.36562666130098365,0.36952660886932526,0.02248160584532809,0.019048666752287034,0.03276522404189784
+EMB48,IRR,2017-02-27,dia6,2,B2,unico,unico,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,IRR,2017-02-27,dia6,3,B3,unico,unico,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,IRR,2017-02-27,dia6,4,B4,unico,unico,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-02-27,dia6,1,B1,unico,unico,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-02-27,dia6,2,B2,unico,unico,condicao_genotipo,SVM (RBF),True,5,4,NIRR|EMB48,NIRR|CD202,False,0.013355565955301725,0.03630941797385051,0.020384937965864932,0.14227934185645771,0.628615082759022,0.15905565348950285
+EMB48,NIRR,2017-02-27,dia6,3,B3,unico,unico,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-02-27,dia6,4,B4,unico,unico,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,
+BR16,IRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,0,-1,IRR|BR16,,False,,,,,,
+BR16,IRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,0,2,IRR|BR16,IRR|EMB48,False,0.1544721566081974,0.43761544348331766,0.3861667499760504,0.008271830033353593,0.006000142585275585,0.007473677313805399
+BR16,NIRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+BR16,NIRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+BR16,NIRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,3,3,NIRR|BR16,NIRR|BR16,True,0.15532974265229743,0.061225370262977495,0.05619302180947186,0.6212905431520881,0.039980121753121586,0.06598120037004279
+BR16,NIRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,3,-1,NIRR|BR16,,False,,,,,,
+CD202,IRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,1,-1,IRR|CD202,,False,,,,,,
+CD202,IRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,1,2,IRR|CD202,IRR|EMB48,False,0.1259060494982553,0.3125966573815836,0.33879635860920665,0.06290478449559131,0.12913535743678806,0.030660792578575003
+CD202,NIRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+CD202,NIRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+CD202,NIRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,4,3,NIRR|CD202,NIRR|BR16,False,0.04262115621374595,0.03818448986004957,0.03446340179635283,0.6491983823830251,0.16060786880916703,0.0749247009376595
+CD202,NIRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,4,-1,NIRR|CD202,,False,,,,,,
+EMB48,IRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,2,2,IRR|EMB48,IRR|EMB48,True,0.08520545870207426,0.47453792904043124,0.4201728547842332,0.006825342545403381,0.006560500309774666,0.006697914618082942
+EMB48,IRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,IRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,IRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,2,-1,IRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),True,5,4,NIRR|EMB48,NIRR|CD202,False,0.019405998204185464,0.03522787526027955,0.029061663073103393,0.1939250512833932,0.5346128440821492,0.18776656809688935
+EMB48,NIRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,
+EMB48,NIRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,condicao_genotipo,SVM (RBF),False,5,-1,NIRR|EMB48,,False,,,,,,

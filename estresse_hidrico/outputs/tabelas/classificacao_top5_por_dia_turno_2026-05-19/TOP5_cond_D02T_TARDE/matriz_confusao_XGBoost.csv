@@ -1,0 +1,3 @@
+﻿target,model,real,IRR,NIRR
+cond,XGBoost,IRR,10,2
+cond,XGBoost,NIRR,4,8

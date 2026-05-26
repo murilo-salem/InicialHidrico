@@ -12,6 +12,7 @@ if str(SCRIPT_DIR) not in sys.path:
 
 from significance_classification_utils import (  # noqa: E402
     build_group_labels,
+    evaluate_model_holdout,
     prepare_targets,
     resolve_class_order,
     select_recurrent_bands,
@@ -98,3 +99,58 @@ def test_select_recurrent_bands_falls_back_to_nearest_available_band(tmp_path: P
 
     assert selected.iloc[0]["band_column"] == "band_1349"
     assert bool(selected.iloc[0]["resolved_exact_match"]) is False
+
+
+def test_evaluate_model_holdout_uses_grouped_80_20_split_without_group_leakage() -> None:
+    from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+    from sklearn.impute import SimpleImputer
+    from sklearn.pipeline import Pipeline
+    from sklearn.preprocessing import StandardScaler
+
+    rows = []
+    for condicao in ["NIRR", "IRR"]:
+        for rep in [1, 2, 3, 4]:
+            for sample_idx in range(3):
+                base = 0.2 if condicao == "NIRR" else 0.8
+                rows.append(
+                    {
+                        "condicao": condicao,
+                        "cultivar": "BR16",
+                        "replicata": rep,
+                        "band_400": base + 0.01 * sample_idx,
+                        "band_530": base + 0.02 * sample_idx,
+                    }
+                )
+    frame = pd.DataFrame(rows)
+    frame = prepare_targets(frame)
+    groups = build_group_labels(frame["target_condicao"], frame["replicata"])
+    model = Pipeline(
+        [
+            ("imputer", SimpleImputer(strategy="median")),
+            ("scaler", StandardScaler()),
+            ("model", LinearDiscriminantAnalysis(solver="lsqr", shrinkage="auto")),
+        ]
+    )
+
+    artifacts = evaluate_model_holdout(
+        model_name="LDA",
+        model=model,
+        frame=frame,
+        feature_columns=["band_400", "band_530"],
+        label_column="target_condicao",
+        target_name="condicao",
+        class_names=["NIRR", "IRR"],
+        groups=groups,
+        test_size=0.2,
+        random_state=42,
+    )
+
+    predictions = artifacts.predictions_df
+    test_mask = predictions["in_test_split"].astype(bool).to_numpy()
+    assert test_mask.sum() > 0
+    test_ratio = test_mask.mean()
+    assert 0.15 <= test_ratio <= 0.35
+
+    train_groups = set(groups[~test_mask])
+    test_groups = set(groups[test_mask])
+    assert train_groups.isdisjoint(test_groups)

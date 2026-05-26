@@ -1,0 +1,2 @@
+﻿target,model,classes,n_classes,n_samples,n_groups,cv_splits,n_bandas,bandas,accuracy_media,accuracy_std,balanced_accuracy_media,balanced_accuracy_std,f1_macro_media,f1_macro_std,kappa_media,kappa_std,roc_auc_media,roc_auc_std,scenario_id,analysis,dia_code,dia,turno_code,turno,validation_mode,split_seed
+cond,k-NN (k=5),IRR; NIRR,2,24,8,4,5,band_1510|band_1347|band_406|band_1580|band_1959,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,TOP5_cond_D03T_TARDE,cond,03,dia3,T,TARDE,cv_grouped,42

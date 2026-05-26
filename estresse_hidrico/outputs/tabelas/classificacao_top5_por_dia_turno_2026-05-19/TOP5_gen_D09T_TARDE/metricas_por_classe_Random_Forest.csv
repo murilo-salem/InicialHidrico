@@ -1,0 +1,4 @@
+﻿target,model,classe,classe_codigo,precision,recall,f1,support
+gen,Random Forest,BR16,0,1.0,0.75,0.8571428571428571,8
+gen,Random Forest,CD202,1,0.42857142857142855,0.375,0.4,8
+gen,Random Forest,EMB48,2,0.36363636363636365,0.5,0.42105263157894735,8

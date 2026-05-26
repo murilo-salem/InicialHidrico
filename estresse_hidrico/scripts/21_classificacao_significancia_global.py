@@ -15,6 +15,7 @@ from significance_classification_utils import (
     build_model_library,
     choose_best_model,
     evaluate_model_cv,
+    evaluate_model_holdout,
     plot_confusion_matrix,
     prepare_targets,
     resolve_class_order,
@@ -64,6 +65,25 @@ def parse_args() -> argparse.Namespace:
         default=5,
         help="Numero de bandas recorrentes selecionadas por alvo.",
     )
+    parser.add_argument(
+        "--validation-mode",
+        type=str,
+        default="cv_grouped",
+        choices=["cv_grouped", "holdout_grouped_80_20"],
+        help="Modo de validacao: CV agrupada ou holdout 80/20 agrupado.",
+    )
+    parser.add_argument(
+        "--test-size",
+        type=float,
+        default=0.2,
+        help="Fracao de teste usada no modo holdout_grouped_80_20.",
+    )
+    parser.add_argument(
+        "--split-seed",
+        type=int,
+        default=42,
+        help="Semente para reproducao do split de validacao.",
+    )
     return parser.parse_args()
 
 
@@ -90,6 +110,7 @@ def main() -> None:
         f"- Dataset: `{input_path}`",
         f"- Significancia: `{significance_dir}`",
         f"- Numero de bandas por alvo: `{args.top_n}`",
+        f"- Validacao: `{args.validation_mode}`",
         "",
         "| alvo | analise_top5 | bandas | melhor_modelo | accuracy | balanced_acc | f1_macro | roc_auc | kappa |",
         "| --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: |",
@@ -130,19 +151,35 @@ def main() -> None:
         per_model_artifacts: dict[str, object] = {}
         target_metric_rows: list[dict[str, object]] = []
         for model_name, model in models.items():
-            artifacts = evaluate_model_cv(
-                model_name=model_name,
-                model=model,
-                frame=frame,
-                feature_columns=features,
-                label_column=label_column,
-                target_name=target_name,
-                class_names=class_names,
-                groups=groups,
-                n_splits=n_splits,
-            )
+            if args.validation_mode == "cv_grouped":
+                artifacts = evaluate_model_cv(
+                    model_name=model_name,
+                    model=model,
+                    frame=frame,
+                    feature_columns=features,
+                    label_column=label_column,
+                    target_name=target_name,
+                    class_names=class_names,
+                    groups=groups,
+                    n_splits=n_splits,
+                )
+            else:
+                artifacts = evaluate_model_holdout(
+                    model_name=model_name,
+                    model=model,
+                    frame=frame,
+                    feature_columns=features,
+                    label_column=label_column,
+                    target_name=target_name,
+                    class_names=class_names,
+                    groups=groups,
+                    test_size=args.test_size,
+                    random_state=args.split_seed,
+                )
             metrics_row = dict(artifacts.metrics_row)
             metrics_row["analysis_source"] = analysis_source
+            metrics_row["validation_mode"] = args.validation_mode
+            metrics_row["split_seed"] = int(args.split_seed)
             target_metric_rows.append(metrics_row)
             all_metric_rows.append(metrics_row)
             per_model_artifacts[model_name] = artifacts

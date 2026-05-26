@@ -1,0 +1,2 @@
+﻿target,model,n_trials,cv_splits,n_bandas,bandas,objective,accuracy_media,accuracy_std,f1_macro_media,f1_macro_std,kappa_media,kappa_std,best_params
+condicao_genotipo_turno,LDA,250,4,5,band_400|band_530|band_550|band_401|band_720,0.4257968614718615,0.45833333333333337,0.11675481678628236,0.4252976190476191,0.1252034902462401,0.40909090909090906,0.1273688910395807,"{""lda_shrinkage"": 0.00023906781835116866, ""lda_shrinkage_mode"": ""float"", ""lda_solver"": ""lsqr""}"

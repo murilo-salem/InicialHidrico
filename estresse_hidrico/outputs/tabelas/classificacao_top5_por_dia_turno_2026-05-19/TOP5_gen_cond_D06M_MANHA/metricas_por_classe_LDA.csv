@@ -1,0 +1,7 @@
+﻿target,model,classe,classe_codigo,precision,recall,f1,support
+gen_cond,LDA,IRR|BR16,0,0.5,0.75,0.6,4
+gen_cond,LDA,IRR|CD202,1,0.0,0.0,0.0,4
+gen_cond,LDA,IRR|EMB48,2,0.0,0.0,0.0,4
+gen_cond,LDA,NIRR|BR16,3,0.6666666666666666,0.5,0.5714285714285714,4
+gen_cond,LDA,NIRR|CD202,4,0.5,0.75,0.6,4
+gen_cond,LDA,NIRR|EMB48,5,1.0,0.75,0.8571428571428571,4

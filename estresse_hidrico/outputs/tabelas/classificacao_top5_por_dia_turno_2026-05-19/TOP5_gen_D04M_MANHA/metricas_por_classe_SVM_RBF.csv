@@ -1,0 +1,4 @@
+﻿target,model,classe,classe_codigo,precision,recall,f1,support
+gen,SVM (RBF),BR16,0,0.75,0.75,0.75,8
+gen,SVM (RBF),CD202,1,0.42857142857142855,0.375,0.4,8
+gen,SVM (RBF),EMB48,2,0.5555555555555556,0.625,0.5882352941176471,8

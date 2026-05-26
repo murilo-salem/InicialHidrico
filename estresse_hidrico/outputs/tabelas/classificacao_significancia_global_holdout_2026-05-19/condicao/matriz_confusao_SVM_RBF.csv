@@ -1,0 +1,3 @@
+﻿target,model,real,NIRR,IRR
+condicao,SVM (RBF),NIRR,18,0
+condicao,SVM (RBF),IRR,2,16

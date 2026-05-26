@@ -1,0 +1,145 @@
+﻿cultivar,condicao,data_coleta_iso,dia,replicata,bloco,turnos_disponiveis,turno_label,target,model,in_test_split,y_true,y_pred,label_true,label_pred,acertou,prob_NIRR,prob_IRR
+BR16,IRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,1,0,IRR,NIRR,False,0.7282726723062539,0.2717273276937462
+BR16,NIRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.9276175757131461,0.07238242428685383
+CD202,IRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,1,1,IRR,IRR,True,0.080228834833551,0.9197711651664489
+CD202,NIRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.9347244917875106,0.06527550821248929
+EMB48,IRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,1,0,IRR,NIRR,False,0.8026495751285033,0.19735042487149676
+EMB48,NIRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.9590931262304326,0.04090687376956731
+BR16,IRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,1,1,IRR,IRR,True,1.5578058251397963e-05,0.9999844219417486
+BR16,NIRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.9800634201672603,0.019936579832739568
+CD202,IRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,1,1,IRR,IRR,True,1.031849810050009e-05,0.9999896815018995
+CD202,NIRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.9412908871272828,0.05870911287271731
+EMB48,IRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,1,1,IRR,IRR,True,0.011042003808848061,0.988957996191152
+EMB48,NIRR,2017-02-24,dia3,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-02-24,dia3,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-02-24,dia3,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-02-24,dia3,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.9609788279645817,0.039021172035418265
+BR16,IRR,2017-02-25,dia4,1,B1,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-02-25,dia4,2,B2,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-02-25,dia4,3,B3,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-02-25,dia4,4,B4,unico,unico,condicao,SVM (RBF),True,1,1,IRR,IRR,True,0.006061392788599485,0.9939386072114006
+BR16,NIRR,2017-02-25,dia4,1,B1,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-02-25,dia4,2,B2,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-02-25,dia4,3,B3,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-02-25,dia4,4,B4,unico,unico,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.8603538624881957,0.1396461375118045
+CD202,IRR,2017-02-25,dia4,1,B1,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-02-25,dia4,2,B2,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-02-25,dia4,3,B3,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-02-25,dia4,4,B4,unico,unico,condicao,SVM (RBF),True,1,1,IRR,IRR,True,0.0027762701144689846,0.9972237298855308
+CD202,NIRR,2017-02-25,dia4,1,B1,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-02-25,dia4,2,B2,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-02-25,dia4,3,B3,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-02-25,dia4,4,B4,unico,unico,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.8024170869006696,0.1975829130993304
+EMB48,IRR,2017-02-25,dia4,1,B1,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-02-25,dia4,2,B2,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-02-25,dia4,3,B3,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-02-25,dia4,4,B4,unico,unico,condicao,SVM (RBF),True,1,1,IRR,IRR,True,0.0032344143025326206,0.9967655856974676
+EMB48,NIRR,2017-02-25,dia4,1,B1,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-02-25,dia4,2,B2,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-02-25,dia4,3,B3,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-02-25,dia4,4,B4,unico,unico,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.9753220144340732,0.024677985565926853
+BR16,IRR,2017-02-26,dia5,1,B1,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-02-26,dia5,2,B2,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-02-26,dia5,3,B3,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-02-26,dia5,4,B4,unico,unico,condicao,SVM (RBF),True,1,1,IRR,IRR,True,0.003124128766872295,0.9968758712331277
+BR16,NIRR,2017-02-26,dia5,1,B1,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-02-26,dia5,2,B2,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-02-26,dia5,3,B3,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-02-26,dia5,4,B4,unico,unico,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.9801492210051237,0.019850778994876375
+CD202,IRR,2017-02-26,dia5,1,B1,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-02-26,dia5,2,B2,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-02-26,dia5,3,B3,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-02-26,dia5,4,B4,unico,unico,condicao,SVM (RBF),True,1,1,IRR,IRR,True,0.0030714014562725693,0.9969285985437273
+CD202,NIRR,2017-02-26,dia5,1,B1,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-02-26,dia5,2,B2,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-02-26,dia5,3,B3,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-02-26,dia5,4,B4,unico,unico,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.9567558440516643,0.043244155948335763
+EMB48,IRR,2017-02-26,dia5,1,B1,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-02-26,dia5,2,B2,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-02-26,dia5,3,B3,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-02-26,dia5,4,B4,unico,unico,condicao,SVM (RBF),True,1,1,IRR,IRR,True,0.012179332069355207,0.9878206679306446
+EMB48,NIRR,2017-02-26,dia5,1,B1,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-02-26,dia5,2,B2,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-02-26,dia5,3,B3,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-02-26,dia5,4,B4,unico,unico,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.9869432928170083,0.013056707182991633
+BR16,IRR,2017-02-27,dia6,1,B1,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-02-27,dia6,2,B2,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-02-27,dia6,3,B3,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-02-27,dia6,4,B4,unico,unico,condicao,SVM (RBF),True,1,1,IRR,IRR,True,0.002544538866088485,0.9974554611339114
+BR16,NIRR,2017-02-27,dia6,1,B1,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-02-27,dia6,2,B2,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-02-27,dia6,3,B3,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-02-27,dia6,4,B4,unico,unico,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.9784548823488941,0.021545117651105818
+CD202,IRR,2017-02-27,dia6,1,B1,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-02-27,dia6,2,B2,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-02-27,dia6,3,B3,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-02-27,dia6,4,B4,unico,unico,condicao,SVM (RBF),True,1,1,IRR,IRR,True,1.5172031699305976e-05,0.9999848279683006
+CD202,NIRR,2017-02-27,dia6,1,B1,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-02-27,dia6,2,B2,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-02-27,dia6,3,B3,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-02-27,dia6,4,B4,unico,unico,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.991151374544367,0.008848625455632963
+EMB48,IRR,2017-02-27,dia6,1,B1,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-02-27,dia6,2,B2,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-02-27,dia6,3,B3,unico,unico,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-02-27,dia6,4,B4,unico,unico,condicao,SVM (RBF),True,1,1,IRR,IRR,True,0.00855283387954403,0.991447166120456
+EMB48,NIRR,2017-02-27,dia6,1,B1,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-02-27,dia6,2,B2,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-02-27,dia6,3,B3,unico,unico,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-02-27,dia6,4,B4,unico,unico,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.8627088579856845,0.13729114201431547
+BR16,IRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+BR16,IRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,1,1,IRR,IRR,True,1.9863261681563153e-06,0.9999980136738319
+BR16,NIRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+BR16,NIRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.9731291995203152,0.026870800479684875
+CD202,IRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+CD202,IRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,1,1,IRR,IRR,True,0.35426779182553253,0.6457322081744675
+CD202,NIRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+CD202,NIRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.9790986751372744,0.020901324862725418
+EMB48,IRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,1,-1,IRR,,False,,
+EMB48,IRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,1,1,IRR,IRR,True,0.022804475275844366,0.9771955247241556
+EMB48,NIRR,2017-03-02,dia9,1,B1,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-03-02,dia9,2,B2,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-03-02,dia9,3,B3,manha + tarde,manha + tarde,condicao,SVM (RBF),False,0,-1,NIRR,,False,,
+EMB48,NIRR,2017-03-02,dia9,4,B4,manha + tarde,manha + tarde,condicao,SVM (RBF),True,0,0,NIRR,NIRR,True,0.9955169022957618,0.004483097704238138

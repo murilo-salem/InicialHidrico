@@ -1,0 +1,4 @@
+﻿target,model,classe,classe_codigo,precision,recall,f1,support
+gen,k-NN (k=5),BR16,0,0.8571428571428571,0.75,0.8,8
+gen,k-NN (k=5),CD202,1,0.3333333333333333,0.375,0.35294117647058826,8
+gen,k-NN (k=5),EMB48,2,0.5,0.5,0.5,8

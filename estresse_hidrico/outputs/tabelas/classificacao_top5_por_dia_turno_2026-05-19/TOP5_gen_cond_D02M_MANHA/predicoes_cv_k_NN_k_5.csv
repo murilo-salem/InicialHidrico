@@ -1,0 +1,25 @@
+﻿cultivar,condicao,data_coleta_iso,dia,replicata,bloco,turnos_disponiveis,turno_label,target,model,y_true,y_pred,label_true,label_pred,acertou,prob_IRR_BR16,prob_IRR_CD202,prob_IRR_EMB48,prob_NIRR_BR16,prob_NIRR_CD202,prob_NIRR_EMB48
+BR16,IRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),0,0,IRR|BR16,IRR|BR16,True,0.4,0.2,0.2,0.2,0.0,0.0
+BR16,IRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),0,0,IRR|BR16,IRR|BR16,True,0.4,0.0,0.2,0.4,0.0,0.0
+BR16,IRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),0,3,IRR|BR16,NIRR|BR16,False,0.2,0.2,0.0,0.4,0.0,0.2
+BR16,IRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),0,0,IRR|BR16,IRR|BR16,True,0.2,0.2,0.2,0.2,0.0,0.2
+BR16,NIRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),3,3,NIRR|BR16,NIRR|BR16,True,0.2,0.0,0.0,0.4,0.4,0.0
+BR16,NIRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),3,0,NIRR|BR16,IRR|BR16,False,0.4,0.0,0.0,0.4,0.2,0.0
+BR16,NIRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),3,4,NIRR|BR16,NIRR|CD202,False,0.0,0.2,0.2,0.0,0.4,0.2
+BR16,NIRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),3,0,NIRR|BR16,IRR|BR16,False,0.4,0.0,0.0,0.2,0.2,0.2
+CD202,IRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),1,0,IRR|CD202,IRR|BR16,False,0.2,0.2,0.2,0.0,0.2,0.2
+CD202,IRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),1,1,IRR|CD202,IRR|CD202,True,0.0,0.2,0.2,0.2,0.2,0.2
+CD202,IRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),1,4,IRR|CD202,NIRR|CD202,False,0.0,0.2,0.0,0.2,0.4,0.2
+CD202,IRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),1,0,IRR|CD202,IRR|BR16,False,0.4,0.2,0.4,0.0,0.0,0.0
+CD202,NIRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),4,3,NIRR|CD202,NIRR|BR16,False,0.0,0.0,0.0,0.4,0.4,0.2
+CD202,NIRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),4,4,NIRR|CD202,NIRR|CD202,True,0.0,0.2,0.0,0.2,0.4,0.2
+CD202,NIRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),4,0,NIRR|CD202,IRR|BR16,False,0.2,0.2,0.2,0.2,0.2,0.0
+CD202,NIRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),4,2,NIRR|CD202,IRR|EMB48,False,0.0,0.2,0.4,0.0,0.2,0.2
+EMB48,IRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),2,0,IRR|EMB48,IRR|BR16,False,0.2,0.2,0.2,0.0,0.2,0.2
+EMB48,IRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),2,1,IRR|EMB48,IRR|CD202,False,0.0,0.4,0.4,0.0,0.0,0.2
+EMB48,IRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),2,0,IRR|EMB48,IRR|BR16,False,0.4,0.2,0.2,0.2,0.0,0.0
+EMB48,IRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),2,1,IRR|EMB48,IRR|CD202,False,0.0,0.2,0.2,0.2,0.2,0.2
+EMB48,NIRR,2017-02-23,dia2,1,B1,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),5,5,NIRR|EMB48,NIRR|EMB48,True,0.0,0.2,0.2,0.0,0.2,0.4
+EMB48,NIRR,2017-02-23,dia2,2,B2,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),5,0,NIRR|EMB48,IRR|BR16,False,0.2,0.2,0.2,0.2,0.2,0.0
+EMB48,NIRR,2017-02-23,dia2,3,B3,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),5,5,NIRR|EMB48,NIRR|EMB48,True,0.0,0.2,0.2,0.0,0.2,0.4
+EMB48,NIRR,2017-02-23,dia2,4,B4,manha + tarde,manha + tarde,gen_cond,k-NN (k=5),5,4,NIRR|EMB48,NIRR|CD202,False,0.0,0.2,0.0,0.0,0.4,0.4

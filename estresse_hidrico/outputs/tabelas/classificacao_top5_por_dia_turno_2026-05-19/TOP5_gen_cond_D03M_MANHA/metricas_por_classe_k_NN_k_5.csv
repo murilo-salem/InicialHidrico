@@ -1,0 +1,7 @@
+﻿target,model,classe,classe_codigo,precision,recall,f1,support
+gen_cond,k-NN (k=5),IRR|BR16,0,0.75,0.75,0.75,4
+gen_cond,k-NN (k=5),IRR|CD202,1,1.0,0.25,0.4,4
+gen_cond,k-NN (k=5),IRR|EMB48,2,0.5714285714285714,1.0,0.7272727272727273,4
+gen_cond,k-NN (k=5),NIRR|BR16,3,0.6666666666666666,0.5,0.5714285714285714,4
+gen_cond,k-NN (k=5),NIRR|CD202,4,0.3333333333333333,0.75,0.46153846153846156,4
+gen_cond,k-NN (k=5),NIRR|EMB48,5,0.0,0.0,0.0,4

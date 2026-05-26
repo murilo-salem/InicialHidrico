@@ -1,0 +1,2 @@
+﻿target,model,classes,n_classes,n_samples,n_groups,cv_splits,n_bandas,bandas,accuracy_media,accuracy_std,balanced_accuracy_media,balanced_accuracy_std,f1_macro_media,f1_macro_std,kappa_media,kappa_std,roc_auc_media,roc_auc_std,scenario_id,analysis,dia_code,dia,turno_code,turno,validation_mode,split_seed
+gen,SVM (RBF),BR16; CD202; EMB48,3,24,12,4,4,band_705|band_1349|band_740|band_519,0.75,0.09622504486493767,0.75,0.09622504486493767,0.7444444444444445,0.08981004187394186,0.625,0.14433756729740643,,,TOP5_gen_D03T_TARDE,gen,03,dia3,T,TARDE,cv_grouped,42

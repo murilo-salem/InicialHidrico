@@ -466,6 +466,180 @@ def evaluate_model_cv(
     )
 
 
+def evaluate_model_holdout(
+    model_name: str,
+    model: object,
+    frame: pd.DataFrame,
+    feature_columns: list[str],
+    label_column: str,
+    target_name: str,
+    class_names: list[str],
+    groups: np.ndarray,
+    test_size: float = 0.2,
+    random_state: int = 42,
+    train_augmenter: Callable[[pd.DataFrame, np.ndarray, int], tuple[pd.DataFrame, np.ndarray]] | None = None,
+) -> EvaluationArtifacts:
+    from sklearn.base import clone
+    from sklearn.metrics import (
+        accuracy_score,
+        balanced_accuracy_score,
+        cohen_kappa_score,
+        confusion_matrix,
+        f1_score,
+        precision_recall_fscore_support,
+        roc_auc_score,
+    )
+    def _grouped_stratified_holdout_indices(
+        labels: np.ndarray,
+        group_ids: np.ndarray,
+        split_test_size: float,
+        split_seed: int,
+    ) -> tuple[np.ndarray, np.ndarray]:
+        if not 0.0 < split_test_size < 1.0:
+            raise ValueError("test_size must be between 0 and 1.")
+
+        rng = np.random.default_rng(split_seed)
+        train_mask = np.zeros(len(labels), dtype=bool)
+        test_mask = np.zeros(len(labels), dtype=bool)
+        label_series = pd.Series(labels.astype(int))
+        group_series = pd.Series(group_ids.astype(object))
+
+        for class_value in sorted(label_series.unique().tolist()):
+            class_idx = np.flatnonzero(label_series.to_numpy() == class_value)
+            class_groups = pd.unique(group_series.iloc[class_idx]).tolist()
+            if not class_groups:
+                continue
+            rng.shuffle(class_groups)
+            n_test_groups = int(round(len(class_groups) * split_test_size))
+            n_test_groups = max(1, min(len(class_groups) - 1, n_test_groups)) if len(class_groups) > 1 else 1
+            test_groups = set(class_groups[:n_test_groups])
+            in_class_test = (label_series == class_value).to_numpy() & group_series.isin(test_groups).to_numpy()
+            in_class_train = (label_series == class_value).to_numpy() & ~group_series.isin(test_groups).to_numpy()
+            test_mask |= in_class_test
+            train_mask |= in_class_train
+
+        if not test_mask.any():
+            raise ValueError("Holdout split nao conseguiu formar conjunto de teste.")
+        if not train_mask.any():
+            raise ValueError("Holdout split nao conseguiu formar conjunto de treino.")
+
+        return np.flatnonzero(train_mask), np.flatnonzero(test_mask)
+
+    label_to_index = {label: index for index, label in enumerate(class_names)}
+    y = frame[label_column].map(label_to_index).to_numpy(dtype=int)
+    x = frame[feature_columns].copy()
+    train_idx, test_idx = _grouped_stratified_holdout_indices(y, groups, test_size, random_state)
+
+    fitted = clone(model)
+    x_train = x.iloc[train_idx]
+    x_test = x.iloc[test_idx]
+    y_train = y[train_idx]
+    y_test = y[test_idx]
+    if train_augmenter is not None:
+        x_train, y_train = train_augmenter(x_train, y_train, 1)
+    fitted.fit(x_train, y_train)
+    y_pred = fitted.predict(x_test)
+    y_prob = fitted.predict_proba(x_test)
+
+    oof_predictions = np.full(len(frame), -1, dtype=int)
+    oof_probabilities = np.full((len(frame), len(class_names)), np.nan, dtype=np.float64)
+    oof_predictions[test_idx] = y_pred
+    oof_probabilities[test_idx, : y_prob.shape[1]] = y_prob
+
+    irr_index = class_names.index("IRR") if "IRR" in class_names else None
+    roc_auc_value = (
+        float(roc_auc_score((y_test == irr_index).astype(int), y_prob[:, irr_index]))
+        if len(class_names) == 2 and irr_index is not None
+        else np.nan
+    )
+    metric_row = {
+        "target": target_name,
+        "model": model_name,
+        "classes": "; ".join(class_names),
+        "n_classes": int(len(class_names)),
+        "n_samples": int(len(frame)),
+        "n_groups": int(pd.Index(groups).nunique()),
+        "cv_splits": 1,
+        "n_train_samples": int(len(train_idx)),
+        "n_test_samples": int(len(test_idx)),
+        "test_size": float(test_size),
+        "n_bandas": int(len(feature_columns)),
+        "bandas": "|".join(feature_columns),
+        "accuracy_media": float(accuracy_score(y_test, y_pred)),
+        "accuracy_std": np.nan,
+        "balanced_accuracy_media": float(balanced_accuracy_score(y_test, y_pred)),
+        "balanced_accuracy_std": np.nan,
+        "f1_macro_media": float(f1_score(y_test, y_pred, average="macro", zero_division=0)),
+        "f1_macro_std": np.nan,
+        "kappa_media": float(cohen_kappa_score(y_test, y_pred)),
+        "kappa_std": np.nan,
+        "roc_auc_media": roc_auc_value,
+        "roc_auc_std": np.nan,
+    }
+
+    precision, recall, f1_values, support = precision_recall_fscore_support(
+        y_test,
+        y_pred,
+        labels=np.arange(len(class_names)),
+        zero_division=0,
+    )
+    per_class_df = pd.DataFrame(
+        {
+            "target": target_name,
+            "model": model_name,
+            "classe": class_names,
+            "classe_codigo": np.arange(len(class_names), dtype=int),
+            "precision": precision,
+            "recall": recall,
+            "f1": f1_values,
+            "support": support,
+        }
+    )
+
+    prediction_columns = [
+        column
+        for column in [
+            "cultivar",
+            "condicao",
+            "data_coleta_iso",
+            "dia",
+            "replicata",
+            "bloco",
+            "turnos_disponiveis",
+            "turno_label",
+        ]
+        if column in frame.columns
+    ]
+    predictions_df = frame[prediction_columns].copy()
+    predictions_df["target"] = target_name
+    predictions_df["model"] = model_name
+    predictions_df["in_test_split"] = False
+    predictions_df.loc[test_idx, "in_test_split"] = True
+    predictions_df["y_true"] = y
+    predictions_df["y_pred"] = oof_predictions
+    predictions_df["label_true"] = [class_names[index] for index in y]
+    predictions_df["label_pred"] = [
+        class_names[index] if index >= 0 else ""
+        for index in oof_predictions
+    ]
+    predictions_df["acertou"] = predictions_df["in_test_split"] & (predictions_df["y_true"] == predictions_df["y_pred"])
+    for class_index, class_name in enumerate(class_names):
+        predictions_df[f"prob_{sanitize_token(class_name)}"] = oof_probabilities[:, class_index]
+
+    matrix = confusion_matrix(y_test, y_pred, labels=np.arange(len(class_names)))
+    confusion_df = pd.DataFrame(matrix, index=class_names, columns=class_names).reset_index(names="real")
+    confusion_df.insert(0, "target", target_name)
+    confusion_df.insert(1, "model", model_name)
+
+    return EvaluationArtifacts(
+        metrics_row=metric_row,
+        per_class_df=per_class_df,
+        predictions_df=predictions_df,
+        confusion_df=confusion_df,
+        confusion_matrix=matrix,
+    )
+
+
 def choose_best_model(metrics_df: pd.DataFrame) -> pd.Series:
     ranking = metrics_df.sort_values(
         ["f1_macro_media", "balanced_accuracy_media", "accuracy_media", "kappa_media"],

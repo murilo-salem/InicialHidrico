@@ -1,0 +1,4 @@
+﻿target,model,classe,classe_codigo,precision,recall,f1,support
+gen,XGBoost,BR16,0,0.625,0.625,0.625,8
+gen,XGBoost,CD202,1,0.4166666666666667,0.625,0.5,8
+gen,XGBoost,EMB48,2,0.75,0.375,0.5,8

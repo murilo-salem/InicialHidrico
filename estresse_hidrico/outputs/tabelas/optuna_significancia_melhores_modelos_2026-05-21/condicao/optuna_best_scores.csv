@@ -1,0 +1,2 @@
+﻿target,model,n_trials,cv_splits,n_bandas,bandas,objective,accuracy_media,accuracy_std,f1_macro_media,f1_macro_std,kappa_media,kappa_std,best_params
+condicao,Random Forest,250,4,5,band_400|band_579|band_1580|band_530|band_739,0.9593726083226084,0.9583333333333333,0.016037507477489613,0.9583226083226084,0.016025123301831305,0.9166666666666666,0.03207501495497923,"{""rf_class_weight"": ""balanced_subsample"", ""rf_max_depth"": 6, ""rf_max_features"": ""sqrt"", ""rf_min_samples_leaf"": 1, ""rf_min_samples_split"": 11, ""rf_n_estimators"": 850}"

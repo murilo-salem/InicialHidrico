@@ -1,0 +1,4 @@
+﻿target,model,real,BR16,CD202,EMB48
+gen,LDA,BR16,6,0,2
+gen,LDA,CD202,1,5,2
+gen,LDA,EMB48,2,4,2

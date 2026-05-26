@@ -1,0 +1,16 @@
+﻿target,model,feature,vip_score
+condicao,Random Forest,band_1580,1.2972890434605404
+condicao,Random Forest,band_400,1.262071623641703
+condicao,Random Forest,band_739,1.2489040126720585
+condicao,Random Forest,band_579,0.3904207265066249
+condicao,Random Forest,band_530,0.10966666750340019
+condicao_genotipo,LDA,band_720,1.2030991887837055
+condicao_genotipo,LDA,band_401,1.0069717963624156
+condicao_genotipo,LDA,band_400,1.00541102466819
+condicao_genotipo,LDA,band_550,0.9017183769399175
+condicao_genotipo,LDA,band_530,0.8453477293061953
+condicao_genotipo_turno,LDA,band_720,1.132544526387106
+condicao_genotipo_turno,LDA,band_401,1.0259760033794072
+condicao_genotipo_turno,LDA,band_400,1.0258824596800562
+condicao_genotipo_turno,LDA,band_550,0.9114691456306127
+condicao_genotipo_turno,LDA,band_530,0.8840278908068585

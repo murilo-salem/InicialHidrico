@@ -1,0 +1,6 @@
+﻿target,model,feature,permutation_mean,permutation_std
+condicao,Random Forest,band_400,0.32780240399128036,0.042657518673539084
+condicao,Random Forest,band_1580,0.03194719128317741,0.011140958905936697
+condicao,Random Forest,band_739,0.02824357683818552,0.01075053708608592
+condicao,Random Forest,band_579,0.013889558717145034,0.0
+condicao,Random Forest,band_530,0.011111379042413595,0.0034025613084316853

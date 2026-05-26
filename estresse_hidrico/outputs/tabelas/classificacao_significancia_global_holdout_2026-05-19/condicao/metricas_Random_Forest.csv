@@ -1,0 +1,2 @@
+﻿target,model,classes,n_classes,n_samples,n_groups,cv_splits,n_train_samples,n_test_samples,test_size,n_bandas,bandas,accuracy_media,accuracy_std,balanced_accuracy_media,balanced_accuracy_std,f1_macro_media,f1_macro_std,kappa_media,kappa_std,roc_auc_media,roc_auc_std,analysis_source,validation_mode,split_seed
+condicao,Random Forest,NIRR; IRR,2,144,8,1,108,36,0.2,5,band_400|band_579|band_1580|band_530|band_739,0.9444444444444444,,0.9444444444444444,,0.9444444444444444,,0.8888888888888888,,0.9907407407407408,,cond,holdout_grouped_80_20,42
